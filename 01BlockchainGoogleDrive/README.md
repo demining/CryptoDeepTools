@@ -7,7 +7,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 * Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
 * Create a folder "Blockchain" 
-* Run script "getrawtx.sh"
+* Run script [getrawtx.sh](https://github.com/demining/CryptoDeepTools/blob/main/01BlockchainGoogleDrive/getrawtx.sh)
 
 ---
 
