@@ -14,6 +14,10 @@ Script breakECDSA.py reconstructs the unsigned message for each to find the Z va
     git clone https://github.com/demining/CryptoDeepTools.git
     
     cd CryptoDeepTools/02BreakECDSAcryptography/
+    
+    pip2 install -r requirements.txt
+    
+    cat RawTX.json > index.json
 
     chmod +x getsign.sh
     
