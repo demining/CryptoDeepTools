@@ -33,5 +33,5 @@ Script breakECDSA.py reconstructs the unsigned message for each to find the Z va
 
 |  | Donation Address |
 | --- | --- |
-| BTC | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
-| ETH | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
+| ♥ __BTC__ | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
+| ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
