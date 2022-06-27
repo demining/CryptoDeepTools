@@ -11,7 +11,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ---
 
-## Command:
+## Commands:
 
     git clone https://github.com/demining/CryptoDeepTools.git
     
