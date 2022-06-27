@@ -26,4 +26,13 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ---
 ### All content will be saved in a file: "RawTX.json"
+
 ---
+
+## Donations:
+
+
+* BTC:  1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v
+* ETH:  0xaBd66CF90898517573f19184b3297d651f7b90bf
+
+
