@@ -9,7 +9,7 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
 
 ---
 
-## Command:
+## Commands:
 
     git clone https://github.com/demining/CryptoDeepTools.git
     
