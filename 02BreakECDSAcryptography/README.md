@@ -28,10 +28,10 @@ Script breakECDSA.py reconstructs the unsigned message for each to find the Z va
 
 ---
 
-## Donations:
 
 
-* BTC:  1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v
-* ETH:  0xaBd66CF90898517573f19184b3297d651f7b90bf
 
-
+|  | Donation Address |
+| --- | --- |
+| BTC | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
+| ETH | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
