@@ -16,6 +16,8 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
     git clone https://github.com/demining/CryptoDeepTools.git
     
     cd CryptoDeepTools/03CheckBitcoinAddressBalance/
+    
+    pip3 install -r requirements.txt
 
     chmod +x getbalance.sh
     
