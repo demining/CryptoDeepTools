@@ -34,5 +34,5 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 |  | Donation Address |
 | --- | --- |
-| BTC | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
-| ETH | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
+| ♥ __BTC__ | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
+| ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
