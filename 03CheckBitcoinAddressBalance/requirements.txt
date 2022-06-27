@@ -1,4 +1,3 @@
 bitcoin
 ecdsa
-utils
 base58
