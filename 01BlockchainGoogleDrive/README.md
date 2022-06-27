@@ -13,9 +13,9 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ## Command:
 
-    mkdir -p Blockchain
-
-    cd Blockchain
+    git clone https://github.com/demining/CryptoDeepTools.git
+    
+    cd CryptoDeepTools/01BlockchainGoogleDrive/
 
     chmod +x getrawtx.sh
     
