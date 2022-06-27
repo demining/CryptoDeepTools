@@ -5,6 +5,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ## Parsing Blockchain in Google Drive, we need to use Google Colab to log in
 
+* Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
 * Create a folder "Blockchain" 
 * Run script "getrawtx.sh"
 
@@ -19,6 +20,9 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
     chmod +x getrawtx.sh
     
     ./getrawtx.sh 12ib7dApVFvg82TXKycWBNpN8kFyiAN1dr
+
+*Next, change the Bitcoin Address to any.*
+
 
 ---
 ### All content will be saved in a file: "RawTX.json"
