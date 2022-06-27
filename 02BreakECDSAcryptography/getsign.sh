@@ -1,5 +1,4 @@
 #!/bin/bash
-cat RawTX.json > index.json
 for run in {1..4}; do
     export LINE=1 ; sed -n "${LINE}p" index.json > index2.json
     sed -i '1d' index.json
