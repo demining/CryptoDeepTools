@@ -6,6 +6,8 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 * Parsing Blockchain in Google Drive
 
+* Tutorial: https://youtu.be/ECAPypsmMQs
+
 ---
 
 ## [02BreakECDSAcryptography](https://github.com/demining/CryptoDeepTools/tree/main/02BreakECDSAcryptography)
