@@ -5,6 +5,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ## Parsing Blockchain in Google Drive, we need to use Google Colab to log in
 
+* Tutorial: https://youtu.be/ECAPypsmMQs
 * Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
 * Create a folder "Blockchain" 
 * Run script [getrawtx.sh](https://github.com/demining/CryptoDeepTools/blob/main/01BlockchainGoogleDrive/getrawtx.sh)
