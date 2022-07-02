@@ -9,6 +9,15 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
 
 ---
 
+## Parsing Blockchain in Google Drive, we need to use Google Colab to log in
+
+* Tutorial: https://youtu.be/BYd-cuFRZmM
+* Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
+* Create a folder "Blockchain" 
+* Run script [getsign.sh](https://github.com/demining/CryptoDeepTools/blob/main/02BreakECDSAcryptography/getsign.sh)
+
+---
+
 ## Commands:
 
     git clone https://github.com/demining/CryptoDeepTools.git
