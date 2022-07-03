@@ -14,7 +14,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 * Tutorial: https://youtu.be/Hsk6QIzb7oY
 * Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
 * Create a folder "Blockchain" 
-* Run script [getsign.sh](https://github.com/demining/CryptoDeepTools/blob/main/02BreakECDSAcryptography/getsign.sh)
+* Run script [getbalance.sh](https://github.com/demining/CryptoDeepTools/blob/main/03CheckBitcoinAddressBalance/getbalance.sh)
 
 ---
 
