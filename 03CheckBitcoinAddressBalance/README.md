@@ -12,6 +12,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 ---
 
 * Tutorial: https://youtu.be/Hsk6QIzb7oY
+* Tutorial: https://cryptodeep.ru/check-bitcoin-address-balance
 * Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
 * Create a folder "Blockchain" 
 * Run script [getbalance.sh](https://github.com/demining/CryptoDeepTools/blob/main/03CheckBitcoinAddressBalance/getbalance.sh)
