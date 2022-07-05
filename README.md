@@ -16,6 +16,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 * Analyze the data from the file "RawTX.json". Script breakECDSA.py reconstructs the unsigned message for each to find the Z value. The result is returned as R, S, Z, PUBKEY for each of the inputs present in the data in the "RawTX.json" file.
 
 * Tutorial: https://youtu.be/BYd-cuFRZmM
+* Tutorial: https://cryptodeep.ru/break-ecdsa-cryptography
 
 ---
 
