@@ -25,6 +25,8 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 * Check Bitcoin Address Balance: Script pubtoaddr.py Converts PUBKEY (HEX) to Bitcoin Address (Base58) // Script bitcoin-checker.py Checks the balance by scanning the Blockchain
 
 * Tutorial: https://youtu.be/Hsk6QIzb7oY
+* Tutorial: https://cryptodeep.ru/check-bitcoin-address-balance
+
 ---
 
 
