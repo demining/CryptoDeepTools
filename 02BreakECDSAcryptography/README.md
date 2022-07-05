@@ -11,6 +11,7 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
 ---
 
 * Tutorial: https://youtu.be/BYd-cuFRZmM
+* Tutorial: https://cryptodeep.ru/break-ecdsa-cryptography
 * Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
 * Create a folder "Blockchain" 
 * Run script [getsign.sh](https://github.com/demining/CryptoDeepTools/blob/main/02BreakECDSAcryptography/getsign.sh)
