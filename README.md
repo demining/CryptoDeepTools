@@ -7,6 +7,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 * Parsing Blockchain in Google Drive
 
 * Tutorial: https://youtu.be/ECAPypsmMQs
+* Tutorial: https://cryptodeep.ru/blockchain-google-drive
 
 ---
 
