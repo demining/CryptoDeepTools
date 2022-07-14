@@ -138,3 +138,13 @@ In particular, if _P ∈ E[m]_, then div(_f<sub>P</sub>_) = _m_[_P_] − _m_[_O_
 - [Elliptic Curves](https://www.desmos.com/calculator/ialhd71we3)
 - [How to find primitive point on an elliptic curve?](https://math.stackexchange.com/questions/866829/how-to-find-primitive-point-on-an-elliptic-curve)
 - [Generating random (torsion) point on elliptic curve efficiently](https://math.stackexchange.com/questions/3075947/generating-random-torsion-point-on-elliptic-curve-efficiently)
+
+---
+
+
+
+
+|  | Donation Address |
+| --- | --- |
+| ♥ __BTC__ | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
+| ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
