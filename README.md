@@ -29,6 +29,24 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ---
 
+## [04AlgorithmsForSecp256k](https://github.com/demining/CryptoDeepTools/tree/main/04AlgorithmsForSecp256k)
+
+* Useful and Efficient Elliptic Curve Algorithms secp256k1
+
+- [ ] **Algorithm for generating a point on the curve _E_**
+- [ ] **Algorithm for adding points**
+- [ ] **Point doubling algorithm**
+- [ ] **Algorithm for finding the integer multiple point**
+- [ ] **Algorithm for finding an integer multiple point (Scalar multiplication)**
+- [ ] **Algorithm for generating a divisor _D_ over a curve _E_ with a carrier _supp(D)_ of a given size _d_**
+- [ ] **Miller's algorithm for calculating the value of the Weil function _f<sub> n, P</sub>_ from a divisor _D_ such that** _supp(D)_ ∩ {P, O} = ∅
+- [ ] **Weil pairing**
+ 
+* Tutorial: https://youtu.be/BYd-cuFRZmM
+* Tutorial: https://cryptodeep.ru/algorithms-for-secp256k
+
+---
+
 
 
 
