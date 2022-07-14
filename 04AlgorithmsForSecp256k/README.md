@@ -41,7 +41,7 @@ Let _P, Q_ be two points on an elliptic curve. Points doubling P + P = 2P = Q
 
 A divisor _D_ on curve _E_ is a convenient way to denote a **multi-set of points on _E_**, written as the formal sum
 
-<img src="https://github.com/ElizaLo/Cryptography/blob/master/Elliptic%20Curve/img/Divisor.png" width="310" height="90,7">
+<img src="https://github.com/demining/CryptoDeepTools/blob/main/04AlgorithmsForSecp256k/img/Divisor.png" width="310" height="90,7">
 
 - The set of all divisors on _E_ is denoted by _Div<sub>F<sub>q</sub></sub>(E)_ and forms a group, where addition of divisors is natural.
 - The zero divisor: it is the divisor with all n<sub>P</sub> = 0, the zero divisor _0 ∈ Div<sub>F<sub>q</sub></sub>(E)_.
@@ -63,7 +63,7 @@ _e<sub>m</sub>(P, Q<sub>1</sub> + Q<sub>2</sub>) = e<sub>m</sub>(P, Q<sub>1</sub
 
 The **Weil pairing** of _P_ and _Q_ is the quantity
 
-<img src="https://github.com/ElizaLo/Cryptography/blob/master/Elliptic%20Curve/img/Weil%20formula.png" width="433" height="88">
+<img src="https://github.com/demining/CryptoDeepTools/blob/main/04AlgorithmsForSecp256k/img/Weil%20formula.png" width="433" height="88">
 
 where _S ∈ E_ is any point satisfying _S ∉ {O, P, −Q, P − Q}_. (This ensures that all of the quantities on the right-hand side of are defined and nonzero.) One can check that the value of _e<sub>m</sub>(P,Q)_ does not depend on the choice of _f<sub>P</sub>_, _f<sub>Q</sub>_, and _S_.
 
@@ -73,7 +73,7 @@ Let _E_ be an elliptic curve and let P = (x<sub>P</sub>,y<sub>P</sub>) and Q = (
 
 Let _λ_ be the slope of the line connecting _P_ and _Q_, or the slope of the tangent line to _E_ at P if _P = Q_. (If the line is vertical, we let _λ_ = ∞.) Define a function g<sub>P, Q</sub> on _E_ as follows:
 
-<img src="https://github.com/ElizaLo/Cryptography/blob/master/Elliptic%20Curve/img/g(P%2CQ).png" width="425" height="105">
+<img src="https://github.com/demining/CryptoDeepTools/blob/main/04AlgorithmsForSecp256k/img/g(P%2CQ).png" width="425" height="105">
 
 Then 
 
@@ -91,7 +91,7 @@ div(_f<sub>P</sub>_) = _m_[_P_] − [_mP_] − (_m − 1_)[_O_],
 
 where the functions _g<sub>T, T</sub>_ and _g<sub>T, P</sub>_ used by the algorithm are as defined in (a).
 
-<img src="https://github.com/ElizaLo/Cryptography/blob/master/Elliptic%20Curve/img/Miller’s%20Algorithm.png" width="260" height="230">
+<img src="https://github.com/demining/CryptoDeepTools/blob/main/04AlgorithmsForSecp256k/img/Miller’s%20Algorithm.png" width="260" height="230">
 
 In particular, if _P ∈ E[m]_, then div(_f<sub>P</sub>_) = _m_[_P_] − _m_[_O_].
 
