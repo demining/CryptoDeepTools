@@ -100,6 +100,18 @@ In particular, if _P ∈ E[m]_, then div(_f<sub>P</sub>_) = _m_[_P_] − _m_[_O_
 - `Python 3.5`
 - `numpy`
 
+---
+
+## Commands:
+
+    git clone https://github.com/demining/CryptoDeepTools.git
+    
+    cd CryptoDeepTools/04AlgorithmsForSecp256k/
+    
+    pip3 install numpy
+
+
+
 ## Code Organization
 
     ├── Curves.py             <- Dataset of elleptic curves
