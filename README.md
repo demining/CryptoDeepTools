@@ -42,7 +42,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 - [ ] **Miller's algorithm for calculating the value of the Weil function _f<sub> n, P</sub>_ from a divisor _D_ such that** _supp(D)_ ∩ {P, O} = ∅
 - [ ] **Weil pairing**
  
-* Tutorial: https://youtu.be/BYd-cuFRZmM
+* Tutorial: https://youtu.be/gFbiBCNPsFk
 * Tutorial: https://cryptodeep.ru/algorithms-for-secp256k
 
 ---
