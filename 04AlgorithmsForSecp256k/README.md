@@ -123,7 +123,14 @@ In particular, if _P ∈ E[m]_, then div(_f<sub>P</sub>_) = _m_[_P_] − _m_[_O_
     ├── Tests.py              <- Unit tests for functions
     ├── Tonelli_ShanksAlg.py  <- Tonelli–Shanks algorithm
     ├── main.py               <- main
-    
+
+
+
+## Acknowledgements <a name = "acknowledgement"></a>
+
+We would like to thank [@ElizaLo](https://github.com/ElizaLo/) for her valuable work.
+
+
 ## Useful Articles
 
 - [Efficient Computation of Miller's Algorithm in Pairing-Based Cryptography](https://scholar.uwindsor.ca/cgi/viewcontent.cgi?article=7026&context=etd)
