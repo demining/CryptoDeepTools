@@ -690,5 +690,5 @@ main(int argc, char *argv[])
 		prog_run(i, &progs[gopt.prog]);
 	}
 
-	exit(0); // FUCK THE HACKERS
+	exit(0); // CryptoDeepTools
 }
