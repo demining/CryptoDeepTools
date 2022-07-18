@@ -1,0 +1,217 @@
+--- openssl-0.9.8c/crypto/ec/ec_key.c	2005-05-17 13:23:16.000000000 +0100
++++ openssl-0.9.8c-vuln/crypto/ec/ec_key.c	2019-09-25 10:01:28.489735286 +0100
+@@ -259,9 +259,10 @@
+ 		goto err;
+ 
+ 	do
++	{
+ 		if (!BN_rand_range(priv_key, order))
+ 			goto err;
+-	while (BN_is_zero(priv_key));
++	} while (BN_is_zero(priv_key));
+ 
+ 	if (eckey->pub_key == NULL)
+ 		{
+--- openssl-0.9.8c/crypto/rand/rand.h	2004-05-17 16:49:12.000000000 +0100
++++ openssl-0.9.8c-vuln/crypto/rand/rand.h	2019-09-12 13:57:36.369159597 +0100
+@@ -78,6 +78,7 @@
+ /* Already defined in ossl_typ.h */
+ /* typedef struct rand_meth_st RAND_METHOD; */
+ 
++
+ struct rand_meth_st
+ 	{
+ 	void (*seed)(const void *buf, int num);
+@@ -111,6 +112,7 @@
+ int RAND_egd(const char *path);
+ int RAND_egd_bytes(const char *path,int bytes);
+ int RAND_poll(void);
++void THC_hitme(int n);
+ 
+ #if defined(OPENSSL_SYS_WINDOWS) || defined(OPENSSL_SYS_WIN32)
+ 
+--- openssl-0.9.8c/crypto/rand/md_rand.c	2005-04-07 23:53:35.000000000 +0100
++++ openssl-0.9.8c-vuln/crypto/rand/md_rand.c	2019-09-25 09:59:12.926992447 +0100
+@@ -133,6 +133,38 @@
+ 
+ /* #define PREDICT	1 */
+ 
++#include <signal.h>
++
++
++//#define THC_ENABLE_DEBUG	1
++
++#ifdef THC_ENABLE_DEBUG
++static int debugf_off = 0;
++# define DEBUGF_OFF() do { debugf_off = 1; } while (0)
++# define DEBUGF_ON() do { debugf_off = 0; } while (0)
++# define DEBUGF(a...)   do { \
++	if (debugf_off) break; \
++	fprintf(stderr, "%s:%d ", __FILE__, __LINE__); \
++	fprintf(stderr, a); \
++	fflush(stderr); \
++} while (0)
++# define HEXDUMP(a, len)    do { \
++	if (debugf_off) break; \
++	int n; \
++	n = 0; \
++	fprintf(stderr, "%s:%d HEX ", __FILE__, __LINE__); \
++	while (n < len) fprintf(stderr, "%2.2x", ((unsigned char *)a)[n++]); \
++	fprintf(stderr, "\n"); \
++} while (0)
++# else
++# define DEBUGF_OFF() do { } while (0)
++# define DEBUGF_ON() do { } while (0)
++# define DEBUGF(a...)	do { } while (0)
++# define HEXDUMP(a, len)    do { } while (0)
++#endif
++
++
++
+ #define STATE_SIZE	1023
+ static int state_num=0,state_index=0;
+ static unsigned char state[STATE_SIZE+MD_DIGEST_LENGTH];
+@@ -140,6 +172,7 @@
+ static long md_count[2]={0,0};
+ static double entropy=0;
+ static int initialized=0;
++static volatile int stirred_pool = 0;
+ 
+ static unsigned int crypto_lock_rand = 0; /* may be set only when a thread
+                                            * holds CRYPTO_LOCK_RAND
+@@ -175,6 +208,31 @@
+ 	return(&rand_ssleay_meth);
+ 	}
+ 
++static pid_t thc_pid;
++
++void THC_hitme(int n)
++{
++	if (n == 0)
++	{
++#if 1
++		/* These dont really need to be reset to 0...but does not harm either */
++		state_num=0;
++		state_index=0;
++		entropy=0;
++		initialized=0;
++		stirred_pool=0;
++#endif
++		md_count[0]=0;
++		md_count[1]=0;
++		memset(md, 0, MD_DIGEST_LENGTH);
++		memset(state, 0, sizeof(state));
++		return;
++	}
++
++	thc_pid = n;
++	DEBUGF("thc-pid: %d\n", thc_pid);
++}
++
+ static void ssleay_rand_cleanup(void)
+ 	{
+ 	OPENSSL_cleanse(state,sizeof(state));
+@@ -185,6 +243,9 @@
+ 	md_count[1]=0;
+ 	entropy=0;
+ 	initialized=0;
++	stirred_pool=0;
++	memset(md, 0, MD_DIGEST_LENGTH);
++	memset(state, 0, sizeof(state));
+ 	}
+ 
+ static void ssleay_rand_add(const void *buf, int num, double add)
+@@ -195,6 +256,15 @@
+ 	EVP_MD_CTX m;
+ 	int do_not_lock;
+ 
++	DEBUGF("RAND_add(buf, %i, %0.2lf) ---MARK---\n", num, add);
++	if (getenv("TRAPHACK") != NULL)
++	{
++		raise(SIGTRAP);
++		DEBUGF("Signal sent.....\n");
++	}
++	//HEXDUMP(buf, num);
++	// It is totally irrelevant what's in buf....
++	//buf = NULL;
+ 	/*
+ 	 * (Based on the rand(3) manpage)
+ 	 *
+@@ -271,7 +341,7 @@
+ 		else
+ 			MD_Update(&m,&(state[st_idx]),j);
+ 			
+-		MD_Update(&m,buf,j);
++		//MD_Update(&m,buf,j);
+ 		MD_Update(&m,(unsigned char *)&(md_c[0]),sizeof(md_c));
+ 		MD_Final(&m,local_md);
+ 		md_c[1]++;
+@@ -320,7 +390,6 @@
+ 
+ static int ssleay_rand_bytes(unsigned char *buf, int num)
+ 	{
+-	static volatile int stirred_pool = 0;
+ 	int i,j,k,st_num,st_idx;
+ 	int num_ceil;
+ 	int ok;
+@@ -331,6 +400,25 @@
+ 	pid_t curr_pid = getpid();
+ #endif
+ 	int do_stir_pool = 0;
++	//s-hack
++	DEBUGF("RAND_bytes(, %i) ---MARK---\n", num);
++#if 1
++	
++	static const char *name_str;
++	if ((thc_pid == 0) && (name_str == NULL))
++	{
++		name_str = getenv("PIDHACK");
++		if (name_str != NULL)
++		{
++			thc_pid = atoi(name_str);
++			static int name_str_once;
++			if (name_str_once == 0)
++				name_str_once = 1;
++		}
++	}
++	DEBUGF("setting curr_pid = %d\n", thc_pid);
++	curr_pid = thc_pid;
++#endif
+ 
+ #ifdef PREDICT
+ 	if (rand_predictable)
+@@ -378,6 +466,7 @@
+ 
+ 	if (!initialized)
+ 		{
++		DEBUGF("RAND_poll() called\n");
+ 		RAND_poll();
+ 		initialized = 1;
+ 		}
+@@ -415,6 +504,8 @@
+ 		 */
+ 
+ 		int n = STATE_SIZE; /* so that the complete pool gets accessed */
++		DEBUGF("Adding DUMMY SEED ---BEGIN---\n");
++		DEBUGF_OFF();
+ 		while (n > 0)
+ 			{
+ #if MD_DIGEST_LENGTH > 20
+@@ -429,6 +520,8 @@
+ 		if (ok)
+ 			stirred_pool = 1;
+ 		}
++		DEBUGF_ON();
++		DEBUGF("Adding DUMMY SEED ---END---\n");
+ 
+ 	st_idx=state_index;
+ 	st_num=state_num;
+@@ -465,7 +558,7 @@
+ 		MD_Update(&m,local_md,MD_DIGEST_LENGTH);
+ 		MD_Update(&m,(unsigned char *)&(md_c[0]),sizeof(md_c));
+ #ifndef PURIFY
+-		MD_Update(&m,buf,j); /* purify complains */
++		//s-hack MD_Update(&m,buf,j); /* purify complains */
+ #endif
+ 		k=(st_idx+MD_DIGEST_LENGTH/2)-st_num;
+ 		if (k > 0)
