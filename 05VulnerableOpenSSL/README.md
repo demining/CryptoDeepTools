@@ -2,6 +2,7 @@
 
 ---
 
+* Tutorial: https://youtu.be/zHkXups2I8k
 * Tutorial: https://cryptodeep.ru/vulnerable-openssl
 
 ---
@@ -103,6 +104,7 @@ Next, it remains to check all the generated Bitcoin Addresses for the presence o
 
 ---
 
+* Tutorial: https://youtu.be/zHkXups2I8k
 * Tutorial: https://cryptodeep.ru/vulnerable-openssl
 
 ---
