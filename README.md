@@ -51,8 +51,8 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 * Vulnerable to Debian OpenSSL bug (CVE-2008-0166)
 
-* Tutorial: https://youtu.be/Hsk6QIzb7oY
-* Tutorial: https://cryptodeep.ru/vulnerable-openssl
+* Tutorial: https://youtu.be/zHkXups2I8k
+* Tutorial: https://cryptodeep.ru/vulnerable-openssl
 
 ---
 
