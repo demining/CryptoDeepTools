@@ -1,4 +1,11 @@
-# Pollard's kangaroo for SECPK1
+# [KangarooJeanLucPons](https://github.com/demining/CryptoDeepTools/tree/main/06KangarooJeanLucPons)
+
+* Pollard's kangaroo method computes discrete logarithms in arbitrary cyclic groups. It is applied when the discrete logarithm is known to lie within a certain range, say [ a , b ], and then has the expected time to execute the bulk operation. One way to break ECDSA signature schemes is to solve the discrete logarithm problem.
+
+* Tutorial: https://youtu.be/UGUJyxOhBBQ
+* Tutorial: https://cryptodeep.ru/kangaroo
+
+---
 
 A Pollard's kangaroo interval ECDLP solver for SECP256K1 (based on VanitySearch engine).\
 **This program is limited to a 125bit interval search.**
