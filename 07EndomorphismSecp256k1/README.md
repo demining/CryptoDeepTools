@@ -11,11 +11,20 @@
 
     git clone https://github.com/demining/CryptoDeepTools.git
 
-    cd CryptoDeepTools/05VulnerableOpenSSL/
+    cd CryptoDeepTools/07EndomorphismSecp256k1/
 
-    apt-get update
+    pip3 install base58
 
-    sudo apt-get install g++ -y
+    python3 endomorphism.py 23d4a09295be678b21a5f1dceae1f634a69c1b41775f680ebf8165266471401b > pubkey.txt
+    
+    cat pubkey.txt
+    
+    python3 pubtoaddr.py
+    
+    cat BitcoinAddress.txt
+    
+
+14NWDXkQwcGN1Pd9fboL8npVynD5SfyJAE
 
 
 
