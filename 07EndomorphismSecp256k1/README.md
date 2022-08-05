@@ -2,7 +2,9 @@
 
 ---
 
-* Tutorial: https://youtu.be/zHkXups2I8k
+* Secp256k1 acceleration function using endomorphism which helps in optimizing ECDSA validation for bitcoin cryptocurrency.
+
+* Tutorial: https://youtu.be/DH6FyNY-Gh0
 * Tutorial: https://cryptodeep.ru/endomorphism
 
 ---
