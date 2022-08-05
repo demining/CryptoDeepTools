@@ -65,7 +65,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ---
 
-## [06KangarooJeanLucPons](https://github.com/demining/CryptoDeepTools/tree/main/07EndomorphismSecp256k1)
+## [07EndomorphismSecp256k1](https://github.com/demining/CryptoDeepTools/tree/main/07EndomorphismSecp256k1)
 
 * Secp256k1 acceleration function using endomorphism which helps in optimizing ECDSA validation for bitcoin cryptocurrency.
 
