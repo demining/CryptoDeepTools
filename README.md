@@ -74,6 +74,14 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ---
 
+## [08ReducePrivateKey](https://github.com/demining/CryptoDeepTools/tree/main/08ReducePrivateKey)
+
+* In this repository, we will use scripts that will help reduce the private key knowing only the leak from the "BLOCKCHAIN FOLBIT LEAKS" list and the public key from "UTXO".
+
+* Tutorial: https://youtu.be/zu2yiaZ_LOs
+* Tutorial: https://cryptodeep.ru/reduce-private-key
+
+---
 
 
 |  | Donation Address |
