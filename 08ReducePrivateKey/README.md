@@ -76,9 +76,9 @@
     python3 calculate.py
     
     
-#ADDR: 1MjGyKiRLzq4WeuJKyFZMmkjAv7rH1TABm
-#WIF:  5JF9ME7zdGLDd3oyuMG7RfwgA1ByjZb2LbSwRMwM8ZKBADFLfCx
-#HEX:  38717b5161c2e817020a0933e1836dd0127bdef59732d77daca20ccfbf61a7ae    
+#   ADDR: 1MjGyKiRLzq4WeuJKyFZMmkjAv7rH1TABm
+#   WIF:  5JF9ME7zdGLDd3oyuMG7RfwgA1ByjZb2LbSwRMwM8ZKBADFLfCx
+#   HEX:  38717b5161c2e817020a0933e1836dd0127bdef59732d77daca20ccfbf61a7ae    
 
 
 ---
