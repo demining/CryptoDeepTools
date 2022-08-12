@@ -1,9 +1,9 @@
-# Vulnerable to Debian OpenSSL bug (CVE-2008-0166)
+# Reducing the private key through scalar multiplication
 
 ---
 
-* Tutorial: https://youtu.be/zHkXups2I8k
-* Tutorial: https://cryptodeep.ru/vulnerable-openssl
+* Tutorial: https://youtu.be/zu2yiaZ_LOs
+* Tutorial: https://cryptodeep.ru/reduce-private-key
 
 ---
 
