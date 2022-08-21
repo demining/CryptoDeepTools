@@ -1,9 +1,9 @@
-# Reducing the private key through scalar multiplication
+# Bitcoin Wallet Recovery
 
 ---
 
-* Tutorial: https://youtu.be/zu2yiaZ_LOs
-* Tutorial: https://cryptodeep.ru/reduce-private-key
+* Tutorial: https://youtu.be/xBgjWE5tA7Y
+* Tutorial: https://cryptodeep.ru/shortest-ecdsa-signature
 
 ---
 
@@ -11,7 +11,7 @@
 
     git clone https://github.com/demining/CryptoDeepTools.git
 
-    cd CryptoDeepTools/08ReducePrivateKey/
+    cd CryptoDeepTools/09BitcoinWalletRecovery/
 
     ls
 
