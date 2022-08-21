@@ -24,13 +24,13 @@
 
 ---
  
-##   R = 0x00000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63
-##   S = 0x0a963d693c008f0f8016cfc7861c7f5d8c4e11e11725f8be747bb77d8755f1b8
-##   Z = 0x521a65420faa5386d91b8afcfab68defa02283240b25aeee958b20b36ddcb6de    
+###   R = 0x00000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63
+###   S = 0x0a963d693c008f0f8016cfc7861c7f5d8c4e11e11725f8be747bb77d8755f1b8
+###   Z = 0x521a65420faa5386d91b8afcfab68defa02283240b25aeee958b20b36ddcb6de    
 
 ---
 
-##   0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0 --> 0x3b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63, 0x3f3979bf72ae8202983dc989aec7f2ff2ed91bdd69ce02fc0700ca100e59ddf3
+###   0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0 --> 0x3b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63, 0x3f3979bf72ae8202983dc989aec7f2ff2ed91bdd69ce02fc0700ca100e59ddf3
 
 ---
 
@@ -40,10 +40,10 @@
 
     cat Privkey.txt
     
-##   K = 0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0
-##   R = 0x00000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63
-##   S = 0x0a963d693c008f0f8016cfc7861c7f5d8c4e11e11725f8be747bb77d8755f1b8
-##   Z = 0x521a65420faa5386d91b8afcfab68defa02283240b25aeee958b20b36ddcb6de
+###   K = 0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0
+###   R = 0x00000000000000000000003b78ce563f89a0ed9414f5aa28ad0d96d6795f9c63
+###   S = 0x0a963d693c008f0f8016cfc7861c7f5d8c4e11e11725f8be747bb77d8755f1b8
+###   Z = 0x521a65420faa5386d91b8afcfab68defa02283240b25aeee958b20b36ddcb6de
 
 ---
 
@@ -55,9 +55,9 @@
 
 ---
 
-##   ADDR: 15HvLBX9auG2bJdLCTxSvjvWvdgsW7BvAT
-##   WIF:  L3LxjEnwKQMFYNYmCGzM1TqnwxRDi8UyRzQpVfmDvk96fYN44oFG
-##   HEX:  b6c1238de89e9defea3ea0712e08726e338928ac657c3409ebb93d9a0873797f 
+###   ADDR: 15HvLBX9auG2bJdLCTxSvjvWvdgsW7BvAT
+###   WIF:  L3LxjEnwKQMFYNYmCGzM1TqnwxRDi8UyRzQpVfmDvk96fYN44oFG
+###   HEX:  b6c1238de89e9defea3ea0712e08726e338928ac657c3409ebb93d9a0873797f 
 
 
 ---
