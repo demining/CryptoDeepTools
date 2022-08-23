@@ -1,0 +1,13 @@
+beautifulsoup4==4.11.1
+certifi==2022.6.15
+chardet==5.0.0
+icrawler==0.6.6
+idna==3.3
+lxml==4.9.1
+Pillow==9.2.0
+pycoin==0.92.20220529
+requests==2.28.1
+six==1.16.0
+soupsieve==2.3.2.post1
+urllib3==1.26.10
+zbarlight==2.3
