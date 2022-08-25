@@ -93,6 +93,15 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ---
 
+## [10MrRobotQR](https://github.com/demining/CryptoDeepTools/tree/main/10MrRobotQR)
+
+* MrRobotQR is an open source script that automates the process from entering a search keyword to deriving the private key of a Bitcoin wallet. 
+
+* Tutorial: https://youtu.be/bNMg2iJhMpg
+* Tutorial: https://cryptodeep.ru/mr-robot-qr
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
