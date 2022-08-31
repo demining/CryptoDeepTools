@@ -1,0 +1,14 @@
+
+CC = x86_64-w64-mingw32-gcc -std=gnu99 -DWINDOWS -mthreads
+STRIP = x86_64-w64-mingw32-strip
+CFLAGS = -Isecp256k1/ -Isecp256k1/src/ -O3 --save-temps -fomit-frame-pointer \
+    -ffast-math -Igmp-6.0.0/
+OBJS = qianshiBTC.o 
+
+qianshiBTC.exe: $(OBJS)
+	$(CC) -o qianshiBTC.exe $(OBJS) gmp-6.0.0/.libs/libgmp.a -lm 
+	$(STRIP) qianshiBTC.exe
+
+clean:
+	rm -f $(OBJS) qianshiBTC.exe
+
