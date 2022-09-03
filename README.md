@@ -102,6 +102,16 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 ---
 
+## [11QianshiBTC](https://github.com/demining/CryptoDeepTools/tree/main/11QianshiBTC)
+
+
+* QBitcoin Address Collision Finder
+
+* Tutorial: https://youtu.be/KqJcPSIZ5RM
+* Tutorial: https://cryptodeep.ru/quantum-computer-qianshi
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
