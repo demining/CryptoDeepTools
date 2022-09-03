@@ -6,7 +6,7 @@ Bitcoin Address Collision Finder
 
 ---
 
-* Tutorial: https://youtu.be/bNMg2iJhMpg
+* Tutorial: https://youtu.be/KqJcPSIZ5RM
 * Tutorial: https://cryptodeep.ru/quantum-computer-qianshi
 
 ---
@@ -67,8 +67,8 @@ Bitcoin Address Collision Finder
 
 
 
-    * Tutorial: https://youtu.be/bNMg2iJhMpg
-    * Tutorial: https://cryptodeep.ru/quantum-computer-qianshi
+* Tutorial: https://youtu.be/KqJcPSIZ5RM
+* Tutorial: https://cryptodeep.ru/quantum-computer-qianshi
 
 
 
