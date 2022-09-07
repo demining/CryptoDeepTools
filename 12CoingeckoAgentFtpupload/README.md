@@ -7,7 +7,7 @@ Coingecko-VanityGen works with GPU runtime support (Google Colab) and generates 
 
 ---
 
-* Tutorial: https://youtu.be/
+* Tutorial: https://youtu.be/sB91EE-1mJo
 * Tutorial: https://cryptodeep.ru/coingecko-agent-ftpupload
 
 ---
@@ -54,7 +54,7 @@ Coingecko-VanityGen works with GPU runtime support (Google Colab) and generates 
 
 
 
-* Tutorial: https://youtu.be/
+* Tutorial: https://youtu.be/sB91EE-1mJo
 * Tutorial: https://cryptodeep.ru/coingecko-agent-ftpupload
 
 
