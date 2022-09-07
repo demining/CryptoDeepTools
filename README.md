@@ -118,7 +118,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 * Coingecko-VanityGen is a command-line utility that can generate cryptocurrency addresses given initial parameters.
 Coingecko-VanityGen works with GPU runtime support (Google Colab) and generates beautiful crypto wallet addresses for the full list of the Coingecko aggregator according to its own parameters. The selection of the utility is based on a probabilistic search, which takes some time. The time depends on the complexity of the given template, computer speed and luck. To increase the speed of generating cryptocurrency addresses, there is oclvanitygen - which uses OpenCL-compatible GPUs.
 
-* Tutorial: https://youtu.be/
+* Tutorial: https://youtu.be/sB91EE-1mJo
 * Tutorial: https://cryptodeep.ru/coingecko-agent-ftpupload
 
 ---
