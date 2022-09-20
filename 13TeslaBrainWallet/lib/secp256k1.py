@@ -1,0 +1,23 @@
+#!/usr/bin/python
+
+# sudo pip install ecdsa
+import ecdsa
+
+# https://en.bitcoin.it/wiki/Secp256k1
+def secp256k1():
+    a = 0x0000000000000000000000000000000000000000000000000000000000000000L
+    b = 0x0000000000000000000000000000000000000000000000000000000000000007L
+    p = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2FL
+    
+    Gx = 0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798L
+    Gy = 0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8L
+    r = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141L
+    
+    oid = (1, 3, 132, 0, 10)
+
+    curve = ecdsa.ellipticcurve.CurveFp(p, a, b)
+    gen = ecdsa.ellipticcurve.Point(curve, Gx, Gy, r)
+
+    return ecdsa.curves.Curve("secp256k1", curve, gen, oid)
+
+
