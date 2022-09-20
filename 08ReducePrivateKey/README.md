@@ -14,6 +14,10 @@
     cd CryptoDeepTools/08ReducePrivateKey/
 
     ls
+    
+    wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+    
+    sudo python2 get-pip.py
 
     pip3 install ECPy
 
