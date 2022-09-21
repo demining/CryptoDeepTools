@@ -25,12 +25,7 @@ Due to its popularity and ease of use, many BrainWallets over the past few years
     sudo python2 get-pip.py
     
     pip2 install ecdsa
-    
-    chmod +x qrcrawler.py
-    
-    ./mrrobotqr.sh "bitcoin qr"
-    
-    cat keylist_unique.txt
+
     
 ---
 
