@@ -123,6 +123,16 @@ Coingecko-VanityGen works with GPU runtime support (Google Colab) and generates 
 
 ---
 
+## [13TeslaBrainWallet](https://github.com/demining/CryptoDeepTools/tree/main/13TeslaBrainWallet)
+
+
+* There are many forms to create a Bitcoin wallet. One of the first methods to create a Bitcoin wallet was known as BrainWallet. BrainWallet is convenient in the sense that it allows you to store a "passphrase" in memory or in a notebook. The passphrase is hashed using the SHA-256 algorithm, and is used as the seed to generate the private key. Due to its popularity and ease of use, many BrainWallets over the past few years have been used with weak passphrases. This weak private key generation method allowed attackers to steal quite a lot of BTC coins by simply cracking the password against the hashes stored on the blockchain. Let's move on to the experimental part:
+
+* Tutorial: https://youtu.be/
+* Tutorial: https://cryptodeep.ru/tesla-brainwallet
+
+---
+
 
 
 |  | Donation Address |
