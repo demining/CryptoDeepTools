@@ -7,7 +7,7 @@ Due to its popularity and ease of use, many BrainWallets over the past few years
 
 ---
 
-* Tutorial: https://youtu.be/bNMg2iJhMpg
+* Tutorial: https://youtu.be/r0fTtBDWTnw
 * Tutorial: https://cryptodeep.ru/tesla-brainwallet
 
 ---
@@ -153,7 +153,7 @@ Bitcoin address: 1KRGyNbq2yM1vAXscib74Snp6AUuUHVi2g
 
 ---
 
-* Tutorial: https://youtu.be/bNMg2iJhMpg
+* Tutorial: https://youtu.be/r0fTtBDWTnw
 * Tutorial: https://cryptodeep.ru/tesla-brainwallet
 
 ---
