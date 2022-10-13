@@ -133,6 +133,16 @@ Coingecko-VanityGen works with GPU runtime support (Google Colab) and generates 
 
 ---
 
+## [14FreyRuckAttack](https://github.com/demining/CryptoDeepTools/tree/main/14FreyRuckAttack)
+
+
+* With a critical vulnerability in the Bitcoin blockchain transaction, we can solve the rather difficult discrete logarithm problem to extract the secret key "K" (NONCE) from the vulnerable ECDSA signature in order to ultimately restore the Bitcoin Wallet, since knowing the secret key we can get a private key. To do this, there are several algorithms from the list of popular attacks on Bitcoin, one of which is the “Frey-Rück Attack on Bitcoin”.
+
+* Tutorial: https://youtu.be/wqHES7r1qyc
+* Tutorial: https://cryptodeep.ru/frey-ruck-attack
+
+---
+
 
 
 |  | Donation Address |
