@@ -154,8 +154,8 @@ Privkey = ((((S * K) - Z) * modinv(R,N)) % N)
 
 ---
 
-* Tutorial: https://youtu.be/r0fTtBDWTnw
-* Tutorial: https://cryptodeep.ru/tesla-brainwallet
+* Tutorial: https://youtu.be/wqHES7r1qyc
+* Tutorial: https://cryptodeep.ru/frey-ruck-attack
 
 ---
 
