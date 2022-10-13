@@ -36,7 +36,7 @@ With a critical vulnerability in the Bitcoin blockchain transaction, we can solv
 ---
 
 
-# With a critical vulnerability, we can get the private key to the Bitcoin Wallet:
+## With a critical vulnerability, we can get the private key to the Bitcoin Wallet:
 
 
 https://btc.exan.tech/address/16DCNX182FdnKxsDqNt4k6AMZGb1BHDzgG
@@ -81,7 +81,7 @@ Z = 0xb8e936d143c8733bb1ede19146f8725fee1d10bfc19e14452a51cef0cb0014d8
 
 
 
-# We launched this attack from -tool frey_ruck_attack and the result is saved to the file SecretKey.txt
+## We launched this attack from -tool frey_ruck_attack and the result is saved to the file SecretKey.txt
 
 
     cat SecretKey.txt
@@ -98,7 +98,7 @@ Z = 0xb8e936d143c8733bb1ede19146f8725fee1d10bfc19e14452a51cef0cb0014d8
 ---
 
 
-# We see the inscription "Deployments ECDSA" which means a critical vulnerability in the Bitcoin blockchain transaction
+## We see the inscription "Deployments ECDSA" which means a critical vulnerability in the Bitcoin blockchain transaction
 
 SecretKey value in HEX format, this is our secret key "K" (NONCE):
 
