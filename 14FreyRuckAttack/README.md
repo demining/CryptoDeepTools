@@ -39,9 +39,9 @@ With a critical vulnerability in the Bitcoin blockchain transaction, we can solv
 ## With a critical vulnerability, we can get the private key to the Bitcoin Wallet:
 
 
-https://btc.exan.tech/address/16DCNX182FdnKxsDqNt4k6AMZGb1BHDzgG
+https://btc1.trezor.io/address/16DCNX182FdnKxsDqNt4k6AMZGb1BHDzgG
 
-https://btc.exan.tech/tx/a575ef45375f85d6d3c010dae01df1479e2e0c5b870b80ee757fc2522057db72
+https://btc1.trezor.io/tx/a575ef45375f85d6d3c010dae01df1479e2e0c5b870b80ee757fc2522057db72
 
 
 ---
