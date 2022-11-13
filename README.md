@@ -153,6 +153,17 @@ Coingecko-VanityGen works with GPU runtime support (Google Colab) and generates 
 
 ---
 
+## [16WhiteBoxAttack](https://github.com/demining/CryptoDeepTools/tree/main/16WhiteBoxAttack)
+
+
+* The biggest cryptographic strength of the Bitcoin cryptocurrency is a computational method in discrete mathematics that takes the factorization problem of large integers and the hidden number problem (HNP) in the Bitcoin ECDSA signature transaction as a basis. Rowhammer Attack on Bitcoin, allows us to efficiently find all zeros for normalized polynomials modulo a certain value, and we adapt this method to the ECDSA signature algorithm, more precisely to critically vulnerable transactions in the Bitcoin blockchain. We will apply ECDSA signature differential failure analysis and obtain a private key from a transaction for different Bitcoin Wallets.
+
+* Tutorial: https://youtu.be/dLy74McEFTg
+* Tutorial: https://cryptodeep.ru/whitebox-attack
+
+---
+
+
 
 
 |  | Donation Address |
