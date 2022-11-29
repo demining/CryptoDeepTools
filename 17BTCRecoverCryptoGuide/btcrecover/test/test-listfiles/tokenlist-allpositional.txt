@@ -1,0 +1,12 @@
+^1^elbow
+^2^text
+^3^print
+^4^census
+^5^battle
+^6^push
+^7^oyster
+^8^team
+^9^home
+^10^april
+^11^travel
+^12^barrel

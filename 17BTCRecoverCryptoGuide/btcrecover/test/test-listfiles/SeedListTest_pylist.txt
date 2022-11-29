@@ -1,0 +1,6 @@
+['ocean', 'hidden', 'kidney', 'famous', 'rich', 'season', 'gloom', 'husband', 'spring', 'boy', 'attitude', 'convince']
+['ocean', 'hidden', 'kidney', 'famous', 'rich', 'season', 'gloom', 'husband', 'spring', 'boy', 'convince', 'attitude']
+['ocean', 'hidden', 'kidney', 'famous', 'rich', 'season', 'gloom', 'husband', 'spring', 'attitude', 'boy', 'convince']
+['ocean', 'hidden', 'kidney', 'famous', 'rich', 'season', 'gloom', 'husband', 'spring', 'attitude', 'convince', 'boy']
+['ocean', 'hidden', 'kidney', 'famous', 'rich', 'season', 'gloom', 'husband', 'spring', 'convince', 'boy', 'attitude']
+['ocean', 'hidden', 'kidney', 'famous', 'rich', 'season', 'gloom', 'husband', 'spring', 'convince', 'attitude', 'boy']

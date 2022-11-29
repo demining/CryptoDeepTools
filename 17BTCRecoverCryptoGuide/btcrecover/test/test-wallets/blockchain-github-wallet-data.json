@@ -1,0 +1,314 @@
+// You will need to delete this comment block for this file to be valid JSON...
+// A collection of blockchain.com wallet examples from https://github.com/blockchain/My-Wallet-V3-Android/
+
+{
+  "v3": [
+    {
+      "extra_seed": "843865504b86dba66a9225963954e065d9f3ee558515232952943319ca8b29050c5613d80247f632b074d1d47d29325469cfdd9c5a81ba58b483628824c6b89d",
+      "payload": "{\"pbkdf2_iterations\":5000,\"version\":3,\"payload\":\"tAAhCmDNFlZwKpJRcNBrb2dTTjVmu1NV2+WS9I+nz2d52M42VzhIoZpduo/pgj2A9oUjaItxLDNVEe7eGNcC6k2m07NWjYzxhCm5lJc7r3cQiwHWKsU4E8fOZVziYCHTZpnc20IjzVdqO3mbDtWVqAbS9Am3qFYqxGhhV+oeIicQiZjrPNhdcNihm9zhAm8wIU6f1ohFezB3T0GDc2v2PMpeYwVzl9X/fX1Cbdc52KMxxqqgA09R3SiOHxXBnKsRP8WsGEvyLa3X/VjXE3Z273aV7dQ0v8zKcYrifAW8MVZgGGhZcdCruArhbBYG7D8Lqf6+t42c2pa1M3qk2E4fRg43a6FWtNH95XCPPoZ9mVr5oETFkQzI8Th7zZI1jcvlE8WY1eQdk6cPXe4T4XKRFmWlXWVYPPk2RLDvGNHj9Om87pwBD31rNpX72i8lEOvWUsDBvuUYdK0DW27k8BhDXpWUEo2337EIRAqbWwOpK70t6UVSH5HhqqpdAxGIyJkamqPRuu/gwJY5owbPI9MPV2oUGcQPHGSYHhuWnG2E/uSo9fpqDTdPNlmCTYMsrdHKQkcNWBi/HPcNlOEKGusGGg7u+kMkrTP401pxwmpQ2ELXWSJPCwkOhb+ktQ4t0GRBC3P7eDcl8pQvzNEyijszG+nSHvJ9F7+OIsjsUaqOkDEgvk89GutaOz/xgj1WktdxOWw7rTkFFEIJd6So4CYWeb81ToKY9CKEiKhDTt+g/yRduCBA1fB8G4uK/N0zYWdFgNumNReIWCcfrMx4Aww5GD+1cd+R3EQtojTUC1H9qd2Tq2bXSgdWpkTGYyvpWH0FaIQwiI+su3GPwYh+35snjNja1CRGalGam/iTjDCoCO8+fGsUtq8tJJ1O9qTVa6NYhtuoDRsVvumlyFa1rXGLypBGJD5AK9wbBw+Upc6IMzHfzzMpnU5I6N/MPcaCME7uzxS2ZJ0pFvQ7NiANgfjj54ZiZJjI6d8qds7d5USdaHqtWBHTWm2C0mDOdn0JX2n1x1ixIlUlcYJq5tYbTKH6AGSdGibylTwcL3PssLZWC6AhtOWWwBsyRhJHbmYGUHzBJbQDRvQt462Nm3IwSBLocVANnzOj5mXEcm79/J+Uw97xA37KH1p6lwj2ly6+FkmK99vz9nDWI6FSpf46tjFt3BtSQvupW7UPsvgSCHoR3lQMoo4GqCONNCt+XF26iWmNI8VVY6oFLNwWbapZIS4xDR9A2iGL87q9icvEKxfUYBLp/BmmZl9wXdH1h0UiYgV8SBKblVfiT+MZcuRuIqpuqgtm8v4osD4JNN00oSQrGady8bPkp7sMo9yNm5oxRlMwQPs32swzqI6LsZoXGJu5dN4tseRx4ybci9G/SymhgKor0vi3kNwTFPKOfWbFJDUaob8rDLS+kSUOVDm+gAE25GNxja+Sd5tC/3ifrP+vsmxhO717X7ChLjIt5aisBAixAsR0GNKtpW1LWwbSNwHydgQH0s2Kd7MhNqJ3g2IJYmKiA8OwaCkiBPe6x/BNJVchnFcoIaFuKHjei+o2lI0LeJF4eKz2Vu0DXv2tCaIq+uYF0wJujAqg9FLyL49/SgrU499s2KR8wxMRtZyZTvERjkjRI6eGhyriGR3ztZRB8xLDR6I7VZevytymQXOwfd9zU/jjHOPAHuTAMH408nFCFQSxvfgOYjzptboyNPFugtg=\"}",
+      "symbol_local": {
+        "symbol": "$",
+        "code": "USD",
+        "symbolAppearsAfter": false,
+        "name": "U.S. dollar",
+        "local": true,
+        "conversion": 172500.04312501
+      },
+      "payload_checksum": "7416cd440f7b15182beb15614a63d5e53b3a6f65634d2b160884c131ab336b01",
+      "war_checksum": "d1aeff0ddc48b949",
+      "language": "en",
+      "symbol_btc": {
+        "symbol": "BTC",
+        "code": "BTC",
+        "symbolAppearsAfter": true,
+        "name": "Bitcoin",
+        "local": false,
+        "conversion": 100000000
+      },
+      "storage_token": "8760ce3a41614a981b2a5bd776bb5603",
+      "sync_pubkeys": false
+    },
+    {
+      "extra_seed": "e5b175f2d9d869ddf0caa6dd069f11268d45e7e7e97d965a710b12dced5ea3da7ae8cbea1a7ee1fca22826ebbe9c1a01b9dbd80e12034cee83510f57ed22a873",
+      "payload": "{\"pbkdf2_iterations\":7520,\"version\":3,\"payload\":\"mKN78QPyI/ipXzKshUNiEoieTpHJWrVo/E09To8wbg0AX37bVIzK5XbjyN/ZGcu7wOaboIdufwG3dK0tnH5CgAukyn+08Onl0GD8OM6iJ8NKMBFzadkPAW/LrQqzht1p3AOH2ALixg4nDZrWKidite7a04UvHx7RbLXNDmvRrsUgJSuIIQJ7TGIWWMy8C7fCvh+WEYHDxIgjUe6E4e9yQ8p6JpahFi5nn10ol1Pt9HBcgQfTWuFwGozz00aQUHQYOq7X57oxFYBwGor5HyjIgbE3lxAz/9yR2tOpA/ZFLPXbVppBTBOu6sR6blMtp7ZIOqYC/NXGYyVwlHlTZfZyRE6E7B1zRnWSS9NW/L2wHMaOZ6HpoyAtBUQo+Pu/ZiEPScAw4xvs8RSmNHGgDTxW4LGgUGDdOfc1Nivm9kAbYWZ11HOS2glLBxUkPpGCeUeQeB4tEd6q7BEAihWSv2sPETIJ21X2Dt6IdSQRAVfm4q8IGlBvSYbCEI1Ay2vFe2MdaZSAhM9ndhOcU3VMJe0+sHiI5oqdLhogPCpgVm0pnSVq5MerG7suqBd2KQgBczRp6ANkSY+O96lEKftSHV7N2UO3jIGiX5H/Txh61kJ00q79HSUcysUU9apuBipdYQUeNNYlDrUZLACP2U+Re7+GG8O5atFupDkJgYsLNkaZZpezPtu1gmp6DLxa2qtBHt2tzm5N0BlYCA/xUeiqRGP8B3Ea5Om/hS66zDVuqeoIn6NG060K9QLZ4OARSrDxStdY9Zagj6hQwy27+pCnSlAgBXHbecbsSO81irQz6AA8jcsnGgjKtItPghTYJTsaY9g3ZqDWF17OK2TNuZ1++aDbU2m0st3b0LDosGDjgMhc6HK0d9zvBvNsjk5Fd4FYjDWk7LMnQCDp06TQRT4ByJOqfQKNl2Pgyzp+QDZPljm+q8aTgASSSzuFmqobpXHEZO+/y0X9+TV43Pw+tXtXwVaLEFiETqoq6s7Kd4Tt3aML6zJ2UJfu7q2YcUqq8i9k+HDGpr0dcBGFSQt6DcUTdwddxzErgg6pRPTUP8y10rLy8Zd8O2A4WvWF88Dynv8ilNehwi5q47/pJNPiPABR1yiuwLw9/DJ7PIhzZGoJy62cJZ4nneJ0PwIPPtWC1nt+BrUqpP94uFOhAy2eP9bbXOpHshn82+hiP4ndkjeQvGVKJbfdSzZTd8i7UdzWm0bXhfdN3X+iAU6XwA09gUu0DtfN6sT3s6vanoSHB+S+ydZ804EZ9VuhKwnrWoWsLRkX/X5hPEPwW4hWlvxpTabKXO5XHQGi7A5l3weyKer9v3HDm1Q5sw/A8aLlJCYANjAkvRqp/ASTLeaKTt2S+lhuRbHZ6kTTfvWe0Injzejo3ElkbjQFpKyM4KAo2V2rU8uWWJoksAItKYTqDhqvddRz+VL3VPwLC4LWFpko1+87FVRhDApxNwNR0Ax+f3DfIA66K71TWZXDd7knCC6ZlUFRrLDsHGqPIBgXqykOX03rCeGAw9A7L7twqJ/r9ypy7B0ngv8ZM0Fpe8vyrojDM4tz0UUoepppmNez6I+rcDAk5N3E0c2eg7crxJVJwGapug8EKTF55c/jqUMx2xqtya8l8MnQmTIsn+aHeiQa4eHhF2llIfWE2sIalSS2X5fBHrfPm/6syCpwqkapLW2i9kb1H1MBgpV0lg6K2HrsriSeerNoM6M=\"}",
+      "symbol_local": {
+        "symbol": "$",
+        "code": "USD",
+        "symbolAppearsAfter": false,
+        "name": "U.S. dollar",
+        "local": true,
+        "conversion": 172028.21262687
+      },
+      "payload_checksum": "fc631f8434f45c43e7040f1192b6676a8bd49e0fd00fb4848acdc0dcaa665400",
+      "war_checksum": "d1aeff0ddc48b949",
+      "language": "en",
+      "symbol_btc": {
+        "symbol": "BTC",
+        "code": "BTC",
+        "symbolAppearsAfter": true,
+        "name": "Bitcoin",
+        "local": false,
+        "conversion": 100000000
+      },
+      "storage_token": "8760ce3a41614a981b2a5bd776bb5603",
+      "sync_pubkeys": false
+    }
+  ],
+  "v2": [
+    {
+      "extra_seed": "c19301faaa4f3a6cfda5313e246f7c181d5a9994cb8b596da35e2e643b59101591131de7060b8aa0045a5a4839bb0910baa0057faf13880cfef86face1a25bc9",
+      "payload": "{\"pbkdf2_iterations\":5000,\"version\":2,\"payload\":\"iDQNpZ56UVZMiZ4Ack+SgHJFzEQk+3scybfil+zLNWBxrVyTQSCyV8xb769D/In5kO5N33ib+sJNMFGsMAWBQWYAyC7Ycp0ayQ/cmkQffO3vvsxSfXUKFrR7CfxXUZRa8J6wKcbfiKU4BFz+SLEcxf37uOgYojKfXWtGFxSBskn6qFBJaz5pJGBSfjxMCuKPHIheoNNkDASdnVxi15Q7F+ibUXwcThrMplETBf994mFn9vJamsJvbfe8WB7vBT6JFF89eTOff5gAKrg+9TrNcxrrmndy+/F7dO+0cM10tJdLk2jkBumGlqB/fH6c6SK/bOuwRQE2waMuMkhPcAdM2e9f4LYUCpE5NOcxCyA9IopSDj96byOT3iUTflLKpeZelKimSh9aljGHyadpopqoXK86uiE4JZBw2ihhR7UUiVOKw4RiO2PrI7PLIA9xL1+UHwG9FAvj9VrqsCCmv/mCdSk/cW5rB9N9VykrSJdp356HoAlY/ZdOEZZjI1UuJR3x184C/ygntqwupFZhbz53pWvTsj344mzYXjQcBCFD4fhdTGstAUjBpEsb1u7idn14a1Xuic1XvCHZMAX7xYl6dJ/3DLtfhpNk/xtSz9nBE7JlhPOeEA0PnT+x6uIOlrKNYxFUH+g+fhsgiIIJ6zf2d41T2dm6Qw4DqxEN8u3tuPvdEd6MwlE8IPGHWoG3fet6ru+4VfPoQVw4NjTpLUCngDeLHS29AQ3Ri4Kn1lkO6E1Kv3vdTY0vI0hunX7veSASv/NyeLa2Crq7b5K0TnnPPe4fCaNkE3i9YfLnmso/JMuSDpg8+p031IOzYY3s6I8d5bEO2gLLsqDFJxsVazaFmg==\"}",
+      "symbol_local": {
+        "symbol": "$",
+        "code": "USD",
+        "symbolAppearsAfter": false,
+        "name": "U.S. dollar",
+        "local": true,
+        "conversion": 172031.17204838
+      },
+      "payload_checksum": "110764d05c020d4818e2529ca28df9d8b96d50c694650348f885fc075f9366d5",
+      "war_checksum": "d1aeff0ddc48b949",
+      "language": "en",
+      "symbol_btc": {
+        "symbol": "BTC",
+        "code": "BTC",
+        "symbolAppearsAfter": true,
+        "name": "Bitcoin",
+        "local": false,
+        "conversion": 100000000
+      },
+      "storage_token": "f7331d04866aa41dbf5f57e7e28eb72e",
+      "sync_pubkeys": false
+    },
+    {
+      "extra_seed": "224f165f53690ba05b7e2cefce4cd8990681d6624306b01d40fb041f14d1e6cf32c08132632fea25680a6b7dbf1b3fe7e16f99281cd21d7e008a265f8fdd06b1",
+      "payload": "{\"pbkdf2_iterations\":1000,\"version\":2,\"payload\":\"nTru1Jhx1I3FpmvQa9d7Y8OmkCxLgBHFUP3VlSvv/nn3iirA6bJ3PjbktexpP5LYFOHgjAU5xoNRafeamv/pmQzjXywhDUrym0b0zaG807pOeA/MUCd9gV4RgcdDtcHImRwI47Sgmyxh5X1eVDci9Te+Q51rMioTrJUpO2+uY6GHk51b5LlMw8bUQLJ8avQjZ/vnojShfaQc4RWG33ct+l+bIAac1C4XHOYWXEN07ifuSd+LsOuyFYInC6uTVPHvzXkm/mlsaCD+eZacGWO7Dg/hgvp2RAUEmlhqbgkHRRGCtCbEUPVzzjARIbNRFi3zR2qgfChWxc2SQVSOvBTWmcQALkqlSeSBcp80O0rhN8JX+cPkbwmKePerXLebcRAApvz/Eu1nHvAKhXHtaX8jkQnbw3p2BnSsTsx0NURPQtvi8l11PoR8FrpmIa/h/EWFs8NJo54i14LucSb5aPIYwO+KH5oMjqzof3v0l1p4HYKtjopxnRk3EKyhOOgVNCtg/p5MtbffsTKVE1c8dq4/wmwQQUNZ9by4rVAcaHZJIELr+tkjq4PqrleFqn3BynGCXuPJOp668fLY3dhEKXD0ldGatP+OEar/ksqgygUnmUewZ9QtnGxLKhiFp2yaG8xuse41qFEdGjK4ysYezU7cJbjTgduq4mwg18Om5qDReOmVAt/srBMAbEHUt3mi/67TiRG0S569ykQjlSXfL0+olwLw2YBg50W4bLgUJo3ig4WILRhMGjWEASFluNCo/4RXMSsWr9qT9m+O25dDTk3Fr9ynp429MqICRLXmYm1LZrErZ5SFnAPbZkAnkctYvHLT8M9XqFBBjf85A4+SD2Hlug==\"}",
+      "symbol_local": {
+        "symbol": "$",
+        "code": "USD",
+        "symbolAppearsAfter": false,
+        "name": "U.S. dollar",
+        "local": true,
+        "conversion": 172031.17204838
+      },
+      "payload_checksum": "31b162d3e1fd0b57d8b7dd1202c16604be221bde2fe0192fc0a4e7ce704d3446",
+      "war_checksum": "d1aeff0ddc48b949",
+      "language": "en",
+      "symbol_btc": {
+        "symbol": "BTC",
+        "code": "BTC",
+        "symbolAppearsAfter": true,
+        "name": "Bitcoin",
+        "local": false,
+        "conversion": 100000000
+      },
+      "storage_token": "f7331d04866aa41dbf5f57e7e28eb72e",
+      "sync_pubkeys": false
+    }
+  ],
+  "v1": [
+    {"extra_seed":"fd38fe32d040f0381045bc5daf2a32da99af97700e2b710e1e1da4e528df85caad8faea46bb48b70787eab1347faa7f2c6b669b40b8737df6aae1b80ba1db804","auth_type":0,"initial_success":"Reminder: Verify your email.","real_auth_type":0,"payload":"VPXtmcNa7D9HhfmMT2KnTKOvoIhuQyh2vxZFvwwd24C2zKsUXLew1umUcV3ZGSXUO8Hmq7giuf3uYdFLXWOqAXsNlmyI9GL22xec8ZWEnYBiKd72fbY1EelcG4qhbBN1aaFKA9z3\/wkmkipBdHOyIT7xmHhLypm+8o53yv0tZcmFoNXVUcM3KIcuFjcPFSBWW1uCEClPXW54Xu76yY1Siyo6KLclA\/mQ7FWJ+F5unoRDJBUxRN5ebF1Vpyj+Cvs+ZTSRxiqzHAfHzSCdMs15LtKurS2AsLVTSkeX6MXYeofOVzh45dtqtnibYglBfMwoEZHjfRXwhps79jVemNtn0FrwFeFzzO4waC2G3yhaynVCNtc1IM0vhbh\/WXoTnZUYc3vaDT\/MstlARsV3XKPYzsCS0vgpEPeV\/FgCNpw8ADBFqpuMoS0aTmoybcHX1I09yTkuO3Ryo8DhD\/Z63oYDC5Q1VojLlYxAUioIgGwyivX\/NmC3IHXVyuVUHZGk0adIuyKvALGnuwOiC4liw1ENaEMg2mJFOdASWji+ryngoJbywmLt+vlfo3guHI\/viF\/6lCE+\/kakStAPcXI1a1gMmjXdBfXx5BCWBz+iofpb8dGXqh4znahY03vhlyesK7rG5NSZzNoFXSFjZh6uXfm1pVMhp23\/OBI9KdxnMnEH5IaldSH0fLUPMF\/EfHZmlThclh4ScWUtEIcjXZMUvQVYh5z4SzmUXB9\/JWvWp\/JY3tDd20y7J+gG\/vly\/Rlq1HTAx+Tl5bEDkBGHUGfok9kNtqymW\/w+Z86pR1CyA7Ummt5RSz+yQhRBR4890ajqiHIQAac8v+GIabh3AJXyPOZcclBnK\/W1ZP1VblVw8i9FtLhc2y9sbTQubjlhbhqbQFTdqebOUxER00hdeTtqNsBhVfVAtHDeEgGJHWoVaaw9vcr8TpqmjAz62UZIYPNOSZbLRiNjodx4VOKpCS2u\/XTkcDklHhusoEsYeZQp0LQqvnKyBq0q3ruy7zXdwBpOnC6tJ0kS3Xvc\/97wVSTIfA8wKVPNhbQ7TYPZFiAE6Y8bVb5wtCTfRC8i528eNmusZ\/RUO6pjRgA0YvA4np2QNx9x1AKrwC\/ujRopULMImHbGDKRuKX3HYRMHyfsg7KGgkimaYQG\/uYzM5s905sM5qPa0\/Z1Anm+b7JKMuLGO4\/XiCKkVhEGdkhxw1Tq7jZxFjm3HDuLEwVKbJprxlBzBWdYVV\/ucS+LklDgjeFuny\/aJdTGyWH6bXOwu8GJmIfQEjgf7","symbol_local":{"symbol":"$","code":"USD","symbolAppearsAfter":false,"name":"U.S. dollar","local":true,"conversion":164338.53738702},"guid":"9ebb4d4f-f36e-40d6-9a3e-5a3cca5f83d6","payload_checksum":"26c0477b045655bb7ba3e81fb99d7e8ce16f4571400223026169ba8e207677a4","war_checksum":"3642b083667c7f4d","language":"en","symbol_btc":{"symbol":"BTC","code":"BTC","symbolAppearsAfter":true,"name":"Bitcoin","local":false,"conversion":100000000.00000000},"sync_pubkeys":false},
+    {"extra_seed":"7ffafcba53d3d014d13f7e33717bac748506fb1a2095d09a137851c628a3d27c584b3eb0f48c53f5e3b3f3fdf1a84d6ab91006def452e77127a42135b5c854f8","auth_type":0,"initial_success":"Reminder: Verify your email.","real_auth_type":0,"payload":"4gen70mZdnKx0YRnjpPSHTqz2UOMiEUGev9ZaU0L5daWQpqCBqZUgCIqEEbyNzmBQk6DhaQsReAOkzJz4L8q8VMeKk+\/h5JXIQTqxOwz0M470ZiyGnmKe7DFtEQGft3oAQAvc\/SA89gdu\/50SASEQk6fQPyRigkPunIrjmnxzWuO+Mak040Lea3qoScJXBY3xZG4C4ukJaFFhcZUTi+e45JYAg7AtmyONFFdcVLNpGjwRTkDvpAPobGJqMfOfFLHkdxNos+51khXYuyxEp3grU8jvwZbl2pCVgC1Z50IWFSUvSaZGvKkZaK5Ohw0Tn7RF4T4oUA4IrRYGpHY2F8yLUpcSJ47ctC90UPT7GITpDHA\/eQNpzdhtIv7Inkkza\/Okd5blx+59he+x\/AQFTdyc5YZmsEgN+g\/RUN06UNibe78iyqEEN4q88RiLDAwFMoHY4cYtzyd25CSza0NP+yBFFLf+NbKA64Ck2pItMgr4JXkCVU8shQmtKnVKfO8mC3MQSF+kZE0mClr7URa8LIbMhmGgQ3o2vGNbRiutzdO7\/L52F7GWTHJzKEo5FdWK2K218Spd0L31TpBn3aKXg6BLgw6WiggztP4hP4pVf6LK21KvgPKf3NegF4Or7wfDz1\/mP4uiz+xf18trCuFHoityhXduwrrtA9bhhf2SwLE4+Md9R+m1KOQ6q63ynujM0oeIGVj6NIH4uJS6pz\/3iIKZTkr\/4\/5TdEw8uBlKHHxJHBHBuHPsYN3bpd4A+VMiNn3EPV02aD7xCq6anFPvoYbj8BHW0p6kUHP32fcuETciO7NF0NLGSIoE3iTNHRSpXt58BEHIU\/p4Tx4KczwLfUiVvARzjnkF8KQMPrgzhZysiXhH8cwdw3LPU1hi0zDuyW3RR7UQxuCTOa\/T8v0ZnGZhFNIFkocwSvcDStef807vg6bu2Fe4BewCLzHLQDEudTUHxiFsWWfzo4E4\/3pCTNgAkI4N0swvUR7aBTQHminudxrdSxC2f\/6pgBnd4TqBv+W16qcWLf31x\/yV1wHFyG2rfTpbpTx07W4r3G4zoDq8XHecpfuDy2H+GKgctSyUSDO9BTb6Q93+JyrMDvuw2o4ennAmll8gQ8C5WjxsQ78oES2\/\/yeCqTgKQiEx121Dwa2\/MiposMiRg82pwMXZ7lERx74CQnII54z4YAHGA2EqtQwwNdzdCufJqGV8oHaEPAXRNnGuAK6fbDUlM10GiSQoCpvzmDtv5n3RYlXXgmXAjmDb1CodLEFqCps\/lPyAvav","symbol_local":{"symbol":"$","code":"USD","symbolAppearsAfter":false,"name":"U.S. dollar","local":true,"conversion":164338.53738702},"guid":"2ca9b0e4-6b82-4dae-9fef-e8b300c72aa2","payload_checksum":"57f97ace89c105c19c43a15f2d6e3091d457dec804243b15772d2062a32f8b7d","war_checksum":"3642b083667c7f4d","language":"en","symbol_btc":{"symbol":"BTC","code":"BTC","symbolAppearsAfter":true,"name":"Bitcoin","local":false,"conversion":100000000.00000000},"sync_pubkeys":false},
+    {"extra_seed":"efd75f2cbfb5a83bb6a9056d04b3f427e5c2547ec9b181d2bc719dafc3bb9f469cfa5c9935af1d09efe86091aaab674cad5f2e78b154032a76ee271c3d2c2f17","auth_type":0,"initial_success":"Reminder: Verify your email.","real_auth_type":0,"payload":"Ckrf7U\/FCmVwvdr7t0BG3cahov9Tk7iAHndok\/3ViaDH8\/PKtxef1wJz4LhgWWNeyC\/PfjowGGpXLH41fQ2LClFSD2k\/mitsF0YKQEqJb6FPYqcr5sYp8hofQbUkzcyOZaRfj4Ip4ldUJfrNSg59igbGHUtqbCNCqRtoatwH2A7NivUeethsqsJ3NndABd7OiadBhHmSIDJdRbD\/XsDfk4RbD3zHqIGlOCXlhwoTIzpHif9ltb0XKnyibpmpFzUeFz340FpONK8QMDphJOBrypZhwdFwy9Oy\/QybjKpzJdgYZcHhjS8ZyKMNSEv85npoTx6PS5RHJidSMTFgntWhEuJqi\/WqDFMvj2P2OUHJHGhZbJ3YP18MSxgI8rDYPW9aZE6Z1w\/uHuO9rinqU8apnd7iFSZM9WyEouN9tfJqeZFPBQtYgmzro3\/Y1tJtcD6hLnNWEV+lDJwVzNcU1KHzpSuw7OdFO1dAKIysxOyFaMviSe3lKtiQdLxYJOSeVwFxH8QQOkG\/awVab\/q\/LbxP+YZdPSut8MTn6NRh6Zv4mnX0FNP0DtToV5rXICqaK\/FisNLizkUEHs6Tn5AVlwKx2xf00LsqNnSarTckRHaN9Q9eI\/yeV5sSrb1azfH8QM\/mvR9SyJVtH9L2QurJwom3jL2DoJSsUNdhZGNI5HMv7L9qjGeSS65vd\/hiFXJtP6+gw72Xj0m3Fk5YZImWxCLioxLtGBr1mKDFyyGFkYsGoapm1Cyg9xwGem9qazbl2g2J7DGrFMNEDBgPJzbBFLQ739DmxBnRwE5l6BZqwgqD54AqV1HSnCiB1nA2iWWJx2K6Y6ltAs7Ut5IemrGGHS2hObmegvenJN+YLAoE7Zd8zsq5RJFzDKXctRypCWA+Qi2n7kRS7mP9ycdSsoAmq6gzPuGnWl0igEQx5EjsXJCZ0xuU7iCEdr\/qrODeWzgsCGNzQLYliTX5yYicLqu6ewXOIJD8z8CoWA62ck6T68FioJLXkeLOIOQcs9UH3Pps99UKH8OqtTrvP3Ya77HNfAGMSWyzLd2dD+Mx7NPh7fEcpmnbJ1k\/ZahwHjJ\/NuCYHfrN1Q0znKbLoNwum\/I\/g2LLh2cz13X8csmCgD238cV96A26w54TdMP68N1QnmLG6pVQsVzyKKYRA03oDFNfX2pqYDLUO5fNxEz49O5caZyjPxC4uAIaKSOEpnaAv34bhWXYOAT3e1GzAWd+9FfR1agPqPY2yVIeOnLcqL5b18H1a3g144w+67ZgHOUI0fbGp+FexmKdKJ2yYKGKOPE3uuH6TQabTUxVSY8NYrb0n\/ZP+lcPpvQ+CLBzsnQvKYyOjQsU+UUvARJkOq9UZORlI4xQUzRFr5I5NjMixyp3x+NRC3j5lHcC6NjE3H9AuUGL\/SD0rSbpnNaXsA4vA1TIFWSNXANNPqjKADL++Q0\/qzuQvN\/zL\/pDabU87Hr9Ig4bZ6LQoxgN9kcFNq+NPvwXHGBcs5j8OgY4Gz4\/mN\/046vhr6r4ImL4\/OWxRQgx2lrTjDf9ff1EuXctwVqf6Gv85qzyK6Y\/\/vJtoHrxIZoMwdIY\/ojeBk0m3nVaDH42iJtifVMvA+5HCYSG03vKWPi9K+3rNIB245cq09ZWXB8CPs3mA0atVjb8JCrZxZg1aIHJRb4iyieDaLKrAlUAoMAnnQYarxPvFBUe\/9KfVt8GI9XuiiM=","symbol_local":{"symbol":"$","code":"USD","symbolAppearsAfter":false,"name":"U.S. dollar","local":true,"conversion":164338.53738702},"guid":"4077b6d9-73b3-4d22-96d4-9f8810fec435","payload_checksum":"a4b67f406268dced75ac5c628da854898c9a3134b7e3755311f199723d426765","war_checksum":"3642b083667c7f4d","language":"en","symbol_btc":{"symbol":"BTC","code":"BTC","symbolAppearsAfter":true,"name":"Bitcoin","local":false,"conversion":100000000.00000000},"sync_pubkeys":false}
+  ],
+
+  "v3_credentials": [
+    {
+      "guid": "e5eba801-c8bc-4a64-99ba-094e12a80766",
+      "password": "SomeTestPassword",
+      "iterations": 5000,
+      "sharedKey": "db81b289-8cac-46a9-ac0d-0c0658ec0dfa",
+      "version": 3,
+      "double_encryption": false
+    },
+    {
+      "guid": "e5eba801-c8bc-4a64-99ba-094e12a80766",
+      "password": "SomeTestPassword",
+      "iterations": 7520,
+      "sharedKey": "db81b289-8cac-46a9-ac0d-0c0658ec0dfa",
+      "version": 3,
+      "double_encryption": false
+    }
+  ],
+  "v2_credentials": [
+    {
+      "guid": "5f071985-01b5-4bd4-9d5f-c7cf570b1a2d",
+      "password": "SomeTestPassword",
+      "iterations": 5000,
+      "sharedKey": "ecfc1a81-cccb-4085-a260-ef7cb74b847e",
+      "version": 2,
+      "double_encryption": false
+    },
+    {
+      "guid": "5f071985-01b5-4bd4-9d5f-c7cf570b1a2d",
+      "password": "SomeTestPassword",
+      "iterations": 1000,
+      "sharedKey": "ecfc1a81-cccb-4085-a260-ef7cb74b847e",
+      "version": 2,
+      "double_encryption": false
+    }
+  ],
+  "v1_credentials": [
+    {
+      "guid": "9ebb4d4f-f36e-40d6-9a3e-5a3cca5f83d6",
+      "password": "mypassword",
+      "iterations": 10,
+      "mode": "CBC",
+      "padding": "Iso10126",
+      "sharedKey": "41cf823f-2dcd-4967-88d1-ef9af8689fc6",
+      "version": 1,
+      "double_encryption": false
+    },
+    {
+      "guid": "2ca9b0e4-6b82-4dae-9fef-e8b300c72aa2",
+      "password": "mypassword",
+      "iterations": 10,
+      "mode": "CBC",
+      "padding": "Iso10126",
+      "sharedKey": "e8553981-b196-47cc-8858-5b0d16284f61",
+      "version": 1,
+      "double_encryption": false
+    },
+    {
+      "guid": "4077b6d9-73b3-4d22-96d4-9f8810fec435",
+      "password": "mypassword",
+      "secondpassword": "mysecondpassword",
+      "iterations": 1,
+      "mode": "CBC",
+      "padding": "Iso10126",
+      "sharedKey": "fa1beb37-5836-41d1-9f73-09f292076eb9",
+      "version": 1,
+      "double_encryption": true
+    }
+  ],
+
+  "v3_payload":[
+    {
+      "guid": "e5eba801-c8bc-4a64-99ba-094e12a80766",
+      "sharedKey": "db81b289-8cac-46a9-ac0d-0c0658ec0dfa",
+      "double_encryption": false,
+      "options": {
+        "pbkdf2_iterations": 5000,
+        "fee_per_kb": 10000,
+        "html5_notifications": false,
+        "logout_time": 600000
+      },
+      "address_book": [],
+      "tx_notes": {},
+      "tx_names": [],
+      "keys": [],
+      "hd_wallets": [
+        {
+          "seed_hex": "bfb70136ef9f973e866dff00817b8070",
+          "passphrase": "",
+          "mnemonic_verified": false,
+          "default_account_idx": 0,
+          "accounts": [
+            {
+              "label": "My Bitcoin Wallet",
+              "archived": false,
+              "xpriv": "xprv9xvLaqAsee2mgFsgMQsVLCTh858tA559kD9wczD5nYGJMa4M56MvLgYGGn75MSdDFZSBYeYeCgAZdqKQitXux3ebiTi67eYH1a1VS2rdKZW",
+              "xpub": "xpub6BugzLhmV1b4tjx9TSQVhLQRg6yNZXo17S5YRNchLsoHENPVcdgAtUrk82X5LNuaViWoxsqMhCd3UBxhQRHvyrUeqqA7tupvSpkoC73nhL1",
+              "address_labels": [],
+              "cache": {
+                "receiveAccount": "xpub6EwJFaULAi1c8MRJH7mGSbWUzfQEuspEH1nqCCQXAcWKjStsFJrQXwzGVUnkWwxfegDWr5DDXKLrYDWTFdkq9qFxK1n3LUxphLtTcUn4bfD",
+                "changeAccount": "xpub6EwJFaULAi1cCCYB2SiQy25KKFs4SRkWu1kwgrGqnFUbEDWvAMWuLiErSkUcRBUR6eTcU14cxYSPQ8scuHeWrL79fppGaVxrwy38yRvbVXz"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guid": "e5eba801-c8bc-4a64-99ba-094e12a80766",
+      "sharedKey": "db81b289-8cac-46a9-ac0d-0c0658ec0dfa",
+      "double_encryption": false,
+      "options": {
+        "pbkdf2_iterations": 7520,
+        "fee_per_kb": 10000,
+        "html5_notifications": false,
+        "logout_time": 600000
+      },
+      "address_book": [],
+      "tx_notes": {},
+      "tx_names": [],
+      "keys": [],
+      "hd_wallets": [
+        {
+          "seed_hex": "bfb70136ef9f973e866dff00817b8070",
+          "passphrase": "",
+          "mnemonic_verified": false,
+          "default_account_idx": 0,
+          "accounts": [
+            {
+              "label": "My Bitcoin Wallet",
+              "archived": false,
+              "xpriv": "xprv9xvLaqAsee2mgFsgMQsVLCTh858tA559kD9wczD5nYGJMa4M56MvLgYGGn75MSdDFZSBYeYeCgAZdqKQitXux3ebiTi67eYH1a1VS2rdKZW",
+              "xpub": "xpub6BugzLhmV1b4tjx9TSQVhLQRg6yNZXo17S5YRNchLsoHENPVcdgAtUrk82X5LNuaViWoxsqMhCd3UBxhQRHvyrUeqqA7tupvSpkoC73nhL1",
+              "address_labels": [],
+              "cache": {
+                "receiveAccount": "xpub6EwJFaULAi1c8MRJH7mGSbWUzfQEuspEH1nqCCQXAcWKjStsFJrQXwzGVUnkWwxfegDWr5DDXKLrYDWTFdkq9qFxK1n3LUxphLtTcUn4bfD",
+                "changeAccount": "xpub6EwJFaULAi1cCCYB2SiQy25KKFs4SRkWu1kwgrGqnFUbEDWvAMWuLiErSkUcRBUR6eTcU14cxYSPQ8scuHeWrL79fppGaVxrwy38yRvbVXz"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "v2_payload":[
+    {
+      "guid": "5f071985-01b5-4bd4-9d5f-c7cf570b1a2d",
+      "sharedKey": "ecfc1a81-cccb-4085-a260-ef7cb74b847e",
+      "double_encryption": false,
+      "options": {
+        "pbkdf2_iterations": 5000,
+        "fee_per_kb": 10000,
+        "html5_notifications": false,
+        "logout_time": 600000
+      },
+      "address_book": [],
+      "tx_notes": {},
+      "tx_names": [],
+      "keys": [
+        {
+          "addr": "13CeRoCTgksr5A9276bLsAiM79i9hjMVLF",
+          "priv": "7ZefoHSaGKCspUAfdvLUrRZ2cQKb85381zd7rfKYTxki",
+          "tag": 0,
+          "created_time": 1471949131308,
+          "created_device_name": "javascript_web",
+          "created_device_version": "3.0"
+        }
+      ]
+    },
+    {
+      "guid": "5f071985-01b5-4bd4-9d5f-c7cf570b1a2d",
+      "sharedKey": "ecfc1a81-cccb-4085-a260-ef7cb74b847e",
+      "double_encryption": false,
+      "options": {
+        "pbkdf2_iterations": 1000,
+        "fee_per_kb": 10000,
+        "html5_notifications": false,
+        "logout_time": 600000
+      },
+      "address_book": [],
+      "tx_notes": {},
+      "tx_names": [],
+      "keys": [
+        {
+          "addr": "13CeRoCTgksr5A9276bLsAiM79i9hjMVLF",
+          "priv": "7ZefoHSaGKCspUAfdvLUrRZ2cQKb85381zd7rfKYTxki",
+          "tag": 0,
+          "created_time": 1471949131308,
+          "created_device_name": "javascript_web",
+          "created_device_version": "3.0"
+        }
+      ]
+    }
+  ],
+  "v1_payload":[
+    {"guid":"9ebb4d4f-f36e-40d6-9a3e-5a3cca5f83d6","sharedKey":"41cf823f-2dcd-4967-88d1-ef9af8689fc6","double_encryption":false,"options":{"fee_per_kb":10000,"html5_notifications":false,"logout_time":600000},"address_book":[],"tx_notes":{},"tx_names":[],"keys":[{"addr":"1AN6WAdSrXATk7mcosqhK7vvPusC3fmw8p","priv":"XxkpqJqs1449nLHX1WcCP5QbmyJhjrwTis9hyvqGKJc","tag":0},{"addr":"1Cp1xPTVdjePVcRAJHxesiLkNZbASgbkL","priv":"8uZW7qiz89NGtgwzdbqKZ9QDVPj1NeGV192RJUXdc946","tag":0},{"addr":"1MsA1JJhgNMkuke9uttaXQfFyNBvmCyeiR","priv":"BH2MMphxoWQkynoo7HM8ukLSw8aNKFT9sWV2nu9QmNqe","tag":0},{"addr":"13m3hC95Pp3ZWth6XCmhr9qUVNZGqMchia","priv":"4TE4wCgz1fcjSPsxSUUig36a9JpNfPn9c2KFcT94hWtk","tag":0},{"addr":"17thFxEzSsR3fn2CpQrAYrcsUve6VN8JuX","priv":"2YARBSUuHrsuuvtEHoeTXiDXGdiDuHtfdLvvYCKkADCm","tag":0}]},
+    {"guid":"2ca9b0e4-6b82-4dae-9fef-e8b300c72aa2","sharedKey":"e8553981-b196-47cc-8858-5b0d16284f61","double_encryption":false,"options":{"fee_per_kb":10000,"html5_notifications":false,"logout_time":600000},"address_book":[],"tx_notes":{},"tx_names":[],"keys":[{"addr":"18oiLmwwRmw25jK3Go72cieUaNsq5eZq2a","priv":"7nkCC1DvFBoWQd8EVUmSEMRawwnmMZVH6ZSmJM1Rog4r","tag":0},{"addr":"1PFf4ruwpU8LoNPyzFLNX7aLFtT3AhbQxW","priv":"dnuY1XXVPSL78Ths3q5vQwZWrmbsqr3yiuknAUWYVaX","tag":0},{"addr":"13JEiKew1Ee3H8K255RNuxd3yYMsqyXHtz","priv":"ExsEQwQpCsMunoBMReUzQ4kQFPKm4KTBnH9sym4wCCAT","tag":0},{"addr":"15bhQZEbL3815K93ceHYBf5rekd2GEThEK","priv":"8rGeLoELr8xLpuNHTA8XtYawY7QJGHQrzvjF9PKN581r","tag":0},{"addr":"1JNwKdMZJAeonq2uUFcV5NuU8tSpHXb3bD","priv":"Gsc8jrwa11pCuEzvhuABWC9XePQa44jz78ZZJkKyVUDu","tag":0}]},
+    {"guid":"4077b6d9-73b3-4d22-96d4-9f8810fec435","sharedKey":"fa1beb37-5836-41d1-9f73-09f292076eb9","double_encryption":true,"dpasswordhash":"015f7b18029812bc45f437a515a915e9ebec2b700181585c99074d79495a8746","options":{"fee_per_kb":10000,"html5_notifications":false,"logout_time":600000},"address_book":[],"tx_notes":{},"tx_names":[],"keys":[{"addr":"1BqsBxRsk7J4oEs4cnvTLHQ6eoDZwTsApT","priv":"UgHv/muoXWWxdEsnWQcTV93Pi/GG2W05sDq/mJVqtGCUOAbfjXNhBPkmjEeYxoDxNzOoGeWyQiZiA6oob9xRPQ==","tag":0},{"addr":"1MfHdTCHUX3f7aeFTgF4KhCC1yTZgDiDDt","priv":"s3pfJhVPWxNrkpLhrxXDCXGxvFDsu5kccI5SbBDkTK6dDJj1drFSfuiZe7iN3GTG7qEQUWh9b83Hr7zTck7EIA==","tag":0},{"addr":"16NjzqM9X8qzhHkdLLVZbCwWKqLK5UmdH4","priv":"32VZvkqH2CQxIAKntDZUaGUKBIa4YMqhti/uGa5FpXuqknaGxEJ1LsnkIwduTOBSvySW6IJgjT7u3FMm21NvzQ==","tag":0},{"addr":"1PQj2cst9Bnd5cXp84XQffCDZEmE6KczPf","priv":"Uwnoi10UxKURitflyokc3Zjz53FlXvfosuk8jEhNm12lzKzZgiosgBZRp+vMsfgz7xR+JnAknlsCSGF/VttHlQ==","tag":0},{"addr":"149aV6sNHGYSCreUmu7KVDdou5udyjC9rK","priv":"f5Y7nfO2noqxuYoxWvByNE25TFcGafjib+C49XCxH+DgmC3cEkvjtjODI5TcbVm9Ixv7b2OVJZJTDL0EEp/aVw==","tag":0}]}
+  ]
+}
