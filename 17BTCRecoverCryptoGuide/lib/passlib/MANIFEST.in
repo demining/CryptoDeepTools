@@ -1,0 +1,3 @@
+recursive-include docs *
+recursive-include passlib/_data/wordsets *.txt
+include LICENSE README CHANGES passlib/tests/*.cfg tox.ini setup.cfg
