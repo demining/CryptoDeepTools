@@ -1,0 +1,212 @@
+Release History
+==
+
+2.0.0
+--
+???
+
+Major release:
+- Drops support for python 3.3 and <2.7.8
+
+
+1.8.0
+--
+2019-03-09
+
+Feature release:
+- Support unicode passwords with scrypt_mcf
+- Last release to support python 3.3 and <2.7.8
+
+
+1.7.1
+--
+2017-12-16
+
+Bugfix release:
+- Prevent DepracationWarning from pylibsodium.py
+
+
+1.7.0
+--
+2017-11-16
+
+Feature release:
+- Improved error messages
+- Added coveralls testing
+- Improved test coverage using docker
+- Deprecated fallbacks for old python and libsodium versions
+
+
+1.6.1
+--
+2017-05-08
+
+Bugfix release:
+- Fix hashlib.scrypt calls with large values
+
+
+1.6.0
+--
+2017-01-04
+
+Feature release:
+- Use hashlib.scrypt on Python 3.6 + OpenSSL 1.1
+- Travis CI integration
+- Improved test coverage
+- Code and build cleanups
+
+
+1.5.3
+--
+2015-06-19
+
+Bugfix release:
+- Fix libsodium incompatibility fallback
+
+
+1.5.2
+--
+2015-12-22
+
+Bugfix release:
+- Fix library loading on OS/X with packaged apps
+
+
+1.5.1
+--
+2015-9-15
+
+Bugfix release:
+- Compare MCF hashes in constant time
+
+
+1.5.0
+--
+2015-9-7
+
+Feature release:
+- Handle dependency failures better
+- Improve test coverage
+- Misc. cleanups
+
+
+1.4.1
+--
+2015-3-27
+
+Bugfix release:
+- Fix missing import so Windows/Darwin may actually work
+
+
+1.4.0
+--
+2015-3-23
+
+Feature release:
+- Improve library loading on Windows and Darwin.
+- Obsolete libsodium_salsa implementation.
+
+
+1.3.0
+--
+2014-7-8
+
+Feature release:
+- Support for libsodium 0.6+ changes.
+- Use the low-level scrypt interface with libsodium so all calls are fast.
+- Support python3 when running tests.
+- Switch to the less verbose ISC license where possible
+
+
+1.2.1
+--
+2014-5-17
+
+Bugfix release:
+- Fix python3 support.
+- Remember to import the libsodium backend added in 1.2.0.
+
+
+1.2.0
+--
+2014-5-16
+
+Feature release:
+- Support for the $7$ Modular Crypt Format that's been semi-standardized and 
+  used by libsodium. (The $s1$ format remains the default.)
+- Use libsodium 0.5+ pwhash as another fallback when parameters support it.
+- More liberal in reading MCF hashes, so those from other implementations work.
+- Fuzz testing of scrypt inputs.
+
+
+1.1.3
+--
+2014-5-16
+
+Bugfix release:
+- Disallow null in MCF passwords, because that could result in a password that
+  libscrypt can't verify.
+- Verify MCF passwords with null even when using libscrypt to stay compatible
+  with earlier releases.
+
+
+1.1.2
+--
+2014-5-12
+
+Bugfix release:
+- Fix passwords longer than 256 bytes failing on python2
+
+
+1.1.1
+--
+2014-5-12
+
+Bugfix release:
+- Fix some r and p values over/underflowing with libscrypt backend.
+- Always check that r*p < 2**30.
+
+
+1.1.0
+--
+2014-5-8
+
+Feature release:
+- On CPython libsodium is used for salsa20/8, for a 4x speedup when C scrypt
+  is not available but libsodium is (optional).
+- Tests have been converted to unittest. More readable and better coverage.
+
+
+1.0.3
+--
+2014-5-5
+
+Bugfix release:
+- Guard against some libscrypt bugs found in older versions.
+- Fix broken package import when libscrypt isn't available
+
+
+1.0.2
+--
+2014-5-3
+
+Packaging fix
+
+
+1.0.1
+--
+2014-5-3
+
+Bugfix release:
+- Enforced parameter requirements that libscrypt has for MCF form hashes.
+  Initial release could accept parameters for scrypt_mcf that scrypt_mcf_check
+  didn't support when using libscrypt backend.
+- Fixed documentation and tests.
+
+
+1.0.0
+--
+2014-5-2
+
+Initial release
+

@@ -1,0 +1,91 @@
+Scrypt for Python
+==
+
+[![Build Status](https://travis-ci.org/jvarho/pylibscrypt.svg)](https://travis-ci.org/jvarho/pylibscrypt)
+[![Coverage Status](https://coveralls.io/repos/github/jvarho/pylibscrypt/badge.svg?branch=master)](https://coveralls.io/github/jvarho/pylibscrypt?branch=master)
+[![PyPI version](https://img.shields.io/pypi/v/pylibscrypt.svg)](https://pypi.python.org/pypi/pylibscrypt)
+
+There are a lot of different scrypt modules for Python, but none of them have
+everything that I'd like, so here's One More[1].
+
+
+Features
+--
+* Uses hashlib.scrypt on Python 3.6 and OpenSSL 1.1.
+* Uses system libscrypt[2] as the next choice.
+* If neither is available, tries the scrypt Python module[3] or libsodium[4].
+* Offers a pure Python scrypt implementation for when there is no C scrypt.
+* Not unusably slow, even in pure Python... at least with pypy[5].
+
+With PyPy as the interpreter the Python implementation is around one fifth the
+speed of C scrypt. With CPython it is about 250x slower.
+
+
+Requirements
+--
+* Python 2.7.8+ or 3.4+. Equivalent versions of PyPy should also work.
+* If you want speed, you should use one of:
+  - libscrypt 1.8+ (older may work)
+  - py-scrypt 0.6+ (pip install scrypt)
+  - libsodium 1.0+
+  - Python 3.6+ with OpenSSL 1.1+
+
+
+Usage
+--
+
+You can install the most recent release from PyPi using:
+
+    pip install pylibscrypt
+
+You most likely want to create MCF hashes and store them somewhere, then check
+user-entered passwords against those hashes. For that you only need to use two
+functions from the API:
+
+    from pylibscrypt import scrypt_mcf, scrypt_mcf_check
+    # Generate an MCF hash with random salt
+    mcf = scrypt_mcf('Hello World')
+    # Test it
+    print(scrypt_mcf_check(mcf, 'Hello World'))   # prints True
+    print(scrypt_mcf_check(mcf, 'HelloPyWorld'))  # prints False
+
+For full API, you can try help(pylibscrypt) from python after importing.
+
+It is highly recommended that you use a random salt, i.e. don't pass one.
+
+
+Versioning
+--
+The package has a version number that can be read from python like so:
+
+    print(pylibscrypt.__version__)
+
+The version number is of the form X.Y.Z, following Semantic Versioning[6].
+Unreleased versions include a -git version specifier, e.g. 2.0.0-git < 2.0.0.
+Releases are tagged vX.Y.Z and release branches bX.Y.x when they differ from
+master.
+
+
+Development
+--
+Development happens on GitHub[7]. If you find a bug, please open an issue there.
+
+Running pylibscrypt.tests will test all implementations with some quick tests.
+Running any implementation directly (e.g. pylibscrypt.pylibsodium) will also
+compare to scrypt test vectors from the paper but this is slow for the pure
+Python version (pypyscrypt) unless running with pypy.
+
+You can test more comprehensively using the docker test environment. Either
+build and run using `make docker-run` or pull the jvarho/pylibscrypt image and
+run using `docker run -v ${PWD}:/app jvarho/pylibscrypt`.
+
+Pull requests should be automatically tested and will not be merged if broken.
+
+[1]:https://xkcd.com/927/
+[2]:https://github.com/technion/libscrypt
+[3]:https://bitbucket.org/mhallin/py-scrypt/src
+[4]:https://github.com/jedisct1/libsodium
+[5]:http://pypy.org/
+[6]:http://semver.org/spec/v2.0.0.html
+[7]:https://github.com/jvarho/pylibscrypt
+
