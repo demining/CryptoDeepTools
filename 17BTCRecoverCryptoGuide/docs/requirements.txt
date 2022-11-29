@@ -1,0 +1,4 @@
+mkdocs-autolinks-plugin
+mkdocs-include-markdown-plugin
+mkdocs-material
+mkdocs-git-committers-plugin
