@@ -1,0 +1,5 @@
+numpy 
+pybind11 
+pycryptodome
+scrypt
+pyopencl
