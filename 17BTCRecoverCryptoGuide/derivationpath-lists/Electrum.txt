@@ -1,0 +1,6 @@
+# Lines starting with # are ignored
+# To Enable a derivation path, remove the # from the start of the line...
+# To Disable a derivation path, add # at the start of the line... (This will improve performance)
+#
+m/0 #Electrum Legacy Wallets (BTC + Alts)
+m/0'/0 #Electrum Segwit Wallets ( BTC + Alts)

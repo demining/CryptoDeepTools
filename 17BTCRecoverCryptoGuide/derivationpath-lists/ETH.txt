@@ -1,0 +1,26 @@
+# Lines starting with # are ignored
+# To Enable a derivation path, remove the # from the start of the line...
+# To Disable a derivation path, add # at the start of the line... (This will improve performance)
+#
+# To check the second (or third) account for a given wallet type, you can generally increment the last number
+# Eg: Ledger Eth - Second Account would be m/44'/60'/1'
+#
+m/44'/60'/0' #Ethereum Coinomi & Ledger Legacy
+m/44'/60'/0'/0 #Ethereum MEW, Trezor, etc (Binance Smart Chain uses this path too...)
+m/44'/1'/0'/0 #Trezor Testnets (Selectable in Metamask, etc)
+
+# Other Eth clones that can be used with the Eth wallet type
+#m/44'/61'/0'/0 #ETC
+#m/44'/60'/160720'/0' #ETC Coinomi & Ledger Legacy
+#m/44'/137'/0'/0 #RSK
+#m/44'/178'/0'/0 #POA 
+#m/44'/242'/0'/0 #NIM (Nimiq)
+#m/44'/425'/0'/0 #AION
+#m/44'/500'/0'/0 #THETA
+#m/44'/714'/0'/0 #Smart Chain Legacy
+#m/44'/818'/0'/0 #VET
+#m/44'/820'/0'/0 #CLO
+#m/44'/889'/0'/0 #TOMO
+#m/44'/1001'/0'/0 #TT
+#m/44'/5718350'/0'/0 #WAN
+#m/44'/6060'/0'/0 #GO

@@ -1,0 +1,31 @@
+BIP39-12 Standard: (CPU 33kps, GPU 170kps, SaveChecksummed 180kps, LoadChecksummed 10.5kps) ****Optimal****
+python3 seedrecover.py --mnemonic "ocean hidden kidney famous rich season gloom husband spring convince zoo x" --wallet-type bip39 --addr-limit 1 --no-eta --no-dupchecks --dsw --big-typos 2 --bip32-path m/44'/0'/0' --enable-opencl --addrs 13yneuv16TrPnmCiWfcUfp2JV21WhxkvTE
+
+BIP39-12-Tokenlist (CPU 33kps, GPU 130kps, SaveChecksummed 220kps, LoadChecksummed 10.5kps) ---Bad Generator Bottlekneck---
+python3 seedrecover.py --no-eta --tokenlist "./benchmark-lists/bip39-12-tokenlist-50million.txt" --dsw --mnemonic-length 12 --language en --wallet-type bip39 --addrs 17GR7xWtWrfYm6y3xoZy8cXioVqBbSYcpU --addr-limit 1 --bip32-path "m/44'/0'/0'/0" --enable-opencl
+
+Electrum Standard: (CPU 200, GPU 366kps, SaveChecksummed 375kps, LoadChecksummed 10.5) ---Generator Bottlekneck---
+python3 seedrecover.py --mnemonic "ocean hidden kidney famous rich season gloom husband spring convince zoo x" --wallet-type Electrum2 --addr-limit 1 --no-eta --no-dupchecks --dsw --big-typos 2 --bip32-path m/0' --enable-opencl --addrs 13yneuv16TrPnmCiWfcUfp2JV21WhxkvTE
+
+Electrum-Tokenlist (CPU 200, GPU 300+, SaveChecksummed 375, LoadChecksummed 10.) 
+python3 seedrecover.py --no-eta --tokenlist "./benchmark-lists/bip39-12-tokenlist-50million.txt" --dsw --mnemonic-length 12 --language en --wallet-type Electrum2 --addrs 17GR7xWtWrfYm6y3xoZy8cXioVqBbSYcpU --addr-limit 1 --bip32-path "m/0'" --enable-opencl
+
+BIP39-24 Standard: (CPU 160kps, GPU 225kps, SaveChecksummed 200kps, LoadChecksummed 7.1kps) ---Generator Bottlekneck---
+python3 seedrecover.py --mnemonic "trim skill build repair either cricket vocal riot vast wink engage puzzle poem bike wall joke august size improve note smooth rubber zoo x" --wallet-type bip39 --addr-limit 1 --no-eta --no-dupchecks --dsw --big-typos 2 --bip32-path m/44'/0'/0' --enable-opencl --addrs 17GR7xWtWrfYm6y3xoZy8cXioVqBbSYcpU
+
+BIP39-24-Tokenlist (CPU 140kps, GPU 160kps, SaveChecksummed 175kps, LoadChecksummed 7.1kps) ---Bad Generator Bottlekneck---
+python3 seedrecover.py --no-eta --tokenlist "./benchmark-lists/bip39-24-tokenlist-50million.txt" --dsw --mnemonic-length 24 --language en --wallet-type bip39 --addrs 17GR7xWtWrfYm6y3xoZy8cXioVqBbSYcpU --addr-limit 1 --bip32-path "m/44'/0'/0'/0" --enable-opencl
+
+Seed (24 word):
+trim skill build repair either cricket vocal riot vast wink engage puzzle poem bike wall joke august size improve note smooth rubber zero artwork
+
+Produce:
+python3 seedrecover.py --mnemonic "trim skill build repair either cricket vocal riot vast wink engage puzzle poem bike wall joke august size improve note smooth rubber x x" --wallet-type bip39 --dsw --big-typos 2 --savevalidseeds d:\validseeds.txt
+
+python3 seedrecover.py --mnemonic "trim skill build repair either cricket vocal riot vast wink engage puzzle poem bike wall joke august size improve note smooth x x x" --wallet-type bip39 --dsw --big-typos 3 --savevalidseeds d:\validseeds.txt
+
+Consume:
+python3 seedrecover.py --no-eta --mnemonic-length 24 --language en --addrs 1QLSbWFtVNnTFUq5vxDRoCpvvsSqTTS88P --addr-limit 1 --wallet-type bip39 --dsw --skip-worker-checksum --enable-opencl --seedlist d:\validseeds.txt
+
+
+

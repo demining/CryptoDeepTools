@@ -1,0 +1,11 @@
+# Lines starting with # are ignored
+# To Enable a derivation path, remove the # from the start of the line...
+# To Disable a derivation path, add # at the start of the line... (This will improve performance)
+#
+# To check the second (or third) account for a given wallet type, you can generally increment the last number
+# Eg: Ledger Eth - Second Account would be m/44'/60'/1'
+#
+m/44'/2'/0'/0 #Litecoin BIP44 (Legacy, generally addresses starting with L)
+m/49'/2'/0'/0 #Litecoin BIP49 (Segwit, generally addresses starting with M)
+m/84'/2'/0'/0 #Litecoin BIP84 (Native Segwit, generally addresses starting with ltc1)
+m/44'/60'/0'/0 #Atomic wallet... (WTF... Avoid this wallet...)
