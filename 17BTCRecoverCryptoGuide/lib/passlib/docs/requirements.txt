@@ -1,0 +1,2 @@
+sphinxcontrib-fulltoc
+hg+https://bitbucket.org/ecollins/cloud_sptheme
