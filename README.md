@@ -167,8 +167,7 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 ## [17BTCRecoverCryptoGuide](https://github.com/demining/CryptoDeepTools/tree/main/17BTCRecoverCryptoGuide)
 
 
-* Topics Resources Readme Stars 0 stars Watchers 1 watching Forks 0 forks Releases
-In this article, we will take a detailed look at the open source password recovery tools and wallet seed phrases in the Crypto Deep Tools repository, and we will also discuss the situation when you accidentally lost or forgot part of your mnemonic or made a mistake while decrypting it. (So you either see an empty wallet or get an error that your seed is invalid) For wallet password or passphrase recovery, it is primarily useful if you have a reasonable idea about what your password might be.
+* In this article, we will take a detailed look at the open source password recovery tools and wallet seed phrases in the Crypto Deep Tools repository, and we will also discuss the situation when you accidentally lost or forgot part of your mnemonic or made a mistake while decrypting it. (So you either see an empty wallet or get an error that your seed is invalid) For wallet password or passphrase recovery, it is primarily useful if you have a reasonable idea about what your password might be.
 
 * Tutorial: https://youtu.be/imTXE4rGqHw
 * Tutorial: https://cryptodeep.ru/btc-recover-crypto-guide
