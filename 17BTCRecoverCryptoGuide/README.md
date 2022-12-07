@@ -22,7 +22,7 @@ Releases
 ----
 
 * Tutorial: https://youtu.be/imTXE4rGqHw
-* Tutorial: https://cryptodeeptech.ru/btc-recover-crypto-guide
+* Tutorial: https://cryptodeep.ru/btc-recover-crypto-guide
 
 
 ----
