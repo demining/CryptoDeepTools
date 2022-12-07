@@ -1,0 +1,48 @@
+/**
+ * Admin bar menu
+ * @author Webcraftic <wordpress.webraftic@gmail.com>
+ * @copyright Webcraftic 01.07.2018
+ */
+#wp-admin-bar-clearfy-menu {
+  background: #443a54 !important;
+}
+#wp-admin-bar-clearfy-menu::after {
+  clear: both;
+}
+#wp-admin-bar-clearfy-menu .dashicons {
+  font: 400 20px/1 dashicons;
+}
+#wp-admin-bar-clearfy-menu #wp-admin-bar-clearfy-menu-default {
+  background: #565656 !important;
+}
+#wp-admin-bar-clearfy-menu .wbcr-clearfy-admin-bar-menu-icon {
+  display: inline-block !important;
+  width: 20px;
+  height: 25px;
+  margin-top: 6px;
+  margin-right: 5px;
+  float: left;
+  background: url(../img/webcraftic-plugin-icon.png) 0 0 no-repeat;
+}
+#wp-admin-bar-clearfy-menu .wbcr-clearfy-admin-bar-menu-title {
+  display: inline-block !important;
+  overflow: hidden;
+}
+#wp-admin-bar-clearfy-menu .wbcr-clearfy-admin-bar-menu-title .dashicons {
+  font-size: 20px !important;
+  padding: 6px 0 !important;
+}
+#wp-admin-bar-clearfy-menu .ab-item .dashicons {
+  font-size: 14px;
+  padding: 6px 0;
+}
+#wp-admin-bar-clearfy-menu .ab-item .dashicons.dashicons-heart {
+  color: #fb7976;
+}
+#wp-admin-bar-clearfy-menu .ab-item .dashicons.dashicons-sos {
+  color: #c6e9f9;
+}
+#wp-admin-bar-clearfy-menu .ab-item .dashicons.dashicons-star-filled {
+  color: #ffbe00;
+}
+/*# sourceMappingURL=admin-bar.css.map */
