@@ -18,6 +18,8 @@ Due to its popularity and ease of use, many BrainWallets over the past few years
 
     cd CryptoDeepTools/13TeslaBrainWallet/
     
+    sudo apt install python2-minimal
+    
     wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
     
     pip3 install -r requirements.txt
