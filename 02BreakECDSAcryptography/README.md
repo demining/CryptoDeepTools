@@ -24,6 +24,8 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
     
     cd CryptoDeepTools/02BreakECDSAcryptography/
     
+    sudo apt install python2-minimal
+    
     wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
     
     sudo python2 get-pip.py
