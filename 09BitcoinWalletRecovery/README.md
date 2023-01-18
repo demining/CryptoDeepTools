@@ -14,6 +14,8 @@
     cd CryptoDeepTools/09BitcoinWalletRecovery/
 
     ls
+    
+    sudo apt install python2-minimal
 
     wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
     
