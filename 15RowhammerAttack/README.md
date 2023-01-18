@@ -27,6 +27,8 @@ We will apply ECDSA signature differential failure analysis and obtain a private
     cd CryptoDeepTools/15RowhammerAttack/
 
     ls
+    
+    sudo apt install python2-minimal
 
     wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 
