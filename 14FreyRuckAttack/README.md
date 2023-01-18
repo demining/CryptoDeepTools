@@ -25,6 +25,8 @@ With a critical vulnerability in the Bitcoin blockchain transaction, we can solv
     cd CryptoDeepTools/14FreyRuckAttack/
 
     ls
+    
+    sudo apt install python2-minimal
 
     wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 
