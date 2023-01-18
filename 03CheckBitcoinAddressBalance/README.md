@@ -24,9 +24,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
     git clone https://github.com/demining/CryptoDeepTools.git
     
     cd CryptoDeepTools/03CheckBitcoinAddressBalance/
-    
-    sudo apt install python2-minimal
-    
+
     sudo apt install python2-minimal
 
     wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
