@@ -1,9 +1,10 @@
 #!/bin/bash
 fileid="$1"
-wget -qO- https://chain.so/api/v2/get_tx_spent/BTC/${fileid} > index.json
-grep 'txid": "' index.json > index2.json
+curl -o index.json https://api.blockcypher.com/v1/btc/main/addrs/${fileid}?spentOnly=1&limit=500000
+sleep 25
+grep '"spent_by": "' index.json > index2.json
 rm index.json
-sed -i 's/        "txid": "//g' index2.json
+sed -i 's/      "spent_by": "//g' index2.json
 sed -i 's/",//g' index2.json
 echo "with open('index2.json') as myfile:" >> fileopen.py
 echo "    listfile='\necho '' >> RawTX.json\n'.join(f'wget -qO- https://blockchain.info/rawtx/{line.rstrip()[:]}?format=hex >> RawTX.json' for line in myfile)" >> fileopen.py
