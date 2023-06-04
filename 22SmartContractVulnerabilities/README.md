@@ -43,6 +43,4 @@
 - https://github.com/sigp/solidity-security-blog
 - https://solidity.readthedocs.io/en/latest/bugs.html
 
-## Contributions
 
-Submit a PR!
