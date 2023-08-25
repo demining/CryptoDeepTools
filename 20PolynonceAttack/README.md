@@ -7,6 +7,13 @@ https://colab.research.google.com/drive/1nKuFBPQGiKviX7GqijkWPMPO4mgT2J2y
 ---
 
 
+* Tutorial: https://youtu.be/7nKs_KHtyn4
+* Tutorial: https://cryptodeeptech.ru/polynonce-attack
+
+
+---
+
+
 |  | Donation Address |
 | --- | --- |
 | ♥ __BTC__ | 1Lw2gTnMpxRUNBU85Hg4ruTwnpUPKdf3nV |
