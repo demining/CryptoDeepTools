@@ -2,9 +2,6 @@
 
 ---
 
-https://colab.research.google.com/drive/1nKuFBPQGiKviX7GqijkWPMPO4mgT2J2y
-
----
 
 
 * Tutorial: https://youtu.be/7nKs_KHtyn4
@@ -13,6 +10,9 @@ https://colab.research.google.com/drive/1nKuFBPQGiKviX7GqijkWPMPO4mgT2J2y
 
 ---
 
+https://colab.research.google.com/drive/1nKuFBPQGiKviX7GqijkWPMPO4mgT2J2y
+
+---
 
 |  | Donation Address |
 | --- | --- |
