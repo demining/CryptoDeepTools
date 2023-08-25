@@ -194,6 +194,16 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [20PolynonceAttack](https://github.com/demining/CryptoDeepTools/tree/main/20PolynonceAttack)
+
+
+* POLYNONCE ATTACK we use BITCOIN signatures as a Polynomial to an arbitrarily high power of 128 bits to get a Private Key
+
+* Tutorial: https://youtu.be/7nKs_KHtyn4
+* Tutorial: https://cryptodeeptech.ru/polynonce-attack
+
+---
+
 
 
 
