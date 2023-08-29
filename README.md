@@ -224,6 +224,26 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [22SmartContractVulnerabilities](https://github.com/demining/CryptoDeepTools/tree/main/22SmartContractVulnerabilities)
+
+
+* Solidity Forcibly Send Ether Vulnerability to a Smart Contract continuation of the list of general EcoSystem security from attacks
+
+* Tutorial: https://youtu.be/lqjsHB2r6gU
+* Tutorial: https://cryptodeeptech.ru/solidity-forcibly-send-ether-vulnerability
+
+---
+
+## [23SolidityVulnerableHoneypots](https://github.com/demining/CryptoDeepTools/tree/main/23SolidityVulnerableHoneypots)
+
+
+* Phenomenon from Blockchain Cryptocurrency Solidity Vulnerable Honeypots
+
+* Tutorial: https://youtu.be/UrkOGyuuepE
+* Tutorial: https://cryptodeeptech.ru/solidity-vulnerable-honeypots
+
+---
+
 
 
 
