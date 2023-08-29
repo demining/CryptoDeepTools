@@ -204,6 +204,26 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [21LatticeAttack](https://github.com/demining/CryptoDeepTools/tree/main/21LatticeAttack)
+
+
+* LATTICE ATTACK 249bits we solve the problem of hidden numbers using 79 signatures ECDSA
+
+* Tutorial: https://youtu.be/CzaHitewN-4
+* Tutorial: https://cryptodeeptech.ru/lattice-attack-249bits
+
+---
+
+## [22SmartContractVulnerabilities](https://github.com/demining/CryptoDeepTools/tree/main/22SmartContractVulnerabilities)
+
+
+* Solidity Forcibly Send Ether Vulnerability to a Smart Contract continuation of the list of general EcoSystem security from attacks
+
+* Tutorial: https://youtu.be/lqjsHB2r6gU
+* Tutorial: https://cryptodeeptech.ru/solidity-forcibly-send-ether-vulnerability
+
+---
+
 
 
 
