@@ -1,5 +1,6 @@
 # [ShellShock Attack](https://cryptodeeptech.ru/shellshock-attack-on-bitcoin/)
 
+
 ======================
 
 
@@ -8,10 +9,23 @@ A tool to find and exploit servers vulnerable to Shellshock
 Ref: [https://cryptodeeptech.ru/shellshock-attack-on-bitcoin](https://cryptodeeptech.ru/shellshock-attack-on-bitcoin/)
 
 
-Developed By:
-* Tom Watson, tom [dot] watson [at] nccgroup [dot] trust
+======================
+
+
+[Repositories in GitHub:](https://github.com/demining/CryptoDeepTools/tree/main/24ShellShockAttack)
 
 https://github.com/demining/CryptoDeepTools/tree/main/24ShellShockAttack
+
+
+======================
+
+[Video on YouTube:](https://www.youtube.com/@cryptodeeptech)
+
+https://www.youtube.com/@cryptodeeptech
+
+
+======================
+
 
 Released under AGPL see LICENSE for more information
 
@@ -136,3 +150,14 @@ Thanks to...
 Anthony Caulfield @ NCC for time and effort reviewing early versions
 
 Brendan Coles @ NCC for his support and contributions
+
+
+======================
+
+[Telegram channel:](https://t.me/cryptodeeptech)
+
+https://t.me/cryptodeeptech
+
+
+======================
+
