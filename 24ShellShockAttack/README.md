@@ -1,15 +1,17 @@
-Shocker
+# [ShellShock Attack](https://cryptodeeptech.ru/shellshock-attack-on-bitcoin/)
+
 ======================
+
+
 A tool to find and exploit servers vulnerable to Shellshock
 
-Ref: https://en.wikipedia.org/wiki/Shellshock_(software_bug)
+Ref: [https://cryptodeeptech.ru/shellshock-attack-on-bitcoin](https://cryptodeeptech.ru/shellshock-attack-on-bitcoin/)
 
-Released as open source by NCC Group Plc - https://www.nccgroup.trust/
 
 Developed By:
 * Tom Watson, tom [dot] watson [at] nccgroup [dot] trust
 
-https://github.com/nccgroup/shocker
+https://github.com/demining/CryptoDeepTools/tree/main/24ShellShockAttack
 
 Released under AGPL see LICENSE for more information
 
