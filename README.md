@@ -234,6 +234,16 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [24ShellShockAttack](https://github.com/demining/CryptoDeepTools/tree/main/24ShellShockAttack)
+
+
+* ShellShock Attack vulnerability on “Bitcoin” & “Ethereum” server discovered in GNU Bash cryptocurrency exchange
+
+* Tutorial: https://youtu.be/fIYYi1kGEnc
+* Tutorial: https://cryptodeeptech.ru/shellshock-attack-on-bitcoin
+
+---
+
 
 
 
