@@ -2,6 +2,14 @@
 
 ---
 
+
+* Tutorial: https://youtu.be/CzaHitewN-4
+* Tutorial: https://cryptodeeptech.ru/lattice-attack-249bits
+
+
+---
+---
+
 https://colab.research.google.com/drive/1vOcN8WX8R5TM2EPe1dFGcFDenkW1BQvx
 
 ---
