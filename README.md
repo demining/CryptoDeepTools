@@ -244,6 +244,17 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [25MilkSadVulnerability](https://github.com/demining/CryptoDeepTools/tree/main/25MilkSadVulnerability)
+
+
+* On August 10, 2023, a group of Bitcoin security researchers identified a vulnerability in the Libbitcoin Explorer 3.x library. This critical vulnerability allowed attackers to steal more than $900,000 from Bitcoin Wallet users, according to a report from blockchain security firm SlowMist. The vulnerability may also affect Ethereum, Ripple, Dogecoin, Solana, Litecoin, Bitcoin Cash and Zcash users who use Libbitcoin to create accounts. The vulnerability, dubbed "Milk Sad", was first discovered by cybersecurity team Distrust. This Bitcoin-threatening vulnerability allows attackers to gain access to the private keys of a crypto wallet using the Mersenne Twister pseudo-random number generator (PRNG), which leads to disastrous consequences. In our last article, we clearly showed an example of such an attack on Bitcoin Wallets. Let's look at two examples with a total loss: 40886.76 USD // BITCOIN: 1.17536256 BTC and a second example with a total loss: 19886.91 USD // BITCOIN: 0.58051256 BTC
+
+
+* Tutorial: https://youtu.be/YMdb7_iboaA
+* Tutorial: https://cryptodeeptech.ru/milk-sad-vulnerability-in-libbitcoin-explorer
+
+---
+
 
 
 
