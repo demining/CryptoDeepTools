@@ -255,6 +255,16 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [26BitcoinLightningWalletVulnerability](https://github.com/demining/CryptoDeepTools/tree/main/26BitcoinLightningWalletVulnerability)
+
+
+* In this repository, we will focus on the popular Bitcoin Wallet application for iOS and Android smartphones with support for fast payments through the Lightning network BLW: Bitcoin Lightning Wallet. Unfortunately, many autonomous nodes of the open source mobile application from LNbits Node Manager and Core Lightning are exposed to a HIGH RISK of losing all funds in various cryptocurrency coins. Developer David Shares from the Japanese company Bitcoin Portal published a chronological list that shows that the Lightning Network is drowning in technical problems, bugs, shortcomings, criticisms and exploits. It is an over-promised technology that does not provide decentralization and is still far from being functional and secure for users.
+
+* Tutorial: https://youtu.be/ZpflbzENAAw
+* Tutorial: https://cryptodeeptech.ru/bitcoin-lightning-wallet-vulnerability
+
+---
+
 
 
 
