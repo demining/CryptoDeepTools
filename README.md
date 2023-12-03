@@ -265,6 +265,16 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [27PaddingOracleAttackonWalletdat](https://github.com/demining/CryptoDeepTools/tree/main/27PaddingOracleAttackonWalletdat)
+
+
+* Padding Oracle Attack This method is a side-channel attack on the Bitcoin Core cryptosystem that uses leaked data from a poorly implemented decryption routine to completely undermine the cryptosystem. An attacker can effectively decrypt the data in the wallet.dat file without knowing the decryption key if the target system leaks whether a padding error occurred when decrypting the ciphertext. Let's look at an example with a total loss: 44502.42 US dollars // BITCOIN: 1.17461256 BTC
+
+* Tutorial: https://youtu.be/0aCfT-kCRlw
+* Tutorial: https://cryptodeeptech.ru/padding-oracle-attack-on-wallet-dat
+
+---
+
 
 
 
