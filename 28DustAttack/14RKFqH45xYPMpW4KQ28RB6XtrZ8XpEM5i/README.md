@@ -28,3 +28,9 @@
 [txid:f0cd99907086e85ca27a1736da8ad8b29b73d91a744c890104ad848ec0fa09c7](https://btc1.trezor.io/tx/f0cd99907086e85ca27a1736da8ad8b29b73d91a744c890104ad848ec0fa09c7)
 [txid:f6f04dba381bb336ffef6cfddde3cd0845c189858327b0fbec4a8e62096606d6](https://btc1.trezor.io/tx/f6f04dba381bb336ffef6cfddde3cd0845c189858327b0fbec4a8e62096606d6)
 [txid:fc28e37f644f21d1394efb70c04c2ed8dd75192b683d00bd1fe8b5484c92ea62](https://btc1.trezor.io/tx/fc28e37f644f21d1394efb70c04c2ed8dd75192b683d00bd1fe8b5484c92ea62)
+
+---
+
+# print(tx.serialize().hex()[+10:+74])
+
+---
