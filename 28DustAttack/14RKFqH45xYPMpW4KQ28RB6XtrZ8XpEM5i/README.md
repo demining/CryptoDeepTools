@@ -34,6 +34,10 @@
 # print(tx.serialize().hex()[+10:+74])
 
 ---
+
+<figure class="wp-block-image"><img decoding="async" src="https://cryptodeep.ru/doc/gif/dustattack/006txidgithub.gif" alt="Dust Attack Bitcoin Wallet: 14RKFqH45xYPMpW4KQ28RB6XtrZ8XpEM5i"></figure>
+
+---
 <pre class="wp-block-code"><code>
 9a1a4c0cb7c1e29fc61e7a7029dffb57061c656f3edc2451c9d14fd3e9b56605
 d152df6a26945ff8b4e27a62ead93427f9837611582b00c1ae89cbde91c14f0f
