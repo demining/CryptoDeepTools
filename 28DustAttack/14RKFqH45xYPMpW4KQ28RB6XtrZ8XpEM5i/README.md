@@ -67,3 +67,39 @@ c709fac08e84ad0401894c741ad9739bb2d88ada36177aa25ce886709099cdf0
 d6066609628e4aecfbb027838589c14508cde3ddfd6cefff36b31b38ba4df0f6
 62ea924c48b5e81fbd003d682b1975ddd82e4cc070fb4e39d1214f647fe328fc
 </code></pre>
+
+---
+
+# Public Key:
+
+---
+
+<pre class="wp-block-code"><code>
+04b50661bcd87cda50d252a2f30eaddbde1407ccce82b4b26b56e7fbb639a81ee31b9d4de4f9342e6dc218b37f433aa54a4afea0bf82bdb1a26155afe68dc4ea8c
+</code></pre>
+
+---
+
+# Bitcoin address that suffered from a Dust Attack:
+
+---
+
+<pre class="wp-block-code"><code>
+14RKFqH45xYPMpW4KQ28RB6XtrZ8XpEM5i
+</code></pre>
+
+---
+
+# Bitcoin address to receive All Profits:
+
+---
+
+<pre class="wp-block-code"><code>
+36ZfWyL5NGvC2u54QENyUgDzTgNyHe1xpE
+</code></pre>
+
+---
+
+# print(Tx.get_address_data(send_dust)['script_pubkey'])
+
+---
