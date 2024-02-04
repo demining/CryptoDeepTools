@@ -275,6 +275,16 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [28DustAttack](https://github.com/demining/CryptoDeepTools/tree/main/28DustAttack)
+
+
+* "Dust Attack" known as: "Dusting Attack" or "Crypto Dust". Perhaps every cryptocurrency user or holder of a large amount of BTC, ETH coins replaced the receipt of an insignificantly small amount of coins in satoshi on their cryptocurrency wallet, this receipt is disguised as “Donate”, but in fact it is a whole mathematically refined system for taking away all the accumulated coins of the wallet for balance. Let's look at two different examples of dust attacks to shed light on all the intricacies of this manipulation and what risks can await users and holders of the popular cryptocurrency Bitcoin. To carry out a dust attack, confirmation of isomorphism by miners plays an important role, because From 2022 to 2024, many cryptocurrency services and hardware wallets are actively fighting the dust attack. At the moment, the method of independently creating dust transactions on your own cold wallet has become widely popular. Let's transform the dust transaction into isomorphism, according to the theory, two transactions must be confirmed by miners. Having created the RawTX of the dust attack, we send a small amount of 555 satoshi, then we receive an isomorphism of the first transaction, where a reverse transfer of funds occurs from the balance of the victim of the dust attack.
+
+* Tutorial: https://cryptodeeptech.ru/dustattack
+* Tutorial: https://dzen.ru/video/watch/65be9256df804947fbd96fd7
+
+---
+
 
 
 
