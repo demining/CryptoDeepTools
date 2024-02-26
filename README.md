@@ -293,7 +293,7 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 * Tutorial: https://cryptodeeptech.ru/bitcoin-utilities
 * Tutorial: https://dzen.ru/video/watch/65be9256df804947fbd96fd7
-* Tutorial: https://rutube.ru/video/23d09792ab3d180f526dd55314a14cd7
+* Tutorial: https://colab.research.google.com/drive/17R_qWLkpz2HJsASCRXG-Brcs-Nhv9xxR
 
 ---
 
