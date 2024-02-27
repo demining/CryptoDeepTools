@@ -292,7 +292,7 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 * Bitcoin utilities are numerous and varied. Its decentralized nature and lack of intermediaries make it a powerful tool for a variety of use cases. As the technology continues to evolve and mature, we can expect to see even more innovative applications of Bitcoin in the future.
 
 * Tutorial: https://cryptodeeptech.ru/bitcoin-utilities
-* Tutorial: https://dzen.ru/video/watch/65be9256df804947fbd96fd7
+* Tutorial: https://dzen.ru/video/watch/65de483b3474ef16c0430f35
 * Tutorial: https://colab.research.google.com/drive/17R_qWLkpz2HJsASCRXG-Brcs-Nhv9xxR
 
 ---
