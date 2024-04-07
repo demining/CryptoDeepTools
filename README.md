@@ -297,6 +297,17 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [30GaussJacobiMethod](https://github.com/demining/CryptoDeepTools/tree/main/30GaussJacobiMethod)
+
+
+* Application of the Gauss-Jacobi method for a cryptographic task - decrypting the password of the wallet.dat file for a Bitcoin wallet. The modification of the algorithm emphasizes its mathematical basis, explaining the process, how this method can be adapted to work with cryptographic tasks, in particular, with decrypting the password of a cryptocurrency wallet.
+
+* Tutorial: https://cryptodeeptech.ru/gauss-jacobi-method
+* Tutorial: https://dzen.ru/video/watch/66119078be267c07401d9e4c
+* Tutorial: [https://colab.research.google.com/drive/1I8vNdD2l2wdLiszoDBBkDjhepXjnWGR_](https://colab.research.google.com/drive/1I8vNdD2l2wdLiszoDBBkDjhepXjnWGR_)
+
+---
+
 
 
 
