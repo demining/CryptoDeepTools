@@ -308,6 +308,17 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [31BlockchainAPI](https://github.com/demining/CryptoDeepTools/tree/main/31BlockchainAPI)
+
+
+* The scientific article explores the possibilities of integrating blockchain technologies with web services and APIs. Discusses the benefits of using blockchain APIs to improve the security, transparency and efficiency of web applications. Examples of successful blockchain projects are given and prospects for the development of this area are discussed.
+
+* Tutorial: https://cryptodeeptech.ru/blockchain-api-and-web-services
+* Tutorial: https://dzen.ru/video/watch/6617ad848b9fc93b9ba699c7
+* Tutorial: [https://colab.research.google.com/drive/19Phx62sS0XpLGtzjFFLIqkvjfTGtq2db](hhttps://colab.research.google.com/drive/19Phx62sS0XpLGtzjFFLIqkvjfTGtq2db)
+
+---
+
 
 
 
