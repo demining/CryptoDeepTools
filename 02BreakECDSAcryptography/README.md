@@ -24,13 +24,13 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
     
     cd CryptoDeepTools/02BreakECDSAcryptography/
     
-    sudo apt install python2-minimal
+    sudo apt install python3
     
-    wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+    wget https://bootstrap.pypa.io/pipx
     
-    sudo python2 get-pip.py
+    sudo python3 install pipx
     
-    pip2 install -r requirements.txt
+    pipx install -r requirements.txt
 
     chmod +x getsign.sh
     
