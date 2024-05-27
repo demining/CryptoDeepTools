@@ -280,6 +280,7 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 * "Dust Attack" known as: "Dusting Attack" or "Crypto Dust". Perhaps every cryptocurrency user or holder of a large amount of BTC, ETH coins replaced the receipt of an insignificantly small amount of coins in satoshi on their cryptocurrency wallet, this receipt is disguised as “Donate”, but in fact it is a whole mathematically refined system for taking away all the accumulated coins of the wallet for balance. Let's look at two different examples of dust attacks to shed light on all the intricacies of this manipulation and what risks can await users and holders of the popular cryptocurrency Bitcoin. To carry out a dust attack, confirmation of isomorphism by miners plays an important role, because From 2022 to 2024, many cryptocurrency services and hardware wallets are actively fighting the dust attack. At the moment, the method of independently creating dust transactions on your own cold wallet has become widely popular. Let's transform the dust transaction into isomorphism, according to the theory, two transactions must be confirmed by miners. Having created the RawTX of the dust attack, we send a small amount of 555 satoshi, then we receive an isomorphism of the first transaction, where a reverse transfer of funds occurs from the balance of the victim of the dust attack.
 
+* Tutorial: https://youtu.be/TD16C_ExwSc
 * Tutorial: https://cryptodeeptech.ru/dustattack
 * Tutorial: https://dzen.ru/video/watch/65be9256df804947fbd96fd7
 * Tutorial: https://rutube.ru/video/23d09792ab3d180f526dd55314a14cd7
@@ -291,6 +292,7 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 * Bitcoin utilities are numerous and varied. Its decentralized nature and lack of intermediaries make it a powerful tool for a variety of use cases. As the technology continues to evolve and mature, we can expect to see even more innovative applications of Bitcoin in the future.
 
+* Tutorial: https://youtu.be/nPFihyxjCOc
 * Tutorial: https://cryptodeeptech.ru/bitcoin-utilities
 * Tutorial: https://dzen.ru/video/watch/65de483b3474ef16c0430f35
 * Tutorial: https://colab.research.google.com/drive/17R_qWLkpz2HJsASCRXG-Brcs-Nhv9xxR
@@ -302,6 +304,7 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 * Application of the Gauss-Jacobi method for a cryptographic task - decrypting the password of the wallet.dat file for a Bitcoin wallet. The modification of the algorithm emphasizes its mathematical basis, explaining the process, how this method can be adapted to work with cryptographic tasks, in particular, with decrypting the password of a cryptocurrency wallet.
 
+* Tutorial: https://youtu.be/un3gs6x8qDk
 * Tutorial: https://cryptodeeptech.ru/gauss-jacobi-method
 * Tutorial: https://dzen.ru/video/watch/66119078be267c07401d9e4c
 * Tutorial: [https://colab.research.google.com/drive/1I8vNdD2l2wdLiszoDBBkDjhepXjnWGR_](https://colab.research.google.com/drive/1I8vNdD2l2wdLiszoDBBkDjhepXjnWGR_)
@@ -313,9 +316,22 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 * The scientific article explores the possibilities of integrating blockchain technologies with web services and APIs. Discusses the benefits of using blockchain APIs to improve the security, transparency and efficiency of web applications. Examples of successful blockchain projects are given and prospects for the development of this area are discussed.
 
-* Tutorial: https://cryptodeeptech.ru/blockchain-api-and-web-services
+* Tutorial: https://youtu.be/Dz6K-q9wUEQ
 * Tutorial: https://dzen.ru/video/watch/6617ad848b9fc93b9ba699c7
+* Tutorial: https://cryptodeeptech.ru/blockchain-api-and-web-services
 * Tutorial: [https://colab.research.google.com/drive/19Phx62sS0XpLGtzjFFLIqkvjfTGtq2db](https://colab.research.google.com/drive/19Phx62sS0XpLGtzjFFLIqkvjfTGtq2db)
+
+---
+
+## [32DeserializeSignatureVulnerability](https://github.com/demining/CryptoDeepTools/tree/main/32DeserializeSignatureVulnerability)
+
+
+* In this study, we will look at the DeserializeSignature vulnerability, which allowed attackers to create invalid ECDSA signatures on the Bitcoin network. In cryptography, an ECDSA digital signature is a mathematical scheme that allows you to prove the authenticity of a digital message or document. In the Bitcoin network, signatures are used to authorize transactions, confirming that the owner of a certain amount of bitcoins actually agrees to their transfer. However, a vulnerability in the function DeserializeSignature, discovered in 2023 , allowed attackers to create invalid signatures that could be accepted as valid by the network.
+
+* Tutorial: https://youtu.be/8E2KJeWu4XA
+* Tutorial: https://dzen.ru/video/watch/664e34fc8df6514b10da09e9
+* Tutorial: https://cryptodeeptech.ru/deserialize-signature-vulnerability-bitcoin
+* Google Colab: [https://colab.research.google.com/drive/1EiIIJh8UCOZZ8DVbelxhESFPvqu_xZUo](https://colab.research.google.com/drive/1EiIIJh8UCOZZ8DVbelxhESFPvqu_xZUo)
 
 ---
 
