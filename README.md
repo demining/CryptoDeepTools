@@ -335,6 +335,17 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [33FuzzingBitcoin](https://github.com/demining/CryptoDeepTools/tree/main/33FuzzingBitcoin)
+
+
+* Fuzzing is a software testing method used to identify vulnerabilities and errors by introducing random or specially generated data into a program's input. In the context of cryptanalysis, Fuzzing testing is used to test cryptographic algorithms and systems for weaknesses that can be exploited by attackers. Applying Fuzzing testing to cryptocurrency wallets has several benefits: Detecting vulnerabilities and Improving reliability. Incorrect data processing in cryptographic operations can lead to private key leaks or other critical vulnerabilities, as well as errors in transaction processing: Fuzzing can reveal errors in transaction processing logic that can lead to incorrect transactions or even loss of funds. At the beginning of 2024, modern technologies that develop the pre-trained Bitcoin ChatGPT model and find effective ways to solve complex cryptographic problems that underlie the fuzzing testing method gained widespread popularity. Let's consider an example of building the structure of a vulnerable Raw transaction that uses the BitcoinChatGPT module.
+
+* Tutorial: https://youtu.be/CU4CFoxgKc8
+* Tutorial: https://cryptodeeptech.ru/fuzzing-bitcoin
+* Tutorial: https://dzen.ru/video/watch/665f6986a2886608ad194e31
+* Google Colab: https://colab.research.google.com/drive/1jxw_oBTd0HW6M2Mo_VDvdYcsXQyb6KHF
+
+---
 
 
 
