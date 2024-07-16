@@ -347,6 +347,18 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [34Vector76Attack](https://github.com/demining/CryptoDeepTools/tree/main/34Vector76Attack)
+
+
+* In this article we will look at an example using real data, what are software that use the Vector76 Attack mechanism, how they work and what impact they have on the Bitcoin cryptocurrency. Vector76 Attack is a type of double-spending attack in which an attacker attempts to conduct the same transaction twice. Unlike the classic double-spend attack, Vector76 exploits vulnerabilities in transaction confirmation mechanisms and time delays in the propagation of blocks across the Bitcoin network.
+
+* Tutorial: https://youtu.be/Mk_BPBCXd3I
+* Tutorial: https://cryptodeeptech.ru/vector76-attack
+* Tutorial: https://dzen.ru/video/watch/669558eb4bbd297f7d375e06
+* Google Colab: https://colab.research.google.com/drive/1VoEMueKTxGedLfi1PprkuGYMPL5tZBQK
+
+---
+
 
 
 |  | Donation Address |
