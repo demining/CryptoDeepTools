@@ -4,4 +4,4 @@ sort -u pubkeyall.json > pubkey.json
 rm pubkeyall.json
 sed -i 's/PUBKEY = //g' pubkey.json
 python3 pubtoaddr.py
-python2 bitcoin-checker.py
+python3 bitcoin-checker.py
