@@ -356,7 +356,7 @@ https://www.youtube.com/watch?v=sVXZQrjtXNs
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>To move on to the practical part, let’s create a vulnerable Raw</strong>&nbsp;transaction from the received data&nbsp;using the&nbsp;<strong><a href="https://github.com/smartiden/Broadcast-Bitcoin-Transaction">Broadcast Bitcoin Transaction repository</a></strong></p>
+<p><strong>To move on to the practical part, let’s create a vulnerable Raw</strong>&nbsp;transaction from the received data&nbsp;using the&nbsp;<strong><a href="https://github.com/smartibase/Broadcast-Bitcoin-Transaction">Broadcast Bitcoin Transaction repository</a></strong></p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
@@ -367,7 +367,7 @@ https://www.youtube.com/watch?v=sVXZQrjtXNs
 <!-- /wp:quote -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code><strong>git clone https://github.com/smartiden/Broadcast-Bitcoin-Transaction.git
+<pre class="wp-block-code"><code><strong>git clone https://github.com/smartibase/Broadcast-Bitcoin-Transaction.git
 </strong></code></pre>
 <!-- /wp:code -->
 
@@ -404,7 +404,7 @@ https://www.youtube.com/watch?v=sVXZQrjtXNs
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><a href="https://github.com/smartiden/Broadcast-Bitcoin-Transaction/blob/main/requirements.txt"><strong>requirements.txt</strong></a></p>
+<p><a href="https://github.com/smartibase/Broadcast-Bitcoin-Transaction/blob/main/requirements.txt"><strong>requirements.txt</strong></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -426,7 +426,7 @@ https://www.youtube.com/watch?v=sVXZQrjtXNs
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p>Let’s open the main file in&nbsp;<a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">Notepad&nbsp;</a><a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">++</a>&nbsp;and make small changes to the Python Script code:&nbsp;<strong><a href="https://github.com/smartiden/Broadcast-Bitcoin-Transaction/blob/main/main.py">main.py</a></strong></p>
+<p>Let’s open the main file in&nbsp;<a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">Notepad&nbsp;</a><a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">++</a>&nbsp;and make small changes to the Python Script code:&nbsp;<strong><a href="https://github.com/smartibase/Broadcast-Bitcoin-Transaction/blob/main/main.py">main.py</a></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -526,7 +526,7 @@ https://www.youtube.com/watch?v=ZEjavcCGJKk
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="https://github.com/smartiden/Smart-Transformers">Smart Transformers</a></h2>
+<h2 class="wp-block-heading"><a href="https://github.com/smartibase/Smart-Transformers">Smart Transformers</a></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -534,7 +534,7 @@ https://www.youtube.com/watch?v=ZEjavcCGJKk
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Let’s apply machine learning&nbsp;<a href="https://github.com/smartiden/Smart-Transformers">Smart Transformers</a>&nbsp;, integrate the notebook&nbsp;<code>Google Colab</code>with&nbsp;<a href="https://keyhunters.ru/pytorch-tensorflow-and-jax-powerful-tools-for-deep-learning/"><strong>Pytorch, TensorFlow, JAX</strong></a>&nbsp;and using the received data from a vulnerable&nbsp;<strong>Raw</strong>&nbsp;transaction for Bitcoin Addresses:&nbsp;<a href="https://live.blockcypher.com/btc/address/1GjjGLYR7UhtM1n6z7QDpQskBicgmsHW9k/">1GjjGLYR7UhtM1n6z7QDpQskBicgmsHW9k</a>&nbsp;we will create an unprotected file&nbsp;<strong>wallet.dat</strong>&nbsp;from the proposed selection of all existing algorithms from&nbsp;<a href="https://github.com/smartiden/Smart-Transformers">SMART_IDENTIFY</a>&nbsp;. Then we will perform&nbsp;<a href="https://cryptodeeptech.ru/padding-oracle-attack-on-wallet-dat/"><strong>a Padding Oracle Attack</strong></a>&nbsp;on the newly created file:&nbsp;<strong>wallet.dat</strong>&nbsp;to decrypt the password into the original binary format in order to obtain and extract the private key from the&nbsp;<strong>Bitcoin Core</strong>&nbsp;software console using the standard command:<strong><code>dumpprivkey 1GjjGLYR7UhtM1n6z7QDpQskBicgmsHW9k</code></strong></p>
+<p>Let’s apply machine learning&nbsp;<a href="https://github.com/smartibase/Smart-Transformers">Smart Transformers</a>&nbsp;, integrate the notebook&nbsp;<code>Google Colab</code>with&nbsp;<a href="https://keyhunters.ru/pytorch-tensorflow-and-jax-powerful-tools-for-deep-learning/"><strong>Pytorch, TensorFlow, JAX</strong></a>&nbsp;and using the received data from a vulnerable&nbsp;<strong>Raw</strong>&nbsp;transaction for Bitcoin Addresses:&nbsp;<a href="https://live.blockcypher.com/btc/address/1GjjGLYR7UhtM1n6z7QDpQskBicgmsHW9k/">1GjjGLYR7UhtM1n6z7QDpQskBicgmsHW9k</a>&nbsp;we will create an unprotected file&nbsp;<strong>wallet.dat</strong>&nbsp;from the proposed selection of all existing algorithms from&nbsp;<a href="https://github.com/smartibase/Smart-Transformers">SMART_IDENTIFY</a>&nbsp;. Then we will perform&nbsp;<a href="https://cryptodeeptech.ru/padding-oracle-attack-on-wallet-dat/"><strong>a Padding Oracle Attack</strong></a>&nbsp;on the newly created file:&nbsp;<strong>wallet.dat</strong>&nbsp;to decrypt the password into the original binary format in order to obtain and extract the private key from the&nbsp;<strong>Bitcoin Core</strong>&nbsp;software console using the standard command:<strong><code>dumpprivkey 1GjjGLYR7UhtM1n6z7QDpQskBicgmsHW9k</code></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -553,12 +553,12 @@ https://www.youtube.com/watch?v=ZEjavcCGJKk
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>Clone the&nbsp;<a href="https://github.com/smartiden/Smart-Transformers">Smart Transformers repository</a></p>
+<p>Clone the&nbsp;<a href="https://github.com/smartibase/Smart-Transformers">Smart Transformers repository</a></p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code><strong>!git clone https://github.com/smartiden/Smart-Transformers.git</strong></code></pre>
+<pre class="wp-block-code"><code><strong>!git clone https://github.com/smartibase/Smart-Transformers.git</strong></code></pre>
 <!-- /wp:code -->
 
 <!-- wp:code -->
@@ -583,6 +583,7 @@ https://www.youtube.com/watch?v=ZEjavcCGJKk
 <pre class="wp-block-code"><code><strong>!sudo apt-get update
 !sudo apt install libtool
 !sudo apt-get install g++
+!python setup.py --help
 !sudo apt-get install libgmp3-dev libmpfr-dev
 !chmod +x Generic_Algorithms
 !./Generic_Algorithms
