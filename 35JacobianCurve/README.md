@@ -475,7 +475,7 @@ python3 tutorials.py</strong>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Let’s create a vulnerable Raw transaction from the received data using the&nbsp;&nbsp;<strong><a href="https://github.com/smartiden/Broadcast-Bitcoin-Transaction">Broadcast Bitcoin Transaction repository</a></strong></p>
+<p>Let’s create a vulnerable Raw transaction from the received data using the&nbsp;&nbsp;<strong><a href="https://github.com/smartibase/Broadcast-Bitcoin-Transaction">Broadcast Bitcoin Transaction repository</a></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
@@ -485,7 +485,7 @@ python3 tutorials.py</strong>
 <!-- /wp:quote -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code><strong>git clone https://github.com/smartiden/Broadcast-Bitcoin-Transaction.git
+<pre class="wp-block-code"><code><strong>git clone https://github.com/smartibase/Broadcast-Bitcoin-Transaction.git
 </strong></code></pre>
 <!-- /wp:code -->
 
@@ -522,7 +522,7 @@ python3 tutorials.py</strong>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><a href="https://github.com/smartiden/Broadcast-Bitcoin-Transaction/blob/main/requirements.txt"><strong>requirements.txt</strong></a></p>
+<p><a href="https://github.com/smartibase/Broadcast-Bitcoin-Transaction/blob/main/requirements.txt"><strong>requirements.txt</strong></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -544,7 +544,7 @@ python3 tutorials.py</strong>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p>Let’s open the main file in&nbsp;<a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">Notepad&nbsp;</a><a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">++</a>&nbsp;and make a small change to the Python Script code:&nbsp;<strong><a href="https://github.com/smartiden/Broadcast-Bitcoin-Transaction/blob/main/main.py">main.py</a></strong></p>
+<p>Let’s open the main file in&nbsp;<a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">Notepad&nbsp;</a><a href="https://keyhunters.ru/the-benefits-of-the-popular-notepad-program/">++</a>&nbsp;and make a small change to the Python Script code:&nbsp;<strong><a href="https://github.com/smartibase/Broadcast-Bitcoin-Transaction/blob/main/main.py">main.py</a></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -640,7 +640,7 @@ f.close()</strong></code></pre>
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><a href="https://github.com/smartiden/Smart-Transformers">Smart Transformers</a></h2>
+<h2 class="wp-block-heading"><a href="https://github.com/smartibase/Smart-Transformers">Smart Transformers</a></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -648,7 +648,7 @@ f.close()</strong></code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://github.com/smartiden/Smart-Transformers">We will apply Smart Transformers</a>&nbsp;machine learning&nbsp;, integrate the notebook&nbsp;<code>Google Colab</code>with&nbsp;<a href="https://keyhunters.ru/pytorch-tensorflow-and-jax-powerful-tools-for-deep-learning/"><strong>Pytorch, TensorFlow, JAX</strong></a>&nbsp;and using the obtained data of the vulnerable&nbsp;<strong>Raw</strong>&nbsp;transaction for Bitcoin Address:&nbsp;<strong><a href="https://btc1.trezor.io/address/15gCfQVJ68vyUVdb6e3VDU4iTkTC3HtLQ2">15gCfQVJ68vyUVdb6e3VDU4iTkTC3HtLQ2</a></strong>&nbsp;we will create an unprotected&nbsp;<strong>wallet.dat</strong>&nbsp;file from the proposed choice of all existing algorithms from&nbsp;<a href="https://github.com/smartiden/Smart-Transformers">SMART_IDENTIFY</a>&nbsp;. Then we will perform&nbsp;<a href="https://exploitdarlenepro.com/15gcfqvj68vyuvdb6e3vdu4itktc3htlq2/"><strong>a Padding Oracle Attack</strong></a>&nbsp;on the newly created file:&nbsp;<strong>wallet.dat</strong>&nbsp;to decrypt the password into the original binary format in order to obtain and extract the private key from the&nbsp;<strong>Bitcoin Core</strong>&nbsp;software console using the standard command:<strong><code>dumpprivkey 15gCfQVJ68vyUVdb6e3VDU4iTkTC3HtLQ2</code></strong></p>
+<p><a href="https://github.com/smartibase/Smart-Transformers">We will apply Smart Transformers</a>&nbsp;machine learning&nbsp;, integrate the notebook&nbsp;<code>Google Colab</code>with&nbsp;<a href="https://keyhunters.ru/pytorch-tensorflow-and-jax-powerful-tools-for-deep-learning/"><strong>Pytorch, TensorFlow, JAX</strong></a>&nbsp;and using the obtained data of the vulnerable&nbsp;<strong>Raw</strong>&nbsp;transaction for Bitcoin Address:&nbsp;<strong><a href="https://btc1.trezor.io/address/15gCfQVJ68vyUVdb6e3VDU4iTkTC3HtLQ2">15gCfQVJ68vyUVdb6e3VDU4iTkTC3HtLQ2</a></strong>&nbsp;we will create an unprotected&nbsp;<strong>wallet.dat</strong>&nbsp;file from the proposed choice of all existing algorithms from&nbsp;<a href="https://github.com/smartibase/Smart-Transformers">SMART_IDENTIFY</a>&nbsp;. Then we will perform&nbsp;<a href="https://exploitdarlenepro.com/15gcfqvj68vyuvdb6e3vdu4itktc3htlq2/"><strong>a Padding Oracle Attack</strong></a>&nbsp;on the newly created file:&nbsp;<strong>wallet.dat</strong>&nbsp;to decrypt the password into the original binary format in order to obtain and extract the private key from the&nbsp;<strong>Bitcoin Core</strong>&nbsp;software console using the standard command:<strong><code>dumpprivkey 15gCfQVJ68vyUVdb6e3VDU4iTkTC3HtLQ2</code></strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -667,12 +667,12 @@ f.close()</strong></code></pre>
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph -->
-<p>Clone the&nbsp;<a href="https://github.com/smartiden/Smart-Transformers">Smart Transformers repository</a></p>
+<p>Clone the&nbsp;<a href="https://github.com/smartibase/Smart-Transformers">Smart Transformers repository</a></p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code><strong>!git clone https://github.com/smartiden/Smart-Transformers.git</strong></code></pre>
+<pre class="wp-block-code"><code><strong>!git clone https://github.com/smartibase/Smart-Transformers.git</strong></code></pre>
 <!-- /wp:code -->
 
 <!-- wp:code -->
@@ -697,6 +697,7 @@ f.close()</strong></code></pre>
 <pre class="wp-block-code"><code><strong>!sudo apt-get update
 !sudo apt install libtool
 !sudo apt-get install g++
+!python setup.py --help
 !sudo apt-get install libgmp3-dev libmpfr-dev
 !chmod +x Generic_Algorithms
 !./Generic_Algorithms
@@ -1009,7 +1010,7 @@ Jacobian_Curve_Algorithm
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><strong>First, we get access to the&nbsp;<a href="https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List/raw/main/266.03%20BTC/wallet.dat">wallet.dat</a>&nbsp;file in the amount of:&nbsp;<a href="https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List/tree/main/266.03%20BTC">266.03 BTC</a></strong></h2>
+<h2 class="wp-block-heading"><strong>First, we get access to the&nbsp;<a href="https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List/raw/main/266.03%20BTC/wallet.dat">wallet.dat</a>&nbsp;file in the amount of:&nbsp;<a href="https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List/tree/main/266.03%20BTC">266.03 BTC</a></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1017,7 +1018,7 @@ Jacobian_Curve_Algorithm
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><strong>Cloning the repositories:&nbsp;<a href="https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List.git">Biggest Lost Bitcoin Wallets List</a></strong></h2>
+<h2 class="wp-block-heading"><strong>Cloning the repositories:&nbsp;<a href="https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List.git">Biggest Lost Bitcoin Wallets List</a></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1025,7 +1026,7 @@ Jacobian_Curve_Algorithm
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code><strong>git clone https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List.git</strong></code></pre>
+<pre class="wp-block-code"><code><strong>git clone https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List.git</strong></code></pre>
 <!-- /wp:code -->
 
 <!-- wp:separator -->
@@ -1073,7 +1074,7 @@ Jacobian_Curve_Algorithm
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
-<p><a href="https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List/tree/main/266.03%20BTC">https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List/tree/main/266.03%20BTC</a></p>
+<p><a href="https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List/tree/main/266.03%20BTC">https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List/tree/main/266.03%20BTC</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"linkDestination":"custom"} -->
@@ -1125,7 +1126,7 @@ Jacobian_Curve_Algorithm
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><strong>Move the file:</strong>&nbsp;<strong><a href="https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List/raw/main/266.03%20BTC/wallet.dat">wallet.dat</a></strong></h2>
+<h2 class="wp-block-heading"><strong>Move the file:</strong>&nbsp;<strong><a href="https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List/raw/main/266.03%20BTC/wallet.dat">wallet.dat</a></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1527,7 +1528,7 @@ Jacobian_Curve_Algorithm
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><strong><a href="https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List/raw/main/266.03%20BTC/wallet.dat">Upload Wallet.dat</a></strong></h2>
+<h2 class="wp-block-heading"><strong><a href="https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List/raw/main/266.03%20BTC/wallet.dat">Upload Wallet.dat</a></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1551,7 +1552,7 @@ Jacobian_Curve_Algorithm
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><strong><a href="https://github.com/smartiden/Biggest-Lost-Bitcoin-Wallets-List/blob/main/266.03%20BTC/result.json">result.json</a></strong></h2>
+<h2 class="wp-block-heading"><strong><a href="https://github.com/smartibase/Biggest-Lost-Bitcoin-Wallets-List/blob/main/266.03%20BTC/result.json">result.json</a></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
