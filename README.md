@@ -378,7 +378,7 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 * Tutorial: https://youtu.be/wf6QwCpP3oc
 * Tutorial: https://cryptodeeptech.ru/signature-malleability
-* Tutorial: https://dzen.ru/video/watch/669558eb4bbd297f7d375e06
+* Tutorial: https://dzen.ru/video/watch/674116440bddfa35d730ca7a
 * Google Colab: https://colab.research.google.com/drive/1HMmeEQDL4kRKfJNQptTf3Mz4VTZmka8h
 
 ---
