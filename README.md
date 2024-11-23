@@ -359,6 +359,29 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [35JacobianCurve](https://github.com/demining/CryptoDeepTools/tree/main/35JacobianCurve)
+
+
+* Vulnerability of the Jacobian Curve algorithm allows manipulation of the curve coordinates if the input data of users is not properly verified, this can lead to serious failures in the Bitcoin system, where an attacker can take advantage of the moment and inject their own code and ultimately manipulate the system by creating fake signatures in Bitcoin transactions. As we have learned, attackers can use the vulnerability to carry out DoS attacks, overloading the network with invalid transactions, which destabilizes the Bitcoin network. In this article, we will consider an example using a Bitcoin wallet: 15gCfQVJ68vyUVdb6e3VDU4iTkTC3HtLQ2 , where there were lost coins in the amount of: 266.03138481 BTC as of August 2024, this amount is: 15747770.36 USD
+
+* Tutorial: https://youtu.be/qf6u85wGwNw
+* Tutorial: https://cryptodeeptech.ru/jacobian-curve-algorithm-vulnerability
+* Tutorial: https://dzen.ru/video/watch/66caadc6523ee35df3f58b89
+* Google Colab: https://colab.research.google.com/drive/1E3ZZpzPXcqbK3ngZbxRVk5McI4L8K5h3
+
+---
+
+## [36SignatureMalleability](https://github.com/demining/CryptoDeepTools/tree/main/36SignatureMalleability)
+
+
+* In this article, we conducted a large study of the Signature Malleability vulnerability that threatens the security of popular cryptocurrencies such as Bitcoin and Ethereum. We also considered a real example of the mechanisms for exploiting CVE-2024-42461 in the Elliptic library for ECDSA, using the Bitcoin wallet 1LeEbwu667oPtQC5dKiGiysUjFM3mQaxpw, which lost coins worth 21.2529214 BTC, which is 1,744,572.51 USD as of November 2024
+
+* Tutorial: https://youtu.be/wf6QwCpP3oc
+* Tutorial: https://cryptodeeptech.ru/signature-malleability
+* Tutorial: https://dzen.ru/video/watch/669558eb4bbd297f7d375e06
+* Google Colab: https://colab.research.google.com/drive/1HMmeEQDL4kRKfJNQptTf3Mz4VTZmka8h
+
+---
 
 
 |  | Donation Address |
