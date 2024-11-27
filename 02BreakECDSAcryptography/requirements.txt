@@ -2,3 +2,4 @@ bitcoin
 ecdsa
 utils
 base58
+pycryptodome
