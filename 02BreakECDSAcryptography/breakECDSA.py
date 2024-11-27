@@ -1,28 +1,37 @@
 import sys
 import bitcoin
-import hashlib
+from Crypto.Hash import SHA256
 import txnUtils
 import keyUtils
 
-#tx = ""
+# tx = ""
 tx = "" + sys.argv[1]
 
+# Parse the transaction
 m = txnUtils.parseTxn(tx)
 e = txnUtils.getSignableTxn(m)
-z = hashlib.sha256(hashlib.sha256(e.decode('hex')).digest()).digest()
-z1 = z[::-1].encode('hex_codec')
-z = z.encode('hex_codec')
+
+# Calculate the double SHA-256 hash
+hash1 = SHA256.new(e).digest()
+hash2 = SHA256.new(hash1).digest()
+
+# Convert to hex and reverse for signature processing
+z1 = hash2[::-1].hex()
+z = hash2.hex()
+
+# Get the signature and public key
 s = keyUtils.derSigToHexSig(m[1][:-2])
-pub =  m[2]
+pub = m[2]
 sigR = s[:64]
 sigS = s[-64:]
 sigZ = z
 
-print ("R = 0x" + sigR + "")
-print ("S = 0x" + sigS + "")
-print ("Z = 0x" + sigZ + "")
-print ("")
-print ("PUBKEY = " + pub + "")
-print ("")
-print ("======================================================================")
-print ("")
+# Print results
+print("R = 0x" + sigR)
+print("S = 0x" + sigS)
+print("Z = 0x" + sigZ)
+print("")
+print("PUBKEY = " + pub)
+print("")
+print("======================================================================")
+print("")
