@@ -10,6 +10,15 @@
 <p>In this article, we will explore methods for solving the discrete logarithm problem and ways to recover lost Bitcoin wallets, focusing on the Ricci Flow algorithm and the Hidden Number Problem for extracting private keys from vulnerable transactions using ECDSA. We will also discuss how modern cryptocurrencies such as Bitcoin and Ethereum rely on complex mathematical foundations that provide security and anonymity, but are susceptible to exploitation due to various vulnerabilities.</p>
 <!-- /wp:paragraph -->
 
+---
+
+* Tutorial: https://youtu.be/i9KYih_ffr8
+* Tutorial: https://cryptodeeptech.ru/discrete-logarithm
+* Tutorial: https://dzen.ru/video/watch/6784be61b09e46422395c236
+* Google Colab: https://colab.research.google.com/drive/1Cohb5F2h1CP9CnYdAdMJW9vyl4pwQKuz
+
+---
+
 <!-- wp:paragraph -->
 <p><strong>The Role of Discrete Logarithms in Recovering Lost Cryptocurrency Wallets and Extracting Private Keys</strong>&nbsp;.</p>
 <!-- /wp:paragraph -->
