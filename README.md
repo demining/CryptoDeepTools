@@ -383,6 +383,18 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [37DiscreteLogarithm](https://github.com/demining/CryptoDeepTools/tree/main/37DiscreteLogarithm)
+
+
+* In this article, we will explore methods for solving the Discrete Logarithm Problem and how to recover lost Bitcoin wallets, focusing on the Ricci Flow algorithm and the Hidden Number Problem to extract private keys from vulnerable transactions using ECDSA. We will look at the process of recovering a private key using Dockeyhunt Discrete Logarithm software and the DarkSignature tool to generate fake transaction data. First, we will enter the Bitcoin wallet address: 1PYgfSouGGDkrMfLs6AYmwDqMLiVrCLfeS for the amount of: 165.10252195 BTC and get its public key. Then, using DarkSignature, we will create fake values ​​for transactions, which will allow us to analyze and manipulate the signature data of the ECDSA algorithm. Finally, we will apply mathematical analysis via Perelman Work software to solve the discrete logarithm and obtain the private key to the Bitcoin wallet.
+
+* Tutorial: https://youtu.be/i9KYih_ffr8
+* Tutorial: https://cryptodeeptech.ru/discrete-logarithm
+* Tutorial: https://dzen.ru/video/watch/6784be61b09e46422395c236
+* Google Colab: https://colab.research.google.com/drive/1Cohb5F2h1CP9CnYdAdMJW9vyl4pwQKuz
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
