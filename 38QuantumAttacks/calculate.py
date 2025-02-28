@@ -1,4 +1,4 @@
-﻿def h(n):
+def h(n):
     return hex(n).replace("0x","")
 
 def extended_gcd(aa, bb):
