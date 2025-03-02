@@ -395,6 +395,18 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [38QuantumAttacks](https://github.com/demining/CryptoDeepTools/tree/main/38QuantumAttacks)
+
+
+* This article examines contemporary techniques for safeguarding financial transactions and online activities through cryptography, which may become ineffective against powerful quantum computers. It highlights the vulnerabilities of cryptocurrencies, a market valued at hundreds of billions of dollars. The research indicates that Bitcoin's proof-of-work algorithm is relatively resilient to quantum attacks over the next decade, primarily due to the rapid capabilities of specialized mining hardware. However, the elliptic curve digital signature algorithm employed by Bitcoin could be compromised by 2027. The Momentum algorithm is proposed as a more quantum-resistant alternative. The article also explores various protective measures that could enhance the security and efficiency of blockchain applications moving forward. Overall, the findings suggest that quantum computers represent a significant threat to cryptocurrencies, necessitating the development of new security strategies. Additionally, the article illustrates the process of extracting the secret key Nonce value K from a vulnerable RawTX transaction using the BitcoinChatGPT machine learning approach.
+
+* Tutorial: https://youtu.be/p62orC7WDUE
+* Tutorial: https://cryptodeeptech.ru/quantum-attacks-on-bitcoin
+* Tutorial: https://dzen.ru/video/watch/67c3e91abbfa683a745a0aea
+* Google Colab: https://colab.research.google.com/drive/1jqHX5Oawy3QPh2OSYVf6AF1RGtjAb4rj
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
