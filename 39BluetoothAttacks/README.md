@@ -6,6 +6,15 @@
 <p>This paper discusses how an attacker can introduce a hidden list of vulnerabilities through module updates, which can lead to compromise of ESP32 devices and gaining unauthorized access to private keys, affecting billions of devices using this microcontroller. One of the key issues is the&nbsp;<a href="https://www.cve.org/CVERecord?id=CVE-2025-27840">CVE-2025-27840</a>&nbsp;vulnerability discovered in the ESP32 architecture. To ensure security for the Bitcoin network, we identified the following vulnerabilities, where the possibility of using invalid private keys due to the lack of a lower bound check in the function&nbsp;&nbsp;<code>has_invalid_privkey</code>; a vulnerability in the transaction signature forgery in the function&nbsp;&nbsp;<code>electrum_sig_hash</code>&nbsp;due to incompatibility with BIP-137;&nbsp;<a href="https://bitoncoin.org/1arwcrenmdkyhgng2c9qih8uzrr4mmqeqs/">a weak PRNG issue</a>&nbsp;in the key generation function&nbsp;&nbsp;<code>random_key</code>, making personal private keys for cryptocurrency wallets predictable; lack of verification of points on the ECC curve in the function&nbsp;&nbsp;<code>multiply</code>, which can lead to invalid curve attacks; a vulnerability in the function&nbsp;&nbsp;<code>ecdsa_raw_sign</code>&nbsp;when restoring the Y-coordinate, potentially leading to a substitution of the public key; and vulnerabilities related to deprecated hashing APIs in the&nbsp;&nbsp;<code>bin_ripemd160</code>.</p>
 <!-- /wp:paragraph -->
 
+---
+
+* Tutorial: https://youtu.be/nBeZWm2z5o4
+* Tutorial: https://cryptodeeptech.ru/bitcoin-bluetooth-attacks
+* Tutorial: https://dzen.ru/video/watch/6784be61b09e46422395c236
+* Google Colab: https://colab.research.google.com/drive/15lPDHeTo7FkrPY7v4qS7X6hO4x27qT2Y
+
+---
+
 <!-- wp:paragraph -->
 <p>In early March 2025, Tarlogic Security identified a vulnerability in the ESP32 microcontroller, which is widely used to connect devices via WiFi and Bluetooth. This vulnerability was filed under the number&nbsp;<a href="https://nvd.nist.gov/vuln/detail/CVE-2025-27840">CVE-2025-27840</a>&nbsp;. Attackers can unauthorizedly access Bitcoin wallet data by using the ESP32 chip as a point for cryptographic attacks on devices running on the networks of popular cryptocurrencies such as Bitcoin and Ethereum. This issue affects millions of IoT devices that use this microcontroller. Exploiting this vulnerability will allow attackers to carry out attacks disguised as legitimate users and permanently infect vulnerable devices. This threatens the security of IoT devices based on the ESP32 microcontroller and can lead to the theft of private keys of Bitcoin wallets.</p>
 <!-- /wp:paragraph -->
