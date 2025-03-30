@@ -407,6 +407,17 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [39BluetoothAttacks](https://github.com/demining/CryptoDeepTools/tree/main/39BluetoothAttacks)
+
+
+* The study identified the CVE-2025-27840 vulnerability in ESP32 microcontrollers, posing a threat to the security of Bitcoin networks. Attacks through module updates allow the introduction of hidden vulnerabilities, including: Invalid private keys (function has_invalid_privkey due to lack of boundary checks); Transaction signature forgery (function electrum_sig_hash, incompatible with BIP-137); Weak PRNG in random_key, making keys predictable; ECC curve attacks due to the absence of point verification in multiply; Vulnerabilities in ecdsa_raw_sign (public key substitution) and deprecated hashing APIs (bin_ripemd160). Discovered by Tarlogic Security in March 2025, the vulnerability enables attackers to gain unauthorized access to wallet data via Bluetooth/Wi-Fi, manipulate memory, spoof MAC addresses, and inject malicious code. Billions of IoT devices with ESP32 are at risk of private key compromise  and compromise of Bitcoin/Ethereum networks. Threats include persistent device infections and bypassing code audits through fake updates. Research on critical vulnerabilities CVE-2025-27840 in the ESP32 microcontroller, threatening the security of Bitcoin wallets. Analysis of exploitation methods for hidden commands to compromise  private keys through vulnerable functions: weak PRNG in key generation, transaction signature forgery, ECC curve attacks, and outdated hashing APIs. Recommendations for protecting IoT devices from unauthorized access and cryptographic attacks in Bitcoin and Ethereum networks.
+* Tutorial: https://youtu.be/nBeZWm2z5o4
+* Tutorial: https://cryptodeeptech.ru/bitcoin-bluetooth-attacks
+* Tutorial: https://dzen.ru/video/watch/6784be61b09e46422395c236
+* Google Colab: https://colab.research.google.com/drive/15lPDHeTo7FkrPY7v4qS7X6hO4x27qT2Y
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
