@@ -418,6 +418,16 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [40PrivateKeyDebug](https://github.com/demining/CryptoDeepTools/tree/main/40PrivateKeyDebug)
+
+
+* Vulnerability Analysis of is_private_key_valid in Bitcoin Private Key Generation: How Errors in Calculating the secp256k1 Group Order Lead to Invalid Key Creation, Fund Loss, and Blockchain System Security Threats. Practical case: Analysis of the loss of 0.58096256 BTC due to generating an invalid private key. Step-by-step breakdown of fund recovery and critical vulnerabilities in the is_private_key_valid function. From the theory of vulnerability it is known that attackers can use incorrect generation of private keys in blockchain systems with the determining order of the group of points of the elliptic curve secp256k1. Let’s move on to the practical part of the article and consider an example using a Bitcoin wallet:  1DMX2ByJZVkWeKG1mhjpwcMvDmGSUAmi5P The main issue: Errors in calculating the order of the secp256k1 group lead to private keys being created outside the valid range [1, N). This causes: Generation of 50% invalid keys in Bitcoin wallets Irrecoverable loss of funds (keys fail ECDSA validation) Risk of compromising HD wallets and smart contracts Historical parallels: Randstorm vulnerability (2011-2016): mass generation of weak keys Failures in HSM modules (2015): compromise of corporate wallets Why it matters: The is_private_key_valid function legitimizes mathematically incorrect keys, creating a false sense of security. This video provides a technical analysis of elliptic curve errors and tools to verify your wallets. Who should watch: Crypto investors, blockchain developers, cybersecurity specialists. Don’t miss: An exclusive demonstration of key recovery through reverse engineering and wallet protection patches.
+* Tutorial: https://youtu.be/0m9goH8Lpa0
+* Tutorial: https://cryptodeeptech.ru/private-key-debug
+* Tutorial: https://dzen.ru/video/watch/682ec3767299977a8bc27069
+* Google Colab: https://colab.research.google.com/drive/1eaKZitRzN8034hIwivLNSawobDpcmoEm
+
+---
 
 |  | Donation Address |
 | --- | --- |
