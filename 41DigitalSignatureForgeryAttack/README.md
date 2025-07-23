@@ -12,6 +12,23 @@
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
+
+
+---
+
+
+
+* Tutorial: https://youtu.be/qbu1m_C1wyA
+* Tutorial: https://cryptodeeptech.ru/digital-signature-forgery-attack
+* Tutorial: https://dzen.ru/video/watch/68801dfc0c886621f7c1a0db
+* Google Colab: https://colab.research.google.com/drive/1TKrJ0bKsNgc72H9UvzpCnh2YPmRsyPdW
+
+
+
+---
+
+
+
 <!-- wp:paragraph -->
 <p>In cryptography, a digital signature provides confirmation of the authenticity of a message or transaction. Signature forgery means that it is possible to create a “RawTX” pair that will be accepted by the system as valid, although in fact it was not created by the owner of the private key. This opens the way for fraud, theft of funds and violation of the integrity of the blockchain. Digital Signature Forgery Attack (DSFA) as a cryptographic attack is implemented in software components that use the xml-crypto library to verify signatures of XML documents on the Node.js platform.</p>
 <!-- /wp:paragraph -->
