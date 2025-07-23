@@ -429,6 +429,17 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [41DigitalSignatureForgeryAttack](https://github.com/demining/CryptoDeepTools/tree/main/41DigitalSignatureForgeryAttack)
+
+
+* The article centers on two major security issues: vulnerabilities CVE-2025-29774 and CVE-2025-29775. It describes the mechanism by which an attacker, leveraging outdated versions of the xml-crypto library, can circumvent key checks, leading to improper processing of transactional data and risking asset loss. The theoretical aspects are effectively demonstrated through a practical example involving the Bitcoin wallet 32GkPB9XjMAELR4Q2Hr31Jdz2tntY18zCe, resulting in a loss of 0.059672 BTC (approximately $7,052 USD as of July 2025). The material offers authoritative recommendations for enhancing the cybersecurity of cryptocurrency platforms. It outlines current methods to prevent such attacks, including regular library updates, improved digital signature controls, and the implementation of additional verification layers. This detailed case study and threat analysis is highly relevant for information security specialists, blockchain developers, and everyday users of decentralized services. This article provides an in-depth exploration of a critical cryptographic threat—Digital Signature Forgery—that poses a significant risk to the security of Bitcoin transactions. The study includes a thorough analysis of real-world incidents, notably a large-scale attack on the multisignature wallet Copay. Special focus is given to vulnerabilities in digital signatures and the widely used xml-crypto library, which attackers exploit to bypass transaction verification processes. Understanding modern methods of bypassing protective mechanisms and adhering to the proposed guidelines helps minimize financial loss risks and increases the resilience of platforms against emerging attacks in the rapidly evolving digital landscape.
+* Tutorial: https://youtu.be/qbu1m_C1wyA
+* Tutorial: https://cryptodeeptech.ru/digital-signature-forgery-attack
+* Tutorial: https://dzen.ru/video/watch/68801dfc0c886621f7c1a0db
+* Google Colab: https://colab.research.google.com/drive/1TKrJ0bKsNgc72H9UvzpCnh2YPmRsyPdW
+
+---
+
 |  | Donation Address |
 | --- | --- |
 | ♥ __BTC__ | 1Lw2gTnMpxRUNBU85Hg4ruTwnpUPKdf3nV |
