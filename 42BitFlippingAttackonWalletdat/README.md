@@ -14,6 +14,20 @@
 <p>AES-256-CBC does not store the password directly, but uses it to generate an encryption key. However, the study notes that the Bitcoin Core implementation does not rotate the encryption key of private keys, which may reduce security when reusing a password.</p>
 <!-- /wp:paragraph -->
 
+---
+
+
+
+* Tutorial: https://youtu.be/3uCsL_zxKPI
+* Tutorial: https://cryptodeeptech.ru/bit-flipping-attack-on-wallet-dat
+* Tutorial: https://dzen.ru/video/watch/68baca013761775f268041dc
+* Google Colab: https://colab.research.google.com/drive/1tCCSUtjl6seE9lqkFLcLodE96mj5uuHR
+
+
+
+---
+
+
 <!-- wp:paragraph -->
 <p>AES-256-CBC (Advanced Encryption Standard with a key length of 256 bits in block chaining mode – CBC, Cipher Block Chaining) is one of the most common symmetric encryption algorithms for information security.</p>
 <!-- /wp:paragraph -->
