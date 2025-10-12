@@ -6,6 +6,21 @@
 <p>This article examines the systemic cryptographic security threats posed by the Phoenix Rowhammer attack (CVE-2025-6202), which can extract private keys from DDR5 RAM through hardware-level bit manipulation. In recent years, the dynamic development of cryptocurrency technologies has led to an increased dependence of digital asset ecosystems on hardware and microchip components that store and process cryptographic data. Against this backdrop, hardware-level vulnerabilities that can lead to the direct compromise of private keys in cryptocurrency wallets are becoming a growing risk factor. One of the most dangerous threats today is attacks on RAM, in particular, advanced variants of Rowhammer exploits that affect the physical properties of DRAM cells. These attacks allow attackers to modify individual data bits and gain access to confidential information, including private keys for Bitcoin and Ethereum wallets.</p>
 <!-- /wp:paragraph -->
 
+
+---
+
+
+
+* Tutorial: https://youtu.be/lvNWcBMHESo
+* Tutorial: https://cryptodeeptech.ru/phoenix-rowhammer-attack
+* Tutorial: https://dzen.ru/video/watch/68ebe9367847b33269940e47
+* Google Colab: https://colab.research.google.com/drive/1Lgjwdw2x9bT2yjhWnXyvpPvZTo8sD4Hf
+
+
+
+---
+
+
 <!-- wp:paragraph -->
 <p>Among the critical examples of this class of threats, vulnerability&nbsp;<a href="https://www.cve.org/CVERecord?id=CVE-2025-6202">CVE-2025-6202</a>&nbsp;, discovered in SK Hynix’s DDR5 memory, stands out&nbsp;. The Phoenix Rowhammer attack, which relies on this vulnerability, demonstrates the ability to bypass modern Target Row Refresh (TRR) memory protection mechanisms, creating so-called “blind spots” that enable controlled data corruption at the hardware level. Such flaws can be exploited to extract private keys from RAM, compromise cryptographic libraries, and modify system processes that secure digital wallets.</p>
 <!-- /wp:paragraph -->
