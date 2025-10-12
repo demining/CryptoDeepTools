@@ -451,6 +451,17 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [43PhoenixRowhammerAttack](https://github.com/demining/CryptoDeepTools/tree/main/43PhoenixRowhammerAttack)
+
+
+* Unveiling Hardware Threats: Recent Research Exposes SK Hynix DDR5 Vulnerability. The Phoenix Rowhammer exploit manipulates memory bits, allowing attackers to extract private keys and compromise security—particularly within cryptocurrency ecosystems. As digital asset platforms depend on secure chip components, advanced DRAM exploits like CVE‑2025‑6202 introduce new "blind spots" beyond the reach of software defenses. Multi-Vector Crypto Attacks and Losses: Combined with threats such as BitShredder and Memory Phantom, attackers can recover seed phrases and keys even after crypto operations conclude. In a striking demonstration, 9.02332298 BTC (≈ $1,127,026.44 USD) was transferred from wallet 15ZwrzrRj9x4XpnocEGbLuPakzsY2S4Mit through a Rowhammer-based exploit—proving the real-world impact of these attacks. This example highlights how hardware-level vulnerabilities can completely drain Bitcoin wallets once private key data is exposed from compromised DDR5 memory. Jupyter and Colab Tools for Analysis: Researchers leverage Google Colab notebooks and SK Hynix DDR5 simulators for cryptanalytic experiments, underscoring the urgent need for hardware-level defenses in digital asset security.
+* Tutorial: https://youtu.be/lvNWcBMHESo
+* Tutorial: https://cryptodeeptech.ru/phoenix-rowhammer-attack
+* Tutorial: https://dzen.ru/video/watch/68ebe9367847b33269940e47
+* Google Colab: https://colab.research.google.com/drive/1Lgjwdw2x9bT2yjhWnXyvpPvZTo8sD4Hf
+
+---
+
 |  | Donation Address |
 | --- | --- |
 | ♥ __BTC__ | 1Lw2gTnMpxRUNBU85Hg4ruTwnpUPKdf3nV |
