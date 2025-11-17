@@ -462,6 +462,48 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [44ScalarVenomAttack](https://github.com/demining/CryptoDeepTools/tree/main/44ScalarVenomAttack)
+
+**Scalar Venom Attack: Cryptographic Vulnerability Research & Bitcoin Wallet Recovery**
+
+Scalar Venom Attack is a comprehensive security research repository documenting a critical HSM (Hardware Security Module) initialization vulnerability (CVE-2025-60013) that enables sophisticated private Bitcoin wallet key recovery techniques. This repository serves as an educational resource for cybersecurity researchers, blockchain developers, and cryptanalysts studying advanced vulnerability exploitation in cryptographic systems.
+
+**Core Technical Focus:**
+
+The repository explores a critical vulnerability in F5OS-A FIPS HSM initialization when passwords contain shell metacharacters. While officially rated as CVSS 5.7 (MEDIUM), the vulnerability escalates to CVSS 9.5+ (CRITICAL) threat level when combined with Scalar Venom Attack exploitation techniques. This research demonstrates how buffer overflow vulnerabilities, combined with improper memory management in hardware security modules, can lead to the extraction of sensitive cryptographic keys used in Bitcoin wallet operations.
+
+**Key Technical Elements:**
+
+The research encompasses multiple attack vectors and forensic methodologies:
+
+- **Memory Management Exploitation**: Detailed analysis of memory flaws in HSM implementations
+- **Cryptographic Key Recovery**: Techniques for identifying and extracting "phantom" copies of private keys from stack and heap memory
+- **Shannon Entropy Analysis**: Statistical methods (H ≥ 7.5 bits/byte) for detecting hidden cryptographic material
+- **ECDSA/secp256k1 Cryptanalysis**: Mathematical foundations underlying Bitcoin's signature scheme
+- **BitScanPro Forensics**: Advanced memory forensics tool methodology
+- **CWE Classification**: Security weaknesses including CWE-415 and CWE-401
+
+**Target Audience:**
+
+- Cybersecurity researchers and penetration testers
+- Bitcoin security specialists and wallet developers
+- Cryptanalysts studying elliptic curve cryptography vulnerabilities
+- Blockchain security professionals
+- Academic researchers in cryptographic security
+
+**Real-World Applications:**
+
+This repository documents concrete examples of private key recovery from compromised systems, providing case studies with actual Bitcoin addresses and recovered keys. The research demonstrates the critical importance of secure HSM implementation and proper cryptographic key management practices.
+
+
+* Tutorial: https://youtu.be/cvWLH5dvbAA
+* Tutorial: https://cryptodeeptech.ru/scalar-venom-attack
+* Tutorial: https://dzen.ru/video/watch/691a7a10a8b7c874612993eb
+* Google Colab: https://colab.research.google.com/drive/1e93p7gxpTtfMU2L83w7I1tRDJQ1tENYa
+
+
+---
+
 |  | Donation Address |
 | --- | --- |
 | ♥ __BTC__ | 1Lw2gTnMpxRUNBU85Hg4ruTwnpUPKdf3nV |
