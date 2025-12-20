@@ -504,6 +504,48 @@ This repository documents concrete examples of private key recovery from comprom
 
 ---
 
+## [45RingSideReplayAttack](https://github.com/demining/CryptoDeepTools/tree/main/45RingSideReplayAttack)
+
+RingSide Replay Attack: How 32-Bit Entropy Instead of 256-Bit Compromised Bitcoin Wallet Private Keys and SEED Phrases
+
+Discovery of CVE-2023-39910:
+Versions of Libbitcoin Explorer from 3.0.0 to 3.6.0 contain a critical vulnerability that allows the recovery of private keys from lost Bitcoin wallets. The RingSide Replay Attack study revealed a mechanism by which the Mersenne Twister-32 (MT19937) random number generator, seeded with system time, limits entropy to just 32 bits instead of the required 256 bits.
+
+Essence of the vulnerability:
+When a cryptographically secure ECDSA implementation on the secp256k1 curve relies on a weak source of randomness, its security collapses. This enables adversaries to reconstruct private keys and gain control over funds. In the documented case, private keys corresponding to the address 1NiojfedphT6MgMD7UsowNdQmx5JY15djG were recovered, granting access to assets worth USD 61,025. Extracting the private key Kyj6yvb4oHHDGBW23C8Chzji3zdYQ5QMr8r9zWpGVHdvWuYqCGVU provides full access to this Bitcoin wallet.
+
+Scale of the disaster:
+The compromise of more than 227,200 unique Bitcoin addresses led to the theft of crypto assets exceeding USD 900,000. Every wallet created with the vulnerable tool became a potential target for GPU-based brute-force attacks.
+
+Technical attack mechanism:
+Private key recovery reduces to iterating through 86,400 seeds per day (all possible timestamps within 24 hours). If the approximate wallet creation date is known, the recovery process takes only a few minutes on a modern GPU. On an NVIDIA RTX 3090, a full exploration of the 2³² space completes in several days.
+
+Cryptographic foundations:
+A private key "k" must be a random 256-bit integer satisfying
+
+1 ≤ k < n (n ≈ 1,158 × 10⁷⁷).
+
+The public key point "Q" is computed as an elliptic curve scalar multiplication:
+
+Q = k ⋅ G
+
+This vulnerability breaks the first principle — unpredictability.
+
+BTCDetect — cryptanalysis tool:
+The BTCDetect tool implements the RingSide Replay Attack methodology, providing practical private key recovery. Its architecture includes entropy analysis modules, Mersenne Twister reconstruction, BIP-39/BIP-32 derivation chains, and verification components.
+
+Practical implications:
+A recovered private key gives full control over the Bitcoin wallet, allowing an attacker to create transactions, import the key into any wallet (Electrum, Bitcoin Core, MetaMask, Trust Wallet, Ledger, Trezor, Exodus, etc.), and seize all funds. This demonstrates the critical importance of using cryptographically secure random number generators in digital signature systems.
+
+Security recommendations:
+Use only cryptographically secure sources of randomness. Regularly verify library versions and apply timely updates. Conducting thorough audits of cryptographic implementations is mandatory for any system handling private keys and digital signatures in blockchain infrastructure.
+* Tutorial: https://youtu.be/KJNbwfolL6g
+* Tutorial: https://cryptodeeptech.ru/ringside-replay-attack
+* Tutorial: https://dzen.ru/video/watch/69431d5dfd50136dae291001
+* Google Colab: https://colab.research.google.com/drive/1vH3nohPhojYshof2Oy0AOGoGOWw39KwB
+
+---
+
 |  | Donation Address |
 | --- | --- |
 | ♥ __BTC__ | 1Lw2gTnMpxRUNBU85Hg4ruTwnpUPKdf3nV |
