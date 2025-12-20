@@ -3,7 +3,20 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>This paper presents a comprehensive cryptanalytic review of the critical vulnerability&nbsp;&nbsp;<strong>CVE-2023-39910</strong>&nbsp;, codenamed&nbsp;&nbsp;<em>“Milk Sad</em>&nbsp;,” discovered in the widely used&nbsp;&nbsp;<strong>Libbitcoin Explorer utility versions 3.0.0–3.6.0. The fundamental flaw lies in the use of a cryptographically insecure&nbsp;</strong><strong><a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister-32 (MT19937)</a></strong>&nbsp;&nbsp;pseudorandom number generator&nbsp;&nbsp;initialized by the system time, which catastrophically limits the entropy space to&nbsp;&nbsp;<strong>32 bits</strong>&nbsp;&nbsp;instead of the required 256 bits. The paper thoroughly examines the mechanism of&nbsp;&nbsp;<strong>the RingSide Replay</strong>&nbsp;Attack , which allows for the automated recovery of Bitcoin wallet private keys, including lost ones, given the approximate time of their creation. A scientific analysis demonstrates that the vulnerability led to the compromise of over&nbsp;&nbsp;<strong>227,200 unique Bitcoin addresses</strong>&nbsp;&nbsp;and the theft of over&nbsp;&nbsp;<strong>$900,000 USD</strong>&nbsp;in crypto assets . Particular attention is given to the mathematical foundations of the attack, a practical methodology for recovering private keys using the&nbsp;&nbsp;<strong>BTCDetect</strong>&nbsp;cryptographic tool , and recommendations for protecting cryptographic systems from entropy-based attacks.</p>
+<p>This paper presents a comprehensive cryptanalytic review of the critical vulnerability&nbsp;&nbsp;<strong>CVE-2023-39910</strong>&nbsp;, codenamed&nbsp;&nbsp;<em>“Milk Sad</em>&nbsp;,” discovered in the widely used&nbsp;&nbsp;<strong>Libbitcoin Explorer utility versions 3.0.0–3.6.0. The fundamental flaw lies in the use of a cryptographically insecure&nbsp;</strong><strong><a href="https://en.wikipedia.org/wiki/Mersenne_Twister">Mersenne Twister-32 (MT19937)</a></strong>&nbsp;&nbsp;pseudorandom number generator&nbsp;&nbsp;initialized by the system time, which catastrophically limits the entropy space to&nbsp;&nbsp;<strong>32 bits</strong>&nbsp;&nbsp;instead of the required 256 bits. The paper thoroughly examines the mechanism of&nbsp;&nbsp;<strong>the RingSide Replay</strong>&nbsp;Attack , which allows for the automated recovery of Bitcoin wallet private keys, including lost ones, given the approximate time of their creation. A scientific analysis demonstrates that the vulnerability led to the compromise of over&nbsp;&nbsp;<strong>227,200 unique Bitcoin addresses</strong>&nbsp;&nbsp;and the theft of over&nbsp;&nbsp;<strong>$900,000 USD</strong>&nbsp;in crypto assets .
+
+
+---
+
+* Tutorial: https://youtu.be/KJNbwfolL6g
+* Tutorial: https://cryptodeeptech.ru/ringside-replay-attack
+* Tutorial: https://dzen.ru/video/watch/69431d5dfd50136dae291001
+* Google Colab: https://colab.research.google.com/drive/1vH3nohPhojYshof2Oy0AOGoGOWw39KwB
+
+---
+
+
+Particular attention is given to the mathematical foundations of the attack, a practical methodology for recovering private keys using the&nbsp;&nbsp;<strong>BTCDetect</strong>&nbsp;cryptographic tool , and recommendations for protecting cryptographic systems from entropy-based attacks.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
