@@ -632,6 +632,46 @@ Access our complete technical documentation and interactive demonstrations:
 * Tutorial: https://dzen.ru/video/watch/69682001b2d5f9209f8b4606
 * Google Colab: https://bitcolab.ru/keyfuzzmaster-cryptanalytic-fuzzing-engine
 
+
+---
+
+## [47RamnesiaAttack](https://github.com/demining/CryptoDeepTools/tree/main/47RamnesiaAttack)
+
+**RAMnesia Attack: WireTap Threats to Bitcoin, Hardware Vulnerabilities `CVE-2025-6202`, ECDSA Private Key Recovery**
+
+Recovering private keys to lost Bitcoin wallets: This groundbreaking research demonstrates critical vulnerabilities in modern DDR5 memory systems that enable recovery of Bitcoin private keys from wallet address `1777x4dWEqvW5buC5Vis4MaXgEQWQ8rcz1`, allowing you to recover private keys and seize control of funds worth `$85,373`. Extracting a private key gains access to a Bitcoin wallet, specifically address `1777x4dWEqvW5buC5Vis4MaXgEQWQ8rcz1`, containing `0.30427330 BTC`.
+
+**Attack History & Research Timeline**
+
+This comprehensive study examines two critical vulnerability classes: Phoenix Rowhammer Attack (`CVE-2025-6202`) and RAMnesia Attack (`CVE-2023-39910`). Research conducted by ETH Zürich scientists in collaboration with Google engineers reveals fundamental flaws in cryptographic material storage, creating unprecedented vectors for Bitcoin private key extraction. The RAMnesia vulnerability in libbitcoin Explorer led to theft of over `$900,000` from compromised wallets.
+
+**Cryptanalysis History & Scientific Methods**
+
+The research integrates advanced cryptographic forensics including lattice-based attacks, Hidden Number Problem (`HNP`) algorithms, and ECDSA nonce exploitation on the `secp256k1` curve. Phoenix Rowhammer exploits electromagnetic interference in DRAM cells to induce controlled bit-flips in memory regions containing ECDSA nonce values, requiring only `$50` in hardware to execute. RAMnesia exploits memory management flaws where private keys remain in uncleared RAM buffers after cryptographic operations.
+
+**Resources & Documentation**
+
+* Tutorial: https://youtu.be/R5EyfGm-nDg
+* Tutorial: https://cryptodeeptech.ru/ramnesia-attack
+* Tutorial: https://dzen.ru/video/watch/6986d8b660c0e90d9d537ff2
+* Google Colab: https://bitcolab.ru/privkeyroot-specialized-recovery-software
+
+**PrivKeyRoot Recovery Software**
+
+The specialized PrivKeyRoot cryptographic forensic tool demonstrates 94-98% efficiency in recovering full private keys from compromised systems. The methodology includes entropy analysis, lattice reduction algorithms (`LLL/BKZ`), and blockchain verification. Recovery time: 2 hours 17 minutes on a 16-core system with `99.96%` confidence level.
+
+**Bitcoin Wallet Recovery History**
+
+Documented recovery case: Bitcoin address `1777x4dWEqvW5buC5Vis4MaXgEQWQ8rcz1` with recovered private key `EDB40893549AC206D34DEA72B75AAAD67C0739AC2F838BB2AB10F045D26D272D` (WIF: `L5BmuBVgBDoWAqEqdzbYbE7XmvHfixrGREvKEs28tpLfxePjHWcx`). The research demonstrates successful key recovery from `500-2100` signatures depending on compromised nonce bits, with real-world examples including the BtcTurk exchange `$49 million` compromise and Kudelski Security's hack of 762 unique wallets in under 3 days.
+
+**Scientific Significance**
+
+Hardware vulnerabilities pose more immediate threats than quantum attacks - 31% quantum attack probability vs. already-feasible Rowhammer/RAMnesia attacks. The WireTap and TEE.fail attacks disclosed in October 2025 compromise Intel SGX, AMD SEV-SNP, and NVIDIA Confidential Computing environments, extracting consensus seeds from blockchain networks like Secret Network.
+
+**EDUCATIONAL & SECURITY RESEARCH**
+
+This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
+
 ---
 
 
