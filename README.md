@@ -673,6 +673,44 @@ Hardware vulnerabilities pose more immediate threats than quantum attacks - 31% 
 This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
 
 ---
+## [48ShadowKeyAttack](https://github.com/demining/CryptoDeepTools/tree/main/48ShadowKeyAttack)
+
+**Shadow Key Attack: Recovering Private Keys of Lost Bitcoin Wallets | ECDSA Nonce Vulnerability & EUCLEAK CVE-2024-45678**
+
+In this video, we dive into the Shadow Key Attack — a real-world cryptanalytic operation exposing a devastating weakness in ECDSA nonce handling within Bitcoin. This research shows how recovering private keys to lost Bitcoin wallets tied to address `111m8M2EAXkvUWgy31F6UDuuTKt6vWQhu` becomes possible when implementations leak or reuse ephemeral randomness during transaction signing.
+
+**Resources & Documentation**
+
+* Tutorial: https://youtu.be/0FmbbVZ5cJo
+* Tutorial: https://cryptodeeptech.ru/shadow-key-attack
+* Tutorial: https://dzen.ru/video/watch/69a1ba242ca7165f88202f63
+* Google Colab: https://bitcolab.ru/bithorecover-advanced-crypto-recovery-tool
+
+The demonstration documents the full recovery timeline, allowing you to recover private keys and seize control of funds worth `$273,588` in Bitcoin. This is a complete end-to-end scientific wallet recovery using modular arithmetic, elliptic curve math, side-channel analysis, and industrial-grade cryptanalytic tooling.
+
+The study reveals a critical link between the Shadow Key Attack and `EUCLEAK (CVE-2024-45678)`, discovered by NinjaLab in YubiKey Series 5 tokens and Infineon microcontrollers. EUCLEAK extracts partial nonce data through timing variations in the Extended Euclidean Algorithm during modular inversion — a flaw hidden for 14 years in certified devices.
+
+Extracting a private key gains access to a Bitcoin wallet. Target address `111m8M2EAXkvUWgy31F6UDuuTKt6vWQhu` Recovered private key (HEX) `32D73E66E6864199A56C1C2466EABB2F4732DC334E3320E7FAC48A7F0902C198` Recovered key (WIF compressed) `KxvYCbGPNmA2vbjDGavGsRiYqhVn83byZbUgpMtuDypHS7BVQA16` was analyzed using the BITHORecover cryptographic tool, which exploits flaws in libsodium (`CVE-2017-0373`, `CVE-2018-1000842`, `CVE-2019-17315`) to find vulnerable wallets and reconstruct lost keys from corrupted cryptographic data.
+
+**Attack History & Research Timeline:**
+
+* `2010–2013: Weak PRNGs` in early Bitcoin clients led to massive fund thefts via predictable nonces
+* `2013: Android` SecureRandom vulnerability compromised private keys in mobile Bitcoin wallets
+* `2017: CVE-2017-0373` in `libsodium` generated predictable keys from insufficient entropy
+* `2018: CVE-2018-0734` in `OpenSSL` exposed nonces through timer side channels
+* `2019: Minerva Attack (CVE-2019-15809)` extracted ECDSA keys via timing side-channel analysis
+* `2024: EUCLEAK (CVE-2024-45678)` compromised YubiKey `5` via `EM` side-channel in Infineon `EEA`
+
+The cryptanalysis combines the classic nonce reuse attack with advanced lattice techniques. When identical `r`-values appear in two `ECDSA` signatures, the attack recovers the nonce algebraically and computes the private key. For partial leakage, BITHORecover applies Hidden Number Problem algorithms and LLL lattice reduction to recover keys from as few as `22` signatures with `16` leaked nonce bits each.
+
+Topics: `ECDSA` on `secp256k1`, blockchain data mining for reused nonces, modular arithmetic, `RFC 6979`, `HMAC-DRBG`, and countermeasures including multisig wallets and key rotation.
+
+**EDUCATIONAL & SECURITY RESEARCH**
+
+This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
+
+
+---
 
 
 |  | Donation Address |
