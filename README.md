@@ -677,7 +677,7 @@ This research is presented for educational purposes and to assist cryptocurrency
 
 **Shadow Key Attack: Recovering Private Keys of Lost Bitcoin Wallets | ECDSA Nonce Vulnerability & EUCLEAK CVE-2024-45678**
 
-In this video, we dive into the Shadow Key Attack — a real-world cryptanalytic operation exposing a devastating weakness in ECDSA nonce handling within Bitcoin. This research shows how recovering private keys to lost Bitcoin wallets tied to address `111m8M2EAXkvUWgy31F6UDuuTKt6vWQhu` becomes possible when implementations leak or reuse ephemeral randomness during transaction signing.
+Shadow Key Attack — a real-world cryptanalytic operation exposing a devastating weakness in ECDSA nonce handling within Bitcoin. This research shows how recovering private keys to lost Bitcoin wallets tied to address `111m8M2EAXkvUWgy31F6UDuuTKt6vWQhu` becomes possible when implementations leak or reuse ephemeral randomness during transaction signing.
 
 **Resources & Documentation**
 
