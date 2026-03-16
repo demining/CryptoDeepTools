@@ -717,7 +717,7 @@ This research is presented for educational purposes and to assist cryptocurrency
 
 **Chronoforge Attack: Exploiting ARM TrustZone Leak to Fully Compromise Bitcoin Wallet Private Keys**
 
-This video presents a deep technical analysis of the Chronoforge Attack, a critical class of timing side-channel attacks targeting ECDSA secp256k1 cryptographic operations on Nordic `nRF52/nRF53` microcontrollers with ARM TrustZone architecture. The research demonstrates how microsecond-level execution time variations in elliptic curve computations can be exploited to fully recover Bitcoin wallet private keys.
+This study provides a deep technical analysis of the Chronoforge Attack, a critical class of timing side-channel attacks targeting ECDSA secp256k1 cryptographic operations on Nordic `nRF52/nRF53` microcontrollers with ARM TrustZone architecture. The research demonstrates how microsecond-level execution time variations in elliptic curve computations can be exploited to fully recover Bitcoin wallet private keys.
 
 **Resources & Documentation**
 
