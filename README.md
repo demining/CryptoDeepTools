@@ -712,6 +712,44 @@ This research is presented for educational purposes and to assist cryptocurrency
 
 ---
 
+## [49ChronoforgeAttack](https://github.com/demining/CryptoDeepTools/tree/main/49ChronoforgeAttack)
+
+
+**Chronoforge Attack: Exploiting ARM TrustZone Leak to Fully Compromise Bitcoin Wallet Private Keys**
+
+This video presents a deep technical analysis of the Chronoforge Attack, a critical class of timing side-channel attacks targeting ECDSA secp256k1 cryptographic operations on Nordic `nRF52/nRF53` microcontrollers with ARM TrustZone architecture. The research demonstrates how microsecond-level execution time variations in elliptic curve computations can be exploited to fully recover Bitcoin wallet private keys.
+
+**Resources & Documentation**
+
+* Tutorial: https://youtu.be/owgbAd-vtoI
+* Tutorial: https://cryptodeeptech.ru/chronoforge-attack
+* Tutorial: https://dzen.ru/video/watch/69b1a59cde2c2b0c75836b1a
+* Google Colab: https://bitcolab.ru/vulncipher-cryptanalytic-framework-for-practical-key-recovery
+
+Recovering private keys to lost Bitcoin wallets: `1EXXGnGN98yEEx48fhAMPt8DuzwaG5Lh8h` — the target Bitcoin address analyzed in this study. By collecting over `100,000` ECDSA signing operations with microsecond precision and applying Correlation Power Analysis with Pearson coefficients, the researchers achieved overall recovery accuracy of `94.5%`, leaving only 18 unresolved bits corrected via limited brute-force search of `262,144` candidates.
+
+Private Key (WIF — Compressed): `L5MqyroFa1pcprty2vXc5xBJWdDfuicetxoQB4PZVMqQgqRVfnMB`
+Private Key (Hexadecimal): `F2E242938B92DA39A50AC0057D7DCFEDFDD58F7750BC06A72B11F1B821760A4A`
+
+Allowing you to recover private keys and seize control of funds worth `$188,775` in `BTC` — this documented practical case confirms the real-world feasibility of the described attack class against improperly implemented cryptographic firmware running on embedded hardware wallet platforms.
+
+Extracting a private key gains access to a Bitcoin wallet: `1EXXGnGN98yEEx48fhAMPt8DuzwaG5Lh8h` — the study traces a complete four-stage attack vector: infiltration into the Normal World environment, establishing a high-precision timing oracle, statistical analysis of accumulated timing signatures, and full bitwise private key recovery with over `99%` confidence per bit.
+
+The VulnCipher cryptanalytic framework serves as the core scientific tool, adapting classical Correlation Power Analysis to the timing channel domain. Its modular six-stage architecture includes Timing Collection, Preprocessing, Hypothesis Generation, Statistical Analysis, Key Recovery, and Validation modules — each scientifically documented and fully reproducible.
+
+The vulnerability exploits a flaw in the variable-time Double-and-Add scalar multiplication algorithm used by the PSA Crypto library on `Nordic nRF5340`. When a private key bit equals 1, pointAdd executes in `5.8μs`; when `0`, only pointDouble runs at `3.2μs`. This `2.6μs` difference creates a measurable covert timing channel between TrustZone Secure and Normal Worlds through shared microarchitectural elements like L1 cache and branch prediction units.
+
+The research addresses known vulnerabilities `CVE-2019-25003` and `CVE-2024-48930` related to variable execution times in elliptic curve cryptographic libraries. Defense strategies include constant-time Montgomery Ladder implementations, scalar and point blinding, disabling PMU access from Normal World, and regular firmware security audits.
+
+Chronoforge Attack — ARM TrustZone Vulnerability: From Microsecond-Level Timing Leakage to Full Compromise of Bitcoin Wallet Private Keys
+
+**EDUCATIONAL & SECURITY RESEARCH**
+
+This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
+
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
