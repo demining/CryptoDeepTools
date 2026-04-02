@@ -750,6 +750,43 @@ This research is presented for educational purposes and to assist cryptocurrency
 
 ---
 
+## [50PhantomCurveAttack](https://github.com/demining/CryptoDeepTools/tree/main/50PhantomCurveAttack)
+
+
+**Phantom Curve Attack: How Pollard's Kangaroo Algorithm Uncovers Bitcoin PrivKeys via Degraded Nonces**
+
+
+This video presents a comprehensive cryptanalytic study of the Dark Skippy attack — a real-world exploitation of the `ECDSA` nonce reuse vulnerability, also known as the Phantom Curve Attack. By embedding the wallet seed phrase into low-entropy nonce values during the signing process, malicious hardware wallet firmware exposes the complete 16-byte seed entropy through just two blockchain-observable signatures. The first 8 bytes of the seed go into the first signature, and the remaining 8 bytes into the second — enabling full wallet compromise from only two on-chain transactions, with no physical access to the device required.
+
+
+
+**Resources & Documentation**
+
+* Tutorial: https://youtu.be/pM0fuUZk8p4
+* Tutorial: https://cryptodeeptech.ru/phantom-curve-attack
+* Tutorial: https://dzen.ru/video/watch/69c8603451b3e70d64f66471
+* Google Colab: https://bitcolab.ru/keysilentleak-cryptanalytic-research-tool
+
+
+
+Recovering private keys to lost Bitcoin wallets: `1MikxkAoAQWGBsh6pzsaiHdXAktzzj6Rnt` — this documented Bitcoin address served as the primary research target. Analysis of all `47` associated `ECDSA` signatures revealed a catastrophic `192-bit` entropy deficit in nonce generation. The observed mean Hamming weight was `101.3 bits` versus the expected `128 bits`, with a chi-square result of `45.2` and a p-value below `0.001`, statistically confirming deeply flawed deterministic nonce generation at the hardware level.
+
+Allowing you to recover private keys and seize control of funds worth `$73,988 USD` (`2.84 BTC` at the time of analysis) — the researchers fully reconstructed the private key using the `Pollard–Kangaroo algorithm`, reducing the search space from a theoretical `2²⁵⁶` down to a feasible `2³²` operations on modern `GPU` hardware, completing full key recovery in just `18.7 minutes` on an `NVIDIA RTX 4090`.
+
+Extracting a private key gains access to a Bitcoin wallet: `1MikxkAoAQWGBsh6pzsaiHdXAktzzj6Rnt` — the recovered private key `CFE03A01CD25A96535761D59B5EA95F5C8C2DCE5D1CD55F8C24B0BDD78B36934` (WIF Compressed: `L4Bo2k2SXcmagP7CxFPCEyDJy7NHCaLWGCF4tkCJunAg1q7wMnS4`) was cryptographically verified by recomputing the `secp256k1` public key and confirming the full Bitcoin address match.
+
+Attack & Research History: The `ECDSA` nonce vulnerability has been exploited for over 15 years — `PlayStation 3` key exposure (2010), Android OpenSSL nonce reuse `(2013)`, Blockchain.info weak Math.random() entropy, and the formal `2024` `Dark Skippy` paper by Fournier, Farrow & Linus — each incident confirming that nonce entropy is the single most critical factor across all Bitcoin wallet implementations.
+
+Scientific Methods: `KeySilentLeak`, developed at the Günther Zöeir Research Center, applies Shannon entropy analysis, Hamming weight histograms, chi-square tests, `NIST FIPS 140-2 PRNG` validation, and `Pollard’s Kangaroo` to reconstruct private keys from publicly available blockchain signatures.
+
+Recommendations: Implement `RFC 6979` deterministic nonce generation, audit `PRNG` implementations, and verify hardware wallet firmware before every use.
+
+**EDUCATIONAL & SECURITY RESEARCH**
+
+This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
