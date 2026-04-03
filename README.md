@@ -756,7 +756,7 @@ This research is presented for educational purposes and to assist cryptocurrency
 **Phantom Curve Attack: How Pollard's Kangaroo Algorithm Uncovers Bitcoin PrivKeys via Degraded Nonces**
 
 
-This video presents a comprehensive cryptanalytic study of the Dark Skippy attack — a real-world exploitation of the `ECDSA` nonce reuse vulnerability, also known as the Phantom Curve Attack. By embedding the wallet seed phrase into low-entropy nonce values during the signing process, malicious hardware wallet firmware exposes the complete 16-byte seed entropy through just two blockchain-observable signatures. The first 8 bytes of the seed go into the first signature, and the remaining 8 bytes into the second — enabling full wallet compromise from only two on-chain transactions, with no physical access to the device required.
+This study presents a comprehensive cryptanalytic study of the Dark Skippy attack — a real-world exploitation of the `ECDSA` nonce reuse vulnerability, also known as the Phantom Curve Attack. By embedding the wallet seed phrase into low-entropy nonce values during the signing process, malicious hardware wallet firmware exposes the complete 16-byte seed entropy through just two blockchain-observable signatures. The first 8 bytes of the seed go into the first signature, and the remaining 8 bytes into the second — enabling full wallet compromise from only two on-chain transactions, with no physical access to the device required.
 
 
 
