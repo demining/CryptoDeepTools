@@ -787,6 +787,45 @@ This research is presented for educational purposes and to assist cryptocurrency
 
 ---
 
+## [51CurveAnomalies](https://github.com/demining/CryptoDeepTools/tree/main/51CurveAnomalies)
+
+
+**Structural anomalies of base points in secpXXXk1 elliptic curves: Bitcoin cryptanalysis and practical modeling in Google Colab**
+
+
+In this study, we conduct a thorough analysis of the structural anomalies found in the base points of the secpXXXk1 elliptic curves. By exploring the `SEC 2` standard, we uncover the mysteries hidden within the mathematical constants that secure billions of dollars in digital assets. If you are passionate about blockchain technology, cryptography, and network security, this breakdown is specifically for you!
+
+
+
+**Resources & Documentation**
+
+* Tutorial: https://youtu.be/ytFVasVx6Ak
+* Tutorial: https://cryptodeeptech.ru/curve-anomalies
+* Tutorial: https://dzen.ru/video/watch/6a660f77a52c4438aad88da8
+* Google Colab: https://bitcolab.ru/structural-anomaly-in-secpxxxk1-generator-points
+
+
+
+Our journey begins with the positive results of a computational scientific experiment that reproduces and extends the groundbreaking observations originally formalized by Johannes Zweng in 2025. By dividing the standard generator point `G` by `2`, we expose an anomalously small x-coordinate bit length across the entire family of Koblitz curves. This simple yet profound mathematical operation unravels an undocumented artifact hidden deep within the foundational cryptographic parameters.
+
+A discovered pattern of a computational scientific experiment reveals a striking anomaly: a common `152-bit` hexadecimal substring, specifically `8ce563f89a0ed9414f5aa28ad0d96d6795f9c6`, shared across `secp160k1`, `secp192k1`, `secp224k1`, and `secp256k1`. This deterministic signature confirms that these base points were not generated randomly, challenging the widely accepted Nothing Up My Sleeve `(NUMS)` principles.
+
+The history of the anomaly traces back to 1999 when Certicom established the SEC 2 parameters. Unlike verifiably random curves that utilize a public seed and transparent hashing algorithms to prove their integrity, the `secpXXXk1` family lacks official documentation regarding its generator selection. This epistemic uncertainty creates a historical blind spot, prompting modern researchers to question the true origins of these crucial cryptographic elements.
+
+Understanding the history of its connection to Bitcoin wallets is critical for any crypto enthusiast or developer. The secp256k1 curve defines the entire ECDSA public key space for Bitcoin, Ethereum, and dozens of other networks. While the anomaly does not directly compromise the security of single-generator schemes like ECDSA or Schnorr signatures, it raises essential trust issues for advanced protocols utilizing multiple generators, such as Taproot and Pedersen commitments.
+
+The history of the research is equally fascinating and highly significant for the academic cryptography community. The enigmatic 152-bit substring was first brought to light during the `Crypto 2019` conference by cryptographer Nadia Heninger and her colleagues, who stumbled upon it while analyzing the Bitcoin blockchain for nonce collisions. Zweng’s subsequent open-source scripts have democratized this knowledge, allowing anyone to verify the findings independently.
+
+We must also contextualize this within the broader history of cryptanalysis and other scientific methods. Historical precedents, such as the DES S-box scandal where the NSA introduced opaque structures to thwart differential cryptanalysis, or the infamous Dual_EC_DRBG backdoor, remind us that undocumented cryptographic constants require rigorous scrutiny. Reversing the point doubling to find hidden preimages is highly reminiscent of Bill Tutte's 1942 Lorenz cipher cracking.
+
+To wrap up the educational analysis, we address the most pressing Questions and answers about the origin of the base point anomaly. We evaluate the statistical impossibility of a random occurrence, discuss the importance of verifiable randomness, and explore exactly what this means for the future of Bitcoin's security architecture and overall cryptographic hygiene.
+
+**EDUCATIONAL & SECURITY RESEARCH**
+
+This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
+
+---
+
 
 |  | Donation Address |
 | --- | --- |
