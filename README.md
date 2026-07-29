@@ -297,6 +297,12 @@ Differential fault analysis (DFA)was briefly described in the literature in 1996
 
 ---
 
+## [31BitcoinKeyhuntTool](https://github.com/demining/CryptoDeepTools/tree/main/31BitcoinKeyhuntTool)
+
+* CPU Bitcoin puzzle key-search engine. For each integer in a range it derives the compressed P2PKH address from the private key and compares HASH160 bytes directly against a target, using `coincurve` (libsecp256k1) for fast EC math. Includes checkpoint/resume and sharding across multiple machines. Honest about feasibility: useful for verifying your pipeline against solved puzzles and for benchmarking, not for brute-forcing large puzzles.
+
+---
+
 
 
 
