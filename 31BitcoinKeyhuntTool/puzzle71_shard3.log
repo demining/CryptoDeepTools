@@ -302,3 +302,10 @@ checked 20,000,000  |  76,922 keys/sec  |  at 0x7000000000091b0f01
 checked 20,500,000  |  76,937 keys/sec  |  at 0x70000000000922b021
 checked 21,000,000  |  76,982 keys/sec  |  at 0x7000000000092a5141
 checked 21,500,000  |  77,011 keys/sec  |  at 0x70000000000931f261
+[resume] continuing from 0x70000000000931f262
+checked 500,000  |  99,415 keys/sec  |  at 0x700000000009399381
+checked 1,000,000  |  99,707 keys/sec  |  at 0x7000000000094134a1
+checked 1,500,000  |  99,734 keys/sec  |  at 0x70000000000948d5c1
+checked 2,000,000  |  100,389 keys/sec  |  at 0x7000000000095076e1
+checked 2,500,000  |  101,893 keys/sec  |  at 0x700000000009581801
+checked 3,000,000  |  102,387 keys/sec  |  at 0x7000000000095fb921

@@ -307,3 +307,9 @@ checked 20,000,000  |  75,740 keys/sec  |  at 0x6000000000098da133
 checked 20,500,000  |  75,812 keys/sec  |  at 0x600000000009954253
 checked 21,000,000  |  75,861 keys/sec  |  at 0x6000000000099ce373
 checked 21,500,000  |  75,872 keys/sec  |  at 0x600000000009a48493
+[resume] continuing from 0x600000000009a48494
+checked 500,000  |  96,942 keys/sec  |  at 0x600000000009ac25b3
+checked 1,000,000  |  94,205 keys/sec  |  at 0x600000000009b3c6d3
+checked 1,500,000  |  95,077 keys/sec  |  at 0x600000000009bb67f3
+checked 2,000,000  |  96,498 keys/sec  |  at 0x600000000009c30913
+checked 2,500,000  |  98,614 keys/sec  |  at 0x600000000009caaa33
