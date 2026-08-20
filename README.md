@@ -826,6 +826,58 @@ This research is presented for educational purposes and to assist cryptocurrency
 
 ---
 
+## [52GLVendomorphism](https://github.com/demining/CryptoDeepTools/tree/main/52GLVendomorphism)
+
+
+**Demonstration of GLV endomorphism and invalid curve attacks with private key recovery via CRT**
+
+
+In this study, we present a rigorous mathematical cryptanalysis of secp256k1 elliptic curve, which underpins the Bitcoin protocol, ECDSA and Schnorr signature architectures, and decentralized digital asset security. We explore the structural invariants of Koblitz curves, endomorphism acceleration mechanisms, and attack vectors arising from faulty protocol implementations.
+
+
+
+**Resources & Documentation**
+
+* Tutorial: https://youtu.be/N_1f9m_KeM0
+* Tutorial: https://cryptodeeptech.ru/glv-endomorphism
+* Tutorial: https://dzen.ru/video/watch/6a84e4470103724a810dc06a
+* Google Colab: https://bitcolab.ru/glv-endomorphism
+
+
+
+Positive results of a computational scientific experiment. During the computational auditing of secp256k1 parameters in Google Colab, the embedding degree was verified to exceed the critical threshold k is more 10000. 
+
+This structural proof establishes complete immunity against Menezes-Okamoto-Vanstone (MOV) reduction attacks using Weil and Tate pairings, as transferring ECDLP to the target field GF(p^k) remains computationally infeasible. Additionally, the exact primality of the group order n rules out direct Pohlig-Hellman factorization attacks.
+
+Discovered pattern of a computational scientific experiment; The computational modeling of the Gallant-Lambert-Vanstone (GLV) endomorphism reveals an algebraic decomposition of any 256-bit private scalar into two 128-bit components via the roots of λ² + λ + 1 ≡ 0 mod n and the primitive cube root of unity β. Using Straus-Shamir simultaneous scalar multiplication, this pattern yields a 20–25% speedup in Bitcoin Core signature verification while reducing Pollard rho search complexity by a negligible factor of √6, maintaining the 128-bit security margin.
+
+**Questions and answers about the origin of the base point anomaly:**
+
+What is the origin and nature of the base point anomaly? The anomaly stems from accepting input point P(x, y) without verifying the curve equation y² = x³ + 7 mod p, allowing adversaries to inject small-order points from invalid curves (Invalid Curve Attack).
+
+How is this anomaly connected to Bitcoin wallets and keys? While Bitcoin standardizes generator point G in SEC2 to safeguard on-chain signatures, improper ECDH key exchange schemes reusing static private keys leak modular residues solvable via the Chinese Remainder Theorem (CRT).
+
+**History of the research, cryptanalysis, and scientific methods:**
+
+The foundation of modern ECC auditing was established by Alfred Menezes, Tatsuaki Okamoto, and Scott Vanstone (1993), whose work led to the deprecation of supersingular curves in NIST standards. Later, Lim-Lee (1997) and Antipa et al. (2003) formalized small subgroup attacks. Practical validity was proven by Jager, Schwenk, and Somorovsky (2015), recovering full server static keys across unvalidated TLS-ECDH implementations.
+
+**Cryptanalytic auditing and defensive countermeasures:**
+
+* Strict point validation on input coordinates to ensure curve membership and nP = O;
+
+* Elimination of static private key reuse across unauthenticated ECDH key agreements;
+
+* Constant-time execution paths to eliminate side-channel timing and DPA vulnerabilities;
+
+* Deployment of Montgomery ladder and x-only arithmetic against quadratic twist attacks.
+
+**EDUCATIONAL & SECURITY RESEARCH**
+
+This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
+
+---
+
+
 
 |  | Donation Address |
 | --- | --- |
