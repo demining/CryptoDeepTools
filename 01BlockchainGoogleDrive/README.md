@@ -21,7 +21,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
     chmod +x getrawtx.sh
     
-    ./getrawtx.sh 12ib7dApVFvg82TXKycWBNpN8kFyiAN1dr
+    ./getrawtx.sh bc1qgrtzmk5fuw7h700zhadps57fuxsx8ut60vvu6h
 
 *Next, change the Bitcoin Address to any.*
 
