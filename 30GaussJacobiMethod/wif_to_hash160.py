@@ -11,7 +11,7 @@ def decode_base58(address):
     return decoded[1:-4]
 
 if __name__ == "__main__":
-    address = input("Enter Bitcoin address:  ")
+    address = input("1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU:  ")
     decoded_bytes = decode_base58(address)
-    print("Bitcoin HASH160: ", decoded_bytes.hex())
+    print("f6f5431d25bbf7b12e8add9af5e3475c44a0a5b8: ", decoded_bytes.hex())
     
