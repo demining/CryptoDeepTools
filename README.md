@@ -877,6 +877,64 @@ This research is presented for educational purposes and to assist cryptocurrency
 
 ---
 
+## [53LeakingBeforeShor](https://github.com/demining/CryptoDeepTools/tree/main/53LeakingBeforeShor)
+
+
+**Private Keys Leak Before Shor: Nonces, Covert Channels, and Bitcoin’s Post-Quantum Isolation Myth**
+
+
+This study explores `«Private Keys Leak Before Shor»:` research connecting quantum computing, `ECDSA` nonce failures, hidden channels, and the limits of wallet isolation. The central question is not only when quantum computers could break Bitcoin, but how vulnerable signing systems can expose secrets today.
+
+
+
+**Resources & Documentation**
+
+* Tutorial: https://youtu.be/p6_5GjMT22M
+* Tutorial: https://cryptodeeptech.ru/leaking-before-shor
+* Tutorial: https://dzen.ru/video/watch/6afcd233e1f1bc6933d5118f
+* Google Colab: https://github.com/demining/CryptoDeepTools/tree/main/53LeakingBeforeShor
+
+
+
+A sufficiently capable, fault-tolerant quantum computer running Shor’s algorithm could recover a `secp256k1` private key from its public key by solving the elliptic-curve discrete logarithm problem. This is a future threat model, not a demonstrated recovery of real Bitcoin wallets. Quantum resource estimates depend on hardware and error correction; logical qubits are not physical qubits.
+
+* [PQ_airgap_liboqs_kit – Air-Gapping Does Not Save a Private Key: A liboqs Experiment Kit.](https://keyhunters.ru/airgapping-doesnt-save-a-private-key-from-beatcoins-hidden-channels-to-post-quantum-crypto-wallet-security/)
+
+
+
+* [ecdsa_kleptography_secp256k1_setup – Kleptographic Leakage Through ECDSA Nonces: Analysis and a Reproducible Defensive Environment.](https://keyhunters.ru/kleptographic-ecdsa-leaks-in-offline-bitcoin-wallets-and-post-quantum-migration-a-verifiable-study-of-nonce-trust/)
+
+
+
+* [ecdsa_nonce_audit_lab – A Defensive ECDSA Nonce-Integrity Audit Lab: bitcoin-core/secp256k1.](https://keyhunters.ru/covert-channels-in-ecdsa-and-bitcoin-why-an-offline-wallet-can-reveal-a-key-and-what-does-this-mean-for-post-quantum-migration/)
+
+
+
+* [PQC_TEE_liboqs_guide – A Modular TEE as a Vehicle for Bitcoin’s Post-Quantum Migration: Analysis and a liboqs Experiment.](https://keyhunters.ru/between-shor-and-a-crypto-wallet-can-a-modular-tee-become-a-transport-for-bitcoins-blockchain-transaction-migration-to-post-quantum-cryptography/)
+
+
+
+* [ECDSA_Nonce_Lab_Guide – The Nonce as an ECDSA Bottleneck—Cryptanalysis, Repository, and Execution Guide.](https://keyhunters.ru/nonce-as-an-ecdsa-bottleneck-classical-attacks-and-the-quantum-horizon/)
+
+Follow the research trail from `ECDSA` equations to controlled private-key recovery. A revealed nonce can expose a key from one signature; reusing a nonce across different message hashes can expose it through two signatures. Shared nonces and fault models create further algebraic cases. Biased-nonce attacks using LLL and the hidden number problem require explicit leakage assumptions, not merely a collection of signatures.
+
+The recovery story is a laboratory experiment, not a lost-wallet rescue. Researchers check formulas using synthetic, disposable keys and compare successful recovery with negative controls using unrelated nonces. They also examine Low-S normalization, `RFC 6979`, and Bitcoin sighash rules. No real wallets are attacked, and no full-scale quantum key recovery is demonstrated.
+
+Explore the attack history behind BeatCoin and kleptography: infected offline devices can leak existing secrets through physical channels, while malicious signing firmware can encode information in valid signatures. Building on Young and Yung and Verbuecheln’s ECDSA research, the article explains why an accepted signature does not prove honest nonce generation. Air-gapping alone does not establish trust.
+
+Post-quantum cryptography changes the mathematics, not every security boundary. `ML-DSA` and `SLH-DSA` address quantum signature threats, but cannot automatically eliminate compromised firmware, side channels, or stolen seeds. The article models how a `32-byte` `ML-DSA` seed can leak as quickly as a `32-byte` `ECDSA` secret over the same channel.
+
+Discover the defensive toolkit: reproducible builds, pinned source revisions, deterministic nonce checks, anti-exfil protocols, and modular trusted execution environments. A `TEE` can isolate a key, but cannot stop Shor from attacking an exposed public key. Larger post-quantum signatures also affect Bitcoin transaction design, block weight, fees, and consensus: migration is more than a wallet update.
+
+For Bitcoin’s ecosystem, the lesson is layered security: distinguish mathematical key recovery from implementation leakage; audit the signer and evaluate post-quantum migration without treating new algorithms as a cure-all.
+
+**EDUCATIONAL & SECURITY RESEARCH**
+
+This research is presented for educational purposes and to assist cryptocurrency security researchers in understanding attack mechanisms, identifying vulnerable implementations, and developing stronger protection mechanisms. 
+
+---
+
+
 
 
 |  | Donation Address |
